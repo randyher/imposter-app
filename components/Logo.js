@@ -44,8 +44,8 @@ export default function Logo({ size = 80 }) {
           <Rect x="31" y="8" width="14" height="6" rx="3" fill="#fff" />
           {/* Mustache */}
           <Path
-            d="M10 34 C10 26 21 23 29 29 C31 31 33 31 35 29 C43 23 58 26 60 34 C56 42 44 39 36 34 C34 32 32 32 30 34 C22 39 14 42 10 34 Z"
-            fill="#fff"
+            d="M12 34 C12 26 23 23 31 29 C33 31 35 31 37 29 C45 23 60 26 62 34 C58 42 46 39 38 34 C36 32 34 32 32 34 C24 39 16 42 12 34 Z"
+            fill="#111"
           />
         </Svg>
       </View>
