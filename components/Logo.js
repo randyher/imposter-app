@@ -29,7 +29,7 @@ export default function Logo({ size = 80 }) {
           T
         </Text>
         <Svg
-          style={{ position: 'absolute', top: size * 0.06, left: svgLeft }}
+          style={{ position: 'absolute', top: size * 0.18, left: svgLeft }}
           width={svgW}
           height={svgH}
           viewBox="0 0 72 46"
