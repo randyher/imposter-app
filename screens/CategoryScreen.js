@@ -1,10 +1,95 @@
-import { View, Text, TouchableOpacity, StyleSheet, ScrollView } from 'react-native';
+import { useState, useRef } from 'react';
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  StyleSheet,
+  ScrollView,
+  LayoutAnimation,
+  Platform,
+  UIManager,
+  Animated,
+} from 'react-native';
 
-const CATEGORIES = [
-  { id: 'nba', name: 'NBA', sport: 'Basketball', locked: false, tag: 'Free' },
-  { id: 'mlb', name: 'MLB', sport: 'Baseball', locked: false, tag: 'Free' },
-  { id: 'nfl', name: 'NFL', sport: 'Football', locked: false, tag: 'Free' },
+// Required for LayoutAnimation on Android
+if (Platform.OS === 'android' && UIManager.setLayoutAnimationEnabledExperimental) {
+  UIManager.setLayoutAnimationEnabledExperimental(true);
+}
+
+const SECTIONS = [
+  {
+    id: 'sports',
+    title: '🏆  SPORTS',
+    categories: [
+      { id: 'nba', name: 'NBA', genre: 'Basketball', locked: false, tag: 'Free' },
+      { id: 'mlb', name: 'MLB', genre: 'Baseball', locked: false, tag: 'Free' },
+      { id: 'nfl', name: 'NFL', genre: 'Football', locked: false, tag: 'Free' },
+    ],
+  },
+  {
+    id: 'gaming',
+    title: '🎮  GAMING',
+    categories: [
+      { id: 'pokemon', name: 'Pokémon', genre: 'Gaming', locked: false, tag: 'Free' },
+      { id: 'more', name: 'More coming soon', genre: '', locked: true, tag: 'Coming soon' },
+    ],
+  },
 ];
+
+function CategoryCard({ cat, onSelect }) {
+  return (
+    <TouchableOpacity
+      onPress={!cat.locked ? () => onSelect(cat.id) : undefined}
+      activeOpacity={cat.locked ? 1 : 0.75}
+      style={[styles.catCard, cat.locked && styles.catCardLocked]}
+    >
+      <View>
+        <Text style={styles.catName}>{cat.name}</Text>
+        {cat.genre ? <Text style={styles.catGenre}>{cat.genre}</Text> : null}
+      </View>
+      <View style={[styles.tag, cat.locked ? styles.tagLocked : styles.tagFree]}>
+        <Text style={[styles.tagText, cat.locked ? styles.tagTextLocked : styles.tagTextFree]}>
+          {cat.tag}
+        </Text>
+      </View>
+    </TouchableOpacity>
+  );
+}
+
+function CollapsibleSection({ section, onSelect }) {
+  const [isOpen, setIsOpen] = useState(true);
+  const rotateAnim = useRef(new Animated.Value(1)).current;
+
+  function toggle() {
+    LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut);
+    Animated.timing(rotateAnim, {
+      toValue: isOpen ? 0 : 1,
+      duration: 200,
+      useNativeDriver: true,
+    }).start();
+    setIsOpen((prev) => !prev);
+  }
+
+  const rotation = rotateAnim.interpolate({
+    inputRange: [0, 1],
+    outputRange: ['0deg', '90deg'],
+  });
+
+  return (
+    <View style={styles.section}>
+      <TouchableOpacity style={styles.sectionHeader} onPress={toggle} activeOpacity={0.7}>
+        <Text style={styles.sectionTitle}>{section.title}</Text>
+        <Animated.Text style={[styles.chevron, { transform: [{ rotate: rotation }] }]}>
+          ›
+        </Animated.Text>
+      </TouchableOpacity>
+      {isOpen &&
+        section.categories.map((cat) => (
+          <CategoryCard key={cat.id} cat={cat} onSelect={onSelect} />
+        ))}
+    </View>
+  );
+}
 
 export default function CategoryScreen({ onSelect, onBack }) {
   return (
@@ -13,25 +98,10 @@ export default function CategoryScreen({ onSelect, onBack }) {
         <Text style={styles.backText}>← Back</Text>
       </TouchableOpacity>
 
-      <Text style={styles.sectionTitle}>Choose a category</Text>
+      <Text style={styles.pageTitle}>Choose a category</Text>
 
-      {CATEGORIES.map((c) => (
-        <TouchableOpacity
-          key={c.id}
-          onPress={!c.locked ? () => onSelect(c.id) : undefined}
-          activeOpacity={c.locked ? 1 : 0.75}
-          style={[styles.catCard, c.locked && styles.catCardLocked]}
-        >
-          <View>
-            <Text style={styles.catName}>{c.name}</Text>
-            <Text style={styles.catSport}>{c.sport}</Text>
-          </View>
-          <View style={[styles.tag, c.locked ? styles.tagLocked : styles.tagFree]}>
-            <Text style={[styles.tagText, c.locked ? styles.tagTextLocked : styles.tagTextFree]}>
-              {c.tag}
-            </Text>
-          </View>
-        </TouchableOpacity>
+      {SECTIONS.map((section) => (
+        <CollapsibleSection key={section.id} section={section} onSelect={onSelect} />
       ))}
     </ScrollView>
   );
@@ -42,7 +112,7 @@ const styles = StyleSheet.create({
     flexGrow: 1,
     paddingHorizontal: 16,
     paddingTop: 12,
-    paddingBottom: 24,
+    paddingBottom: 32,
   },
   backBtn: {
     paddingBottom: 20,
@@ -52,11 +122,34 @@ const styles = StyleSheet.create({
     color: '#888',
     fontSize: 13,
   },
-  sectionTitle: {
+  pageTitle: {
     fontSize: 20,
     fontWeight: '500',
-    marginBottom: 16,
+    marginBottom: 20,
     color: '#111',
+  },
+  section: {
+    marginBottom: 8,
+  },
+  sectionHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingVertical: 10,
+    paddingHorizontal: 4,
+    marginBottom: 8,
+  },
+  sectionTitle: {
+    fontSize: 12,
+    fontWeight: '700',
+    letterSpacing: 1.5,
+    color: '#888',
+    textTransform: 'uppercase',
+  },
+  chevron: {
+    fontSize: 22,
+    color: '#aaa',
+    lineHeight: 24,
   },
   catCard: {
     flexDirection: 'row',
@@ -78,7 +171,7 @@ const styles = StyleSheet.create({
     letterSpacing: 0.5,
     color: '#111',
   },
-  catSport: {
+  catGenre: {
     fontSize: 12,
     color: '#888',
     marginTop: 3,

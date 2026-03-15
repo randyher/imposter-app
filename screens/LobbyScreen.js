@@ -1,15 +1,32 @@
 import { View, Text, TouchableOpacity, StyleSheet, ScrollView, Switch } from 'react-native';
 import Logo from '../components/Logo';
 
+const BADGE_COLORS = {
+  nba:     { bg: '#fef3c7', text: '#92400e' },
+  mlb:     { bg: '#dbeafe', text: '#1e40af' },
+  nfl:     { bg: '#fee2e2', text: '#991b1b' },
+  pokemon: { bg: '#ecfccb', text: '#3f6212' },
+};
+
+const CATEGORY_LABELS = {
+  nba:     'NBA',
+  mlb:     'MLB',
+  nfl:     'NFL',
+  pokemon: 'Pokémon',
+};
+
 export default function LobbyScreen({ category, onStart, onBack, showPrompt, onTogglePrompt }) {
+  const badge = BADGE_COLORS[category] ?? BADGE_COLORS.nba;
+  const label = CATEGORY_LABELS[category] ?? category.toUpperCase();
+
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <TouchableOpacity onPress={onBack} style={styles.backBtn} activeOpacity={0.7}>
         <Text style={styles.backText}>← Categories</Text>
       </TouchableOpacity>
 
-      <View style={styles.badge}>
-        <Text style={styles.badgeText}>{category.toUpperCase()} Edition</Text>
+      <View style={[styles.badge, { backgroundColor: badge.bg }]}>
+        <Text style={[styles.badgeText, { color: badge.text }]}>{label} Edition</Text>
       </View>
 
       <Logo size={64} />
@@ -58,14 +75,12 @@ const styles = StyleSheet.create({
     fontSize: 13,
   },
   badge: {
-    backgroundColor: '#fef3c7',
     paddingVertical: 3,
     paddingHorizontal: 10,
     borderRadius: 6,
     marginBottom: 16,
   },
   badgeText: {
-    color: '#92400e',
     fontSize: 11,
     fontWeight: '600',
     letterSpacing: 1,
