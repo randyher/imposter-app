@@ -13,6 +13,21 @@ export default function Logo({ size = 80 }) {
       <Text style={[styles.logoText, { fontSize: size }]}>IMPOS</Text>
       {/* Container holds the glasses SVG (absolute) + the "T" glyph */}
       <View style={{ width: containerW, height: size * 1.12 }}>
+        <Text
+          style={[
+            styles.logoText,
+            {
+              fontSize: size,
+              position: 'absolute',
+              bottom: 0,
+              left: 0,
+              right: 0,
+              textAlign: 'center',
+            },
+          ]}
+        >
+          T
+        </Text>
         <Svg
           style={{ position: 'absolute', top: size * 0.06, left: svgLeft }}
           width={svgW}
@@ -33,21 +48,6 @@ export default function Logo({ size = 80 }) {
             fill="#fff"
           />
         </Svg>
-        <Text
-          style={[
-            styles.logoText,
-            {
-              fontSize: size,
-              position: 'absolute',
-              bottom: 0,
-              left: 0,
-              right: 0,
-              textAlign: 'center',
-            },
-          ]}
-        >
-          T
-        </Text>
       </View>
       <Text style={[styles.logoText, { fontSize: size }]}>ER</Text>
     </View>
