@@ -31,7 +31,6 @@ const SECTIONS = [
     title: '🎮  GAMING',
     categories: [
       { id: 'pokemon', name: 'Pokémon', genre: 'Gaming', locked: false, tag: 'Free' },
-      { id: 'more', name: 'More coming soon', genre: '', locked: true, tag: 'Coming soon' },
     ],
   },
   {
@@ -39,7 +38,6 @@ const SECTIONS = [
     title: '🎬  ENTERTAINMENT',
     categories: [
       { id: 'mcu', name: 'MCU', genre: 'Marvel Cinematic Universe', locked: false, tag: 'Free' },
-      { id: 'more_ent', name: 'More coming soon', genre: '', locked: true, tag: 'Coming soon' },
     ],
   },
 ];
