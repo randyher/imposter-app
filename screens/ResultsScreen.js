@@ -1,10 +1,21 @@
-import { View, Text, TouchableOpacity, StyleSheet, ScrollView } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet, ScrollView, Share } from 'react-native';
+import { buildCategoryURL } from '../utils/deepLink';
 
 function fmt(v) {
   return v % 1 === 0 ? String(v) : v.toFixed(1);
 }
 
 const GAMING_CATEGORIES = ['pokemon', 'smash'];
+
+const CATEGORY_LABELS = {
+  nba:     'NBA',
+  mlb:     'MLB',
+  nfl:     'NFL',
+  pokemon: 'Pokémon',
+  smash:   'Smash Bros',
+  mcu:     'MCU',
+  hp:      'Harry Potter',
+};
 
 function getVerdict(score, category) {
   const isGaming = GAMING_CATEGORIES.includes(category);
@@ -15,7 +26,26 @@ function getVerdict(score, category) {
   return lowVerdict;
 }
 
-export default function ResultsScreen({ score, hist, category, onPlayAgain, onCategories }) {
+function buildShareText(score, hist, category, showPrompt) {
+  const label = CATEGORY_LABELS[category] ?? category.toUpperCase();
+  const emojiRow = hist
+    .map((h) => (h.skip ? '⬜' : h.ok ? '🟩' : '🟥'))
+    .join('');
+  const hintsLine = showPrompt ? '' : '\n🔥 No Hints Mode';
+  const link = buildCategoryURL(category);
+
+  return [
+    `🕵️ IMPOSTER`,
+    `${label} Edition`,
+    `Score: ${fmt(score)}${hintsLine}`,
+    ``,
+    emojiRow,
+    ``,
+    `Play at ${link}`,
+  ].join('\n');
+}
+
+export default function ResultsScreen({ score, hist, category, showPrompt, onPlayAgain, onCategories }) {
   const correct = hist.filter((h) => h.ok).length;
   const skipped = hist.filter((h) => h.skip).length;
   const wrong = hist.filter((h) => !h.ok && !h.skip).length;
@@ -30,6 +60,10 @@ export default function ResultsScreen({ score, hist, category, onPlayAgain, onCa
     ['Skipped', skipped],
     ['Accuracy', acc + '%'],
   ];
+
+  function handleShare() {
+    Share.share({ message: buildShareText(score, hist, category, showPrompt) });
+  }
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
@@ -47,6 +81,10 @@ export default function ResultsScreen({ score, hist, category, onPlayAgain, onCa
           </View>
         ))}
       </View>
+
+      <TouchableOpacity style={styles.shareBtn} onPress={handleShare} activeOpacity={0.75}>
+        <Text style={styles.shareBtnText}>Share Result</Text>
+      </TouchableOpacity>
 
       <View style={styles.btnRow}>
         <TouchableOpacity
@@ -101,7 +139,7 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   statsBlock: {
-    marginBottom: 24,
+    marginBottom: 16,
   },
   statRow: {
     flexDirection: 'row',
@@ -118,6 +156,20 @@ const styles = StyleSheet.create({
     fontSize: 13,
     fontWeight: '500',
     color: '#111',
+  },
+  shareBtn: {
+    borderWidth: 1,
+    borderColor: '#e5e5e5',
+    paddingVertical: 11,
+    borderRadius: 8,
+    alignItems: 'center',
+    marginBottom: 10,
+  },
+  shareBtnText: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: '#444',
+    letterSpacing: 0.3,
   },
   btnRow: {
     flexDirection: 'row',

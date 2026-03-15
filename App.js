@@ -1,8 +1,10 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { SafeAreaView, StyleSheet } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
+import * as Linking from 'expo-linking';
 
 import { generateGame } from './utils/questionEngine';
+import { parseCategoryFromURL } from './utils/deepLink';
 import HomeScreen from './screens/HomeScreen';
 import CategoryScreen from './screens/CategoryScreen';
 import LobbyScreen from './screens/LobbyScreen';
@@ -15,6 +17,26 @@ export default function App() {
   const [questions, setQuestions] = useState([]);
   const [result, setResult] = useState(null);
   const [showPrompt, setShowPrompt] = useState(false);
+
+  // Handle deep link → jump straight to lobby
+  function handleDeepLink(url) {
+    const category = parseCategoryFromURL(url);
+    if (category) {
+      setSelectedCategory(category);
+      setScreen('lobby');
+    }
+  }
+
+  useEffect(() => {
+    // Cold start: app opened via deep link
+    Linking.getInitialURL().then((url) => {
+      if (url) handleDeepLink(url);
+    });
+
+    // Warm start: app already open when link is tapped
+    const sub = Linking.addEventListener('url', ({ url }) => handleDeepLink(url));
+    return () => sub.remove();
+  }, []);
 
   function handleStartGame() {
     const qs = generateGame(selectedCategory);
@@ -60,6 +82,7 @@ export default function App() {
           score={result.score}
           hist={result.hist}
           category={selectedCategory}
+          showPrompt={showPrompt}
           onPlayAgain={handleStartGame}
           onCategories={() => setScreen('cats')}
         />

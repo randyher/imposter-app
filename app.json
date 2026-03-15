@@ -5,12 +5,28 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
+    "scheme": "imposter",
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.imposter.app"
+      "bundleIdentifier": "com.imposter.app",
+      "associatedDomains": ["applinks:PLACEHOLDER_DOMAIN"]
     },
     "android": {
-      "package": "com.imposter.app"
+      "package": "com.imposter.app",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "PLACEHOLDER_DOMAIN",
+              "pathPrefix": "/play"
+            }
+          ],
+          "category": ["BROWSABLE", "DEFAULT"]
+        }
+      ]
     },
     "plugins": [
       "expo-asset"
