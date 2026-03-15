@@ -34,6 +34,14 @@ const SECTIONS = [
       { id: 'more', name: 'More coming soon', genre: '', locked: true, tag: 'Coming soon' },
     ],
   },
+  {
+    id: 'entertainment',
+    title: '🎬  ENTERTAINMENT',
+    categories: [
+      { id: 'mcu', name: 'MCU', genre: 'Marvel Cinematic Universe', locked: false, tag: 'Free' },
+      { id: 'more_ent', name: 'More coming soon', genre: '', locked: true, tag: 'Coming soon' },
+    ],
+  },
 ];
 
 function CategoryCard({ cat, onSelect }) {

@@ -6,6 +6,7 @@ const BADGE_COLORS = {
   mlb:     { bg: '#dbeafe', text: '#1e40af' },
   nfl:     { bg: '#fee2e2', text: '#991b1b' },
   pokemon: { bg: '#ecfccb', text: '#3f6212' },
+  mcu:     { bg: '#ede9fe', text: '#5b21b6' },
 };
 
 const CATEGORY_LABELS = {
@@ -13,6 +14,7 @@ const CATEGORY_LABELS = {
   mlb:     'MLB',
   nfl:     'NFL',
   pokemon: 'Pokémon',
+  mcu:     'MCU',
 };
 
 export default function LobbyScreen({ category, onStart, onBack, showPrompt, onTogglePrompt }) {
