@@ -1,0 +1,2839 @@
+[
+  {
+    "name": "Tom Brady",
+    "teams": [
+      "New England Patriots",
+      "Tampa Bay Buccaneers"
+    ],
+    "primary_conference": "AFC",
+    "conference": "Both",
+    "champion": true,
+    "championships": 7,
+    "mvp": true,
+    "mvp_count": 3,
+    "super_bowl_mvp": true,
+    "super_bowl_mvp_count": 5,
+    "rookie_of_year": false,
+    "draft_pick": 199,
+    "position": [
+      "QB"
+    ],
+    "college": "Michigan",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 15,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Peyton Manning",
+    "teams": [
+      "Indianapolis Colts",
+      "Denver Broncos"
+    ],
+    "primary_conference": "AFC",
+    "conference": "AFC",
+    "champion": true,
+    "championships": 2,
+    "mvp": true,
+    "mvp_count": 5,
+    "super_bowl_mvp": true,
+    "super_bowl_mvp_count": 1,
+    "rookie_of_year": false,
+    "draft_pick": 1,
+    "position": [
+      "QB"
+    ],
+    "college": "Tennessee",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 14,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Jerry Rice",
+    "teams": [
+      "San Francisco 49ers",
+      "Oakland Raiders",
+      "Seattle Seahawks"
+    ],
+    "primary_conference": "NFC",
+    "conference": "Both",
+    "champion": true,
+    "championships": 3,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": true,
+    "super_bowl_mvp_count": 1,
+    "rookie_of_year": false,
+    "draft_pick": 16,
+    "position": [
+      "WR"
+    ],
+    "college": "Mississippi Valley State",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 13,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": true
+  },
+  {
+    "name": "Lawrence Taylor",
+    "teams": [
+      "New York Giants"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": true,
+    "championships": 2,
+    "mvp": true,
+    "mvp_count": 1,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": true,
+    "draft_pick": 2,
+    "position": [
+      "LB"
+    ],
+    "college": "North Carolina",
+    "hall_of_fame": true,
+    "dpoy": true,
+    "dpoy_count": 3,
+    "pro_bowl": 10,
+    "offense": false,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Joe Montana",
+    "teams": [
+      "San Francisco 49ers",
+      "Kansas City Chiefs"
+    ],
+    "primary_conference": "NFC",
+    "conference": "Both",
+    "champion": true,
+    "championships": 4,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": true,
+    "super_bowl_mvp_count": 3,
+    "rookie_of_year": false,
+    "draft_pick": 82,
+    "position": [
+      "QB"
+    ],
+    "college": "Notre Dame",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 8,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Emmitt Smith",
+    "teams": [
+      "Dallas Cowboys",
+      "Arizona Cardinals"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": true,
+    "championships": 3,
+    "mvp": true,
+    "mvp_count": 1,
+    "super_bowl_mvp": true,
+    "super_bowl_mvp_count": 1,
+    "rookie_of_year": false,
+    "draft_pick": 17,
+    "position": [
+      "RB"
+    ],
+    "college": "Florida",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 8,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": true,
+    "receiving_title": false
+  },
+  {
+    "name": "Barry Sanders",
+    "teams": [
+      "Detroit Lions"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": true,
+    "mvp_count": 1,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": true,
+    "draft_pick": 3,
+    "position": [
+      "RB"
+    ],
+    "college": "Oklahoma State",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 10,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": true,
+    "receiving_title": false
+  },
+  {
+    "name": "Walter Payton",
+    "teams": [
+      "Chicago Bears"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": true,
+    "championships": 1,
+    "mvp": true,
+    "mvp_count": 1,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 4,
+    "position": [
+      "RB"
+    ],
+    "college": "Jackson State",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 9,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": true,
+    "receiving_title": false
+  },
+  {
+    "name": "Reggie White",
+    "teams": [
+      "Philadelphia Eagles",
+      "Green Bay Packers",
+      "Carolina Panthers"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 4,
+    "position": [
+      "DE"
+    ],
+    "college": "Tennessee",
+    "hall_of_fame": true,
+    "dpoy": true,
+    "dpoy_count": 2,
+    "pro_bowl": 13,
+    "offense": false,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Brett Favre",
+    "teams": [
+      "Atlanta Falcons",
+      "Green Bay Packers",
+      "New York Jets",
+      "Minnesota Vikings"
+    ],
+    "primary_conference": "NFC",
+    "conference": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": true,
+    "mvp_count": 3,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 33,
+    "position": [
+      "QB"
+    ],
+    "college": "Southern Miss",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 11,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Randy Moss",
+    "teams": [
+      "Minnesota Vikings",
+      "Oakland Raiders",
+      "New England Patriots",
+      "Tennessee Titans",
+      "San Francisco 49ers"
+    ],
+    "primary_conference": "NFC",
+    "conference": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": true,
+    "draft_pick": 21,
+    "position": [
+      "WR"
+    ],
+    "college": "Marshall",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 6,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": true
+  },
+  {
+    "name": "Patrick Mahomes",
+    "teams": [
+      "Kansas City Chiefs"
+    ],
+    "primary_conference": "AFC",
+    "conference": "AFC",
+    "champion": true,
+    "championships": 3,
+    "mvp": true,
+    "mvp_count": 2,
+    "super_bowl_mvp": true,
+    "super_bowl_mvp_count": 3,
+    "rookie_of_year": false,
+    "draft_pick": 10,
+    "position": [
+      "QB"
+    ],
+    "college": "Texas Tech",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 7,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Aaron Rodgers",
+    "teams": [
+      "Green Bay Packers",
+      "New York Jets"
+    ],
+    "primary_conference": "NFC",
+    "conference": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": true,
+    "mvp_count": 4,
+    "super_bowl_mvp": true,
+    "super_bowl_mvp_count": 1,
+    "rookie_of_year": false,
+    "draft_pick": 24,
+    "position": [
+      "QB"
+    ],
+    "college": "California",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 10,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Deion Sanders",
+    "teams": [
+      "Atlanta Falcons",
+      "San Francisco 49ers",
+      "Dallas Cowboys",
+      "Washington Redskins",
+      "Baltimore Ravens"
+    ],
+    "primary_conference": "NFC",
+    "conference": "Both",
+    "champion": true,
+    "championships": 2,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 5,
+    "position": [
+      "CB"
+    ],
+    "college": "Florida State",
+    "hall_of_fame": true,
+    "dpoy": true,
+    "dpoy_count": 1,
+    "pro_bowl": 8,
+    "offense": false,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "LaDainian Tomlinson",
+    "teams": [
+      "San Diego Chargers",
+      "New York Jets"
+    ],
+    "primary_conference": "AFC",
+    "conference": "AFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": true,
+    "mvp_count": 1,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 5,
+    "position": [
+      "RB"
+    ],
+    "college": "TCU",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 5,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": true,
+    "receiving_title": false
+  },
+  {
+    "name": "Ray Lewis",
+    "teams": [
+      "Baltimore Ravens"
+    ],
+    "primary_conference": "AFC",
+    "conference": "AFC",
+    "champion": true,
+    "championships": 2,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": true,
+    "super_bowl_mvp_count": 1,
+    "rookie_of_year": false,
+    "draft_pick": 26,
+    "position": [
+      "LB"
+    ],
+    "college": "Miami",
+    "hall_of_fame": true,
+    "dpoy": true,
+    "dpoy_count": 2,
+    "pro_bowl": 13,
+    "offense": false,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Troy Aikman",
+    "teams": [
+      "Dallas Cowboys"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": true,
+    "championships": 3,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": true,
+    "super_bowl_mvp_count": 1,
+    "rookie_of_year": false,
+    "draft_pick": 1,
+    "position": [
+      "QB"
+    ],
+    "college": "UCLA",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 6,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Steve Young",
+    "teams": [
+      "Tampa Bay Buccaneers",
+      "San Francisco 49ers"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": true,
+    "championships": 1,
+    "mvp": true,
+    "mvp_count": 2,
+    "super_bowl_mvp": true,
+    "super_bowl_mvp_count": 1,
+    "rookie_of_year": false,
+    "draft_pick": 1,
+    "position": [
+      "QB"
+    ],
+    "college": "BYU",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 7,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Jim Brown",
+    "teams": [
+      "Cleveland Browns"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": true,
+    "championships": 1,
+    "mvp": true,
+    "mvp_count": 2,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 6,
+    "position": [
+      "RB"
+    ],
+    "college": "Syracuse",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 9,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": true,
+    "receiving_title": false
+  },
+  {
+    "name": "John Elway",
+    "teams": [
+      "Denver Broncos"
+    ],
+    "primary_conference": "AFC",
+    "conference": "AFC",
+    "champion": true,
+    "championships": 2,
+    "mvp": true,
+    "mvp_count": 1,
+    "super_bowl_mvp": true,
+    "super_bowl_mvp_count": 1,
+    "rookie_of_year": false,
+    "draft_pick": 1,
+    "position": [
+      "QB"
+    ],
+    "college": "Stanford",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 9,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Dan Marino",
+    "teams": [
+      "Miami Dolphins"
+    ],
+    "primary_conference": "AFC",
+    "conference": "AFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": true,
+    "mvp_count": 1,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 27,
+    "position": [
+      "QB"
+    ],
+    "college": "Pittsburgh",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 9,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Terrell Owens",
+    "teams": [
+      "San Francisco 49ers",
+      "Philadelphia Eagles",
+      "Dallas Cowboys",
+      "Buffalo Bills",
+      "Cincinnati Bengals"
+    ],
+    "primary_conference": "NFC",
+    "conference": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 89,
+    "position": [
+      "WR"
+    ],
+    "college": "Tennessee-Chattanooga",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 6,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Ronnie Lott",
+    "teams": [
+      "San Francisco 49ers",
+      "Los Angeles Raiders",
+      "New York Jets",
+      "Kansas City Chiefs"
+    ],
+    "primary_conference": "NFC",
+    "conference": "Both",
+    "champion": true,
+    "championships": 4,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 8,
+    "position": [
+      "S",
+      "CB"
+    ],
+    "college": "USC",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 10,
+    "offense": false,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Marshall Faulk",
+    "teams": [
+      "Indianapolis Colts",
+      "St. Louis Rams"
+    ],
+    "primary_conference": "AFC",
+    "conference": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": true,
+    "mvp_count": 1,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": true,
+    "draft_pick": 2,
+    "position": [
+      "RB"
+    ],
+    "college": "San Diego State",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 7,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": true,
+    "receiving_title": false
+  },
+  {
+    "name": "Kurt Warner",
+    "teams": [
+      "St. Louis Rams",
+      "New York Giants",
+      "Arizona Cardinals"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": true,
+    "championships": 1,
+    "mvp": true,
+    "mvp_count": 2,
+    "super_bowl_mvp": true,
+    "super_bowl_mvp_count": 1,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "QB"
+    ],
+    "college": "Northern Iowa",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 4,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Donovan McNabb",
+    "teams": [
+      "Philadelphia Eagles",
+      "Washington Redskins"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 2,
+    "position": [
+      "QB"
+    ],
+    "college": "Syracuse",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 6,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Michael Strahan",
+    "teams": [
+      "New York Giants"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 40,
+    "position": [
+      "DE"
+    ],
+    "college": "Texas Southern",
+    "hall_of_fame": true,
+    "dpoy": true,
+    "dpoy_count": 1,
+    "pro_bowl": 7,
+    "offense": false,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Ed Reed",
+    "teams": [
+      "Baltimore Ravens",
+      "Houston Texans",
+      "New York Jets"
+    ],
+    "primary_conference": "AFC",
+    "conference": "AFC",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 24,
+    "position": [
+      "S"
+    ],
+    "college": "Miami",
+    "hall_of_fame": true,
+    "dpoy": true,
+    "dpoy_count": 1,
+    "pro_bowl": 9,
+    "offense": false,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Eli Manning",
+    "teams": [
+      "New York Giants"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": true,
+    "championships": 2,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": true,
+    "super_bowl_mvp_count": 2,
+    "rookie_of_year": false,
+    "draft_pick": 1,
+    "position": [
+      "QB"
+    ],
+    "college": "Mississippi",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 4,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Ben Roethlisberger",
+    "teams": [
+      "Pittsburgh Steelers"
+    ],
+    "primary_conference": "AFC",
+    "conference": "AFC",
+    "champion": true,
+    "championships": 2,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 11,
+    "position": [
+      "QB"
+    ],
+    "college": "Miami (Ohio)",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 6,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Adrian Peterson",
+    "teams": [
+      "Minnesota Vikings",
+      "New Orleans Saints",
+      "Arizona Cardinals",
+      "Washington Redskins",
+      "Detroit Lions",
+      "Tennessee Titans",
+      "Seattle Seahawks",
+      "Chicago Bears"
+    ],
+    "primary_conference": "NFC",
+    "conference": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": true,
+    "mvp_count": 1,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": true,
+    "draft_pick": 7,
+    "position": [
+      "RB"
+    ],
+    "college": "Oklahoma",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 7,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": true,
+    "receiving_title": false
+  },
+  {
+    "name": "Marshawn Lynch",
+    "teams": [
+      "Buffalo Bills",
+      "Seattle Seahawks",
+      "Oakland Raiders"
+    ],
+    "primary_conference": "NFC",
+    "conference": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 12,
+    "position": [
+      "RB"
+    ],
+    "college": "California",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 5,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Calvin Johnson",
+    "teams": [
+      "Detroit Lions"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 2,
+    "position": [
+      "WR"
+    ],
+    "college": "Georgia Tech",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 6,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": true
+  },
+  {
+    "name": "Rob Gronkowski",
+    "teams": [
+      "New England Patriots",
+      "Tampa Bay Buccaneers"
+    ],
+    "primary_conference": "AFC",
+    "conference": "Both",
+    "champion": true,
+    "championships": 4,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 42,
+    "position": [
+      "TE"
+    ],
+    "college": "Arizona",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 5,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Drew Brees",
+    "teams": [
+      "San Diego Chargers",
+      "New Orleans Saints"
+    ],
+    "primary_conference": "NFC",
+    "conference": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": true,
+    "super_bowl_mvp_count": 1,
+    "rookie_of_year": false,
+    "draft_pick": 32,
+    "position": [
+      "QB"
+    ],
+    "college": "Purdue",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 13,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Antonio Brown",
+    "teams": [
+      "Pittsburgh Steelers",
+      "Oakland Raiders",
+      "New England Patriots",
+      "Tampa Bay Buccaneers"
+    ],
+    "primary_conference": "AFC",
+    "conference": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 195,
+    "position": [
+      "WR"
+    ],
+    "college": "Central Michigan",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 7,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": true
+  },
+  {
+    "name": "Julio Jones",
+    "teams": [
+      "Atlanta Falcons",
+      "Tennessee Titans",
+      "Tampa Bay Buccaneers"
+    ],
+    "primary_conference": "NFC",
+    "conference": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 6,
+    "position": [
+      "WR"
+    ],
+    "college": "Alabama",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 7,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": true
+  },
+  {
+    "name": "J.J. Watt",
+    "teams": [
+      "Houston Texans",
+      "Arizona Cardinals"
+    ],
+    "primary_conference": "AFC",
+    "conference": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 11,
+    "position": [
+      "DE"
+    ],
+    "college": "Wisconsin",
+    "hall_of_fame": false,
+    "dpoy": true,
+    "dpoy_count": 3,
+    "pro_bowl": 5,
+    "offense": false,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Von Miller",
+    "teams": [
+      "Denver Broncos",
+      "Los Angeles Rams",
+      "Buffalo Bills"
+    ],
+    "primary_conference": "AFC",
+    "conference": "Both",
+    "champion": true,
+    "championships": 2,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": true,
+    "super_bowl_mvp_count": 1,
+    "rookie_of_year": true,
+    "draft_pick": 2,
+    "position": [
+      "LB"
+    ],
+    "college": "Texas A&M",
+    "hall_of_fame": false,
+    "dpoy": true,
+    "dpoy_count": 1,
+    "pro_bowl": 8,
+    "offense": false,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Cam Newton",
+    "teams": [
+      "Carolina Panthers",
+      "New England Patriots"
+    ],
+    "primary_conference": "NFC",
+    "conference": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": true,
+    "mvp_count": 1,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": true,
+    "draft_pick": 1,
+    "position": [
+      "QB"
+    ],
+    "college": "Auburn",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 3,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Russell Wilson",
+    "teams": [
+      "Seattle Seahawks",
+      "Denver Broncos",
+      "Pittsburgh Steelers"
+    ],
+    "primary_conference": "NFC",
+    "conference": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 75,
+    "position": [
+      "QB"
+    ],
+    "college": "Wisconsin",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 9,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Richard Sherman",
+    "teams": [
+      "Seattle Seahawks",
+      "San Francisco 49ers",
+      "Tampa Bay Buccaneers"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 154,
+    "position": [
+      "CB"
+    ],
+    "college": "Stanford",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 5,
+    "offense": false,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Earl Thomas",
+    "teams": [
+      "Seattle Seahawks",
+      "Baltimore Ravens"
+    ],
+    "primary_conference": "NFC",
+    "conference": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 14,
+    "position": [
+      "S"
+    ],
+    "college": "Texas",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 6,
+    "offense": false,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Larry Fitzgerald",
+    "teams": [
+      "Arizona Cardinals"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 3,
+    "position": [
+      "WR"
+    ],
+    "college": "Pittsburgh",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 11,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Frank Gore",
+    "teams": [
+      "San Francisco 49ers",
+      "Indianapolis Colts",
+      "Miami Dolphins",
+      "Buffalo Bills",
+      "New York Jets"
+    ],
+    "primary_conference": "NFC",
+    "conference": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 65,
+    "position": [
+      "RB"
+    ],
+    "college": "Miami",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 5,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Ndamukong Suh",
+    "teams": [
+      "Detroit Lions",
+      "Miami Dolphins",
+      "Los Angeles Rams",
+      "Tampa Bay Buccaneers",
+      "Philadelphia Eagles"
+    ],
+    "primary_conference": "NFC",
+    "conference": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": true,
+    "draft_pick": 2,
+    "position": [
+      "DT"
+    ],
+    "college": "Nebraska",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 6,
+    "offense": false,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Matt Ryan",
+    "teams": [
+      "Atlanta Falcons",
+      "Indianapolis Colts"
+    ],
+    "primary_conference": "NFC",
+    "conference": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": true,
+    "mvp_count": 1,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 3,
+    "position": [
+      "QB"
+    ],
+    "college": "Boston College",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 4,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Dez Bryant",
+    "teams": [
+      "Dallas Cowboys",
+      "New Orleans Saints"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 24,
+    "position": [
+      "WR"
+    ],
+    "college": "Oklahoma State",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 3,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Odell Beckham Jr.",
+    "teams": [
+      "New York Giants",
+      "Cleveland Browns",
+      "Los Angeles Rams",
+      "Baltimore Ravens"
+    ],
+    "primary_conference": "NFC",
+    "conference": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 12,
+    "position": [
+      "WR"
+    ],
+    "college": "LSU",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 3,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Travis Kelce",
+    "teams": [
+      "Kansas City Chiefs"
+    ],
+    "primary_conference": "AFC",
+    "conference": "AFC",
+    "champion": true,
+    "championships": 3,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 63,
+    "position": [
+      "TE"
+    ],
+    "college": "Cincinnati",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 9,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": true
+  },
+  {
+    "name": "Myles Garrett",
+    "teams": [
+      "Cleveland Browns"
+    ],
+    "primary_conference": "AFC",
+    "conference": "AFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 1,
+    "position": [
+      "DE"
+    ],
+    "college": "Texas A&M",
+    "hall_of_fame": false,
+    "dpoy": true,
+    "dpoy_count": 1,
+    "pro_bowl": 5,
+    "offense": false,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Tyreek Hill",
+    "teams": [
+      "Kansas City Chiefs",
+      "Miami Dolphins"
+    ],
+    "primary_conference": "AFC",
+    "conference": "AFC",
+    "champion": true,
+    "championships": 2,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 165,
+    "position": [
+      "WR"
+    ],
+    "college": "West Alabama",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 6,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": true
+  },
+  {
+    "name": "Davante Adams",
+    "teams": [
+      "Green Bay Packers",
+      "Las Vegas Raiders"
+    ],
+    "primary_conference": "NFC",
+    "conference": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 53,
+    "position": [
+      "WR"
+    ],
+    "college": "Fresno State",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 6,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": true
+  },
+  {
+    "name": "Justin Jefferson",
+    "teams": [
+      "Minnesota Vikings",
+      "Las Vegas Raiders"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 22,
+    "position": [
+      "WR"
+    ],
+    "college": "LSU",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 4,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": true
+  },
+  {
+    "name": "Lamar Jackson",
+    "teams": [
+      "Baltimore Ravens"
+    ],
+    "primary_conference": "AFC",
+    "conference": "AFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": true,
+    "mvp_count": 2,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 32,
+    "position": [
+      "QB"
+    ],
+    "college": "Louisville",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 4,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Josh Allen",
+    "teams": [
+      "Buffalo Bills"
+    ],
+    "primary_conference": "AFC",
+    "conference": "AFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 7,
+    "position": [
+      "QB"
+    ],
+    "college": "Wyoming",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 5,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Jalen Hurts",
+    "teams": [
+      "Philadelphia Eagles"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 53,
+    "position": [
+      "QB"
+    ],
+    "college": "Alabama",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 3,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Joe Burrow",
+    "teams": [
+      "Cincinnati Bengals"
+    ],
+    "primary_conference": "AFC",
+    "conference": "AFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 1,
+    "position": [
+      "QB"
+    ],
+    "college": "LSU",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 3,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Nick Bosa",
+    "teams": [
+      "San Francisco 49ers"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": true,
+    "draft_pick": 2,
+    "position": [
+      "DE"
+    ],
+    "college": "Ohio State",
+    "hall_of_fame": false,
+    "dpoy": true,
+    "dpoy_count": 2,
+    "pro_bowl": 4,
+    "offense": false,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Micah Parsons",
+    "teams": [
+      "Dallas Cowboys"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": true,
+    "draft_pick": 12,
+    "position": [
+      "LB",
+      "DE"
+    ],
+    "college": "Penn State",
+    "hall_of_fame": false,
+    "dpoy": true,
+    "dpoy_count": 1,
+    "pro_bowl": 3,
+    "offense": false,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Derrick Henry",
+    "teams": [
+      "Tennessee Titans",
+      "Baltimore Ravens"
+    ],
+    "primary_conference": "AFC",
+    "conference": "AFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 45,
+    "position": [
+      "RB"
+    ],
+    "college": "Alabama",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 4,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": true,
+    "receiving_title": false
+  },
+  {
+    "name": "Christian McCaffrey",
+    "teams": [
+      "Carolina Panthers",
+      "San Francisco 49ers"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 8,
+    "position": [
+      "RB"
+    ],
+    "college": "Stanford",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 5,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": true,
+    "receiving_title": false
+  },
+  {
+    "name": "CeeDee Lamb",
+    "teams": [
+      "Dallas Cowboys"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 17,
+    "position": [
+      "WR"
+    ],
+    "college": "Oklahoma",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 3,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": true
+  },
+  {
+    "name": "Sauce Gardner",
+    "teams": [
+      "New York Jets"
+    ],
+    "primary_conference": "AFC",
+    "conference": "AFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": true,
+    "draft_pick": 4,
+    "position": [
+      "CB"
+    ],
+    "college": "Cincinnati",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 3,
+    "offense": false,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Troy Polamalu",
+    "teams": [
+      "Pittsburgh Steelers"
+    ],
+    "primary_conference": "AFC",
+    "conference": "AFC",
+    "champion": true,
+    "championships": 2,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 16,
+    "position": [
+      "S"
+    ],
+    "college": "USC",
+    "hall_of_fame": true,
+    "dpoy": true,
+    "dpoy_count": 1,
+    "pro_bowl": 8,
+    "offense": false,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Charles Woodson",
+    "teams": [
+      "Oakland Raiders",
+      "Green Bay Packers"
+    ],
+    "primary_conference": "AFC",
+    "conference": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": true,
+    "draft_pick": 4,
+    "position": [
+      "CB",
+      "S"
+    ],
+    "college": "Michigan",
+    "hall_of_fame": true,
+    "dpoy": true,
+    "dpoy_count": 1,
+    "pro_bowl": 9,
+    "offense": false,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "DeMarcus Ware",
+    "teams": [
+      "Dallas Cowboys",
+      "Denver Broncos"
+    ],
+    "primary_conference": "NFC",
+    "conference": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 11,
+    "position": [
+      "LB",
+      "DE"
+    ],
+    "college": "Troy",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 9,
+    "offense": false,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Shannon Sharpe",
+    "teams": [
+      "Denver Broncos",
+      "Baltimore Ravens"
+    ],
+    "primary_conference": "AFC",
+    "conference": "AFC",
+    "champion": true,
+    "championships": 3,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 192,
+    "position": [
+      "TE"
+    ],
+    "college": "Savannah State",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 8,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Tony Gonzalez",
+    "teams": [
+      "Kansas City Chiefs",
+      "Atlanta Falcons"
+    ],
+    "primary_conference": "AFC",
+    "conference": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 13,
+    "position": [
+      "TE"
+    ],
+    "college": "California",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 14,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Steve McNair",
+    "teams": [
+      "Houston Oilers",
+      "Tennessee Titans",
+      "Baltimore Ravens"
+    ],
+    "primary_conference": "AFC",
+    "conference": "AFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": true,
+    "mvp_count": 1,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 3,
+    "position": [
+      "QB"
+    ],
+    "college": "Alcorn State",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 3,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Brian Urlacher",
+    "teams": [
+      "Chicago Bears"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": true,
+    "draft_pick": 9,
+    "position": [
+      "LB"
+    ],
+    "college": "New Mexico",
+    "hall_of_fame": true,
+    "dpoy": true,
+    "dpoy_count": 1,
+    "pro_bowl": 8,
+    "offense": false,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Champ Bailey",
+    "teams": [
+      "Washington Redskins",
+      "Denver Broncos"
+    ],
+    "primary_conference": "NFC",
+    "conference": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 7,
+    "position": [
+      "CB"
+    ],
+    "college": "Georgia",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 12,
+    "offense": false,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Anquan Boldin",
+    "teams": [
+      "Arizona Cardinals",
+      "Baltimore Ravens",
+      "San Francisco 49ers",
+      "Detroit Lions",
+      "Buffalo Bills"
+    ],
+    "primary_conference": "NFC",
+    "conference": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 54,
+    "position": [
+      "WR"
+    ],
+    "college": "Florida State",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 3,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Dwight Freeney",
+    "teams": [
+      "Indianapolis Colts",
+      "San Diego Chargers",
+      "Arizona Cardinals",
+      "Atlanta Falcons",
+      "Seattle Seahawks",
+      "Detroit Lions"
+    ],
+    "primary_conference": "AFC",
+    "conference": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 11,
+    "position": [
+      "DE"
+    ],
+    "college": "Syracuse",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 7,
+    "offense": false,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Hines Ward",
+    "teams": [
+      "Pittsburgh Steelers"
+    ],
+    "primary_conference": "AFC",
+    "conference": "AFC",
+    "champion": true,
+    "championships": 2,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": true,
+    "super_bowl_mvp_count": 1,
+    "rookie_of_year": false,
+    "draft_pick": 92,
+    "position": [
+      "WR"
+    ],
+    "college": "Georgia",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 4,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Terrell Davis",
+    "teams": [
+      "Denver Broncos"
+    ],
+    "primary_conference": "AFC",
+    "conference": "AFC",
+    "champion": true,
+    "championships": 2,
+    "mvp": true,
+    "mvp_count": 1,
+    "super_bowl_mvp": true,
+    "super_bowl_mvp_count": 1,
+    "rookie_of_year": false,
+    "draft_pick": 196,
+    "position": [
+      "RB"
+    ],
+    "college": "Georgia",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 3,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": true,
+    "receiving_title": false
+  },
+  {
+    "name": "Isaac Bruce",
+    "teams": [
+      "Los Angeles Rams",
+      "St. Louis Rams",
+      "San Francisco 49ers"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 33,
+    "position": [
+      "WR"
+    ],
+    "college": "Memphis",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 4,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Priest Holmes",
+    "teams": [
+      "Baltimore Ravens",
+      "Kansas City Chiefs"
+    ],
+    "primary_conference": "AFC",
+    "conference": "AFC",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "RB"
+    ],
+    "college": "Texas",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 3,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": true,
+    "receiving_title": false
+  },
+  {
+    "name": "Ladell Betts",
+    "teams": [
+      "Washington Redskins"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 63,
+    "position": [
+      "RB"
+    ],
+    "college": "Iowa",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 0,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Tony Romo",
+    "teams": [
+      "Dallas Cowboys"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "QB"
+    ],
+    "college": "Eastern Illinois",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 4,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Philip Rivers",
+    "teams": [
+      "San Diego Chargers",
+      "Indianapolis Colts"
+    ],
+    "primary_conference": "AFC",
+    "conference": "AFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 4,
+    "position": [
+      "QB"
+    ],
+    "college": "NC State",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 8,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Carson Palmer",
+    "teams": [
+      "Cincinnati Bengals",
+      "Oakland Raiders",
+      "Arizona Cardinals"
+    ],
+    "primary_conference": "AFC",
+    "conference": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 1,
+    "position": [
+      "QB"
+    ],
+    "college": "USC",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 3,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Wes Welker",
+    "teams": [
+      "Miami Dolphins",
+      "New England Patriots",
+      "Denver Broncos",
+      "St. Louis Rams"
+    ],
+    "primary_conference": "AFC",
+    "conference": "AFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "WR"
+    ],
+    "college": "Texas Tech",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 5,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Arian Foster",
+    "teams": [
+      "Houston Texans",
+      "Miami Dolphins"
+    ],
+    "primary_conference": "AFC",
+    "conference": "AFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "RB"
+    ],
+    "college": "Tennessee",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 4,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": true,
+    "receiving_title": false
+  },
+  {
+    "name": "Patrick Willis",
+    "teams": [
+      "San Francisco 49ers"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": true,
+    "draft_pick": 11,
+    "position": [
+      "LB"
+    ],
+    "college": "Mississippi",
+    "hall_of_fame": true,
+    "dpoy": false,
+    "pro_bowl": 7,
+    "offense": false,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Dak Prescott",
+    "teams": [
+      "Dallas Cowboys"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": true,
+    "draft_pick": 135,
+    "position": [
+      "QB"
+    ],
+    "college": "Mississippi State",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 4,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Alvin Kamara",
+    "teams": [
+      "New Orleans Saints"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": true,
+    "draft_pick": 67,
+    "position": [
+      "RB"
+    ],
+    "college": "Tennessee",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 5,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "George Kittle",
+    "teams": [
+      "San Francisco 49ers"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 146,
+    "position": [
+      "TE"
+    ],
+    "college": "Iowa",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 5,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Stefon Diggs",
+    "teams": [
+      "Minnesota Vikings",
+      "Buffalo Bills",
+      "Houston Texans"
+    ],
+    "primary_conference": "NFC",
+    "conference": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 146,
+    "position": [
+      "WR"
+    ],
+    "college": "Maryland",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 4,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": true
+  },
+  {
+    "name": "Ezekiel Elliott",
+    "teams": [
+      "Dallas Cowboys",
+      "New England Patriots"
+    ],
+    "primary_conference": "NFC",
+    "conference": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 4,
+    "position": [
+      "RB"
+    ],
+    "college": "Ohio State",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 3,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": true,
+    "receiving_title": false
+  },
+  {
+    "name": "Cooper Kupp",
+    "teams": [
+      "Los Angeles Rams"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": true,
+    "super_bowl_mvp_count": 1,
+    "rookie_of_year": false,
+    "draft_pick": 69,
+    "position": [
+      "WR"
+    ],
+    "college": "Eastern Washington",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 3,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": true
+  },
+  {
+    "name": "Matthew Stafford",
+    "teams": [
+      "Detroit Lions",
+      "Los Angeles Rams"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 1,
+    "position": [
+      "QB"
+    ],
+    "college": "Georgia",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 3,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Saquon Barkley",
+    "teams": [
+      "New York Giants",
+      "Philadelphia Eagles"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": true,
+    "draft_pick": 2,
+    "position": [
+      "RB"
+    ],
+    "college": "Penn State",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 3,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": true,
+    "receiving_title": false
+  },
+  {
+    "name": "Aaron Donald",
+    "teams": [
+      "Los Angeles Rams"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 13,
+    "position": [
+      "DT"
+    ],
+    "college": "Pittsburgh",
+    "hall_of_fame": false,
+    "dpoy": true,
+    "dpoy_count": 3,
+    "pro_bowl": 8,
+    "offense": false,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Khalil Mack",
+    "teams": [
+      "Oakland Raiders",
+      "Chicago Bears",
+      "Los Angeles Chargers"
+    ],
+    "primary_conference": "AFC",
+    "conference": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 5,
+    "position": [
+      "LB",
+      "DE"
+    ],
+    "college": "Buffalo",
+    "hall_of_fame": false,
+    "dpoy": true,
+    "dpoy_count": 1,
+    "pro_bowl": 6,
+    "offense": false,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Demarcus Lawrence",
+    "teams": [
+      "Dallas Cowboys"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 34,
+    "position": [
+      "DE"
+    ],
+    "college": "Boise State",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 2,
+    "offense": false,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Tua Tagovailoa",
+    "teams": [
+      "Miami Dolphins"
+    ],
+    "primary_conference": "AFC",
+    "conference": "AFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 5,
+    "position": [
+      "QB"
+    ],
+    "college": "Alabama",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 2,
+    "offense": true,
+    "quarterback": true,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Deebo Samuel",
+    "teams": [
+      "San Francisco 49ers"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 36,
+    "position": [
+      "WR"
+    ],
+    "college": "South Carolina",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 2,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Haason Reddick",
+    "teams": [
+      "Arizona Cardinals",
+      "Carolina Panthers",
+      "Philadelphia Eagles",
+      "New York Jets"
+    ],
+    "primary_conference": "NFC",
+    "conference": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 13,
+    "position": [
+      "LB",
+      "DE"
+    ],
+    "college": "Temple",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 2,
+    "offense": false,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  },
+  {
+    "name": "Trent Williams",
+    "teams": [
+      "Washington Redskins",
+      "San Francisco 49ers"
+    ],
+    "primary_conference": "NFC",
+    "conference": "NFC",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "super_bowl_mvp": false,
+    "super_bowl_mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 4,
+    "position": [
+      "OL"
+    ],
+    "college": "Oklahoma",
+    "hall_of_fame": false,
+    "dpoy": false,
+    "pro_bowl": 9,
+    "offense": true,
+    "quarterback": false,
+    "rushing_title": false,
+    "receiving_title": false
+  }
+]

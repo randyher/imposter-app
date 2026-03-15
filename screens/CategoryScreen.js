@@ -3,7 +3,7 @@ import { View, Text, TouchableOpacity, StyleSheet, ScrollView } from 'react-nati
 const CATEGORIES = [
   { id: 'nba', name: 'NBA', sport: 'Basketball', locked: false, tag: 'Free' },
   { id: 'mlb', name: 'MLB', sport: 'Baseball', locked: false, tag: 'Free' },
-  { id: 'nfl', name: 'NFL', sport: 'Football', locked: true, tag: 'Coming soon' },
+  { id: 'nfl', name: 'NFL', sport: 'Football', locked: false, tag: 'Free' },
 ];
 
 export default function CategoryScreen({ onSelect, onBack }) {
