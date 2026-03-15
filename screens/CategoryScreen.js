@@ -71,7 +71,7 @@ function CollapsibleSection({ section, onSelect }) {
     Animated.timing(rotateAnim, {
       toValue: isOpen ? 0 : 1,
       duration: 200,
-      useNativeDriver: true,
+      useNativeDriver: false,
     }).start();
     setIsOpen((prev) => !prev);
   }
