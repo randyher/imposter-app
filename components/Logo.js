@@ -3,7 +3,7 @@ import Svg, { Rect, Path } from 'react-native-svg';
 
 export default function Logo({ size = 80 }) {
   // Glasses just slightly wider than the T crossbar so they sit snugly on it
-  const svgW = size * 0.54;
+  const svgW = size * 0.46;
   const svgH = svgW * (46 / 72); // maintain viewBox aspect ratio
   const containerW = size * 0.52;
   const svgLeft = -(svgW - containerW) / 2; // center SVG over T
