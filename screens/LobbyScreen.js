@@ -16,7 +16,7 @@ const CATEGORY_LABELS = {
   mlb:     'MLB',
   nfl:     'NFL',
   pokemon: 'Pokémon',
-  smash:   'Smash',
+  smash:   'Smash Bros',
   mcu:     'MCU',
   hp:      'Harry Potter',
 };
