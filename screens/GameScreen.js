@@ -167,6 +167,14 @@ export default function GameScreen({ qs, onEnd, showPrompt }) {
         <Text style={styles.skipText}>Skip (−0.5)</Text>
       </TouchableOpacity>
 
+      <TouchableOpacity
+        onPress={() => { clearInterval(timerRef.current); onEnd({ score, hist }); }}
+        activeOpacity={0.7}
+        style={styles.endBtn}
+      >
+        <Text style={styles.endText}>End Game</Text>
+      </TouchableOpacity>
+
       {xpl ? <Text style={styles.explanation}>{xpl}</Text> : null}
     </ScrollView>
   );
@@ -294,6 +302,21 @@ const styles = StyleSheet.create({
   skipText: {
     color: '#888',
     fontSize: 13,
+  },
+  endBtn: {
+    width: '100%',
+    backgroundColor: '#fff5f5',
+    borderWidth: 1,
+    borderColor: '#fecaca',
+    paddingVertical: 8,
+    borderRadius: 8,
+    alignItems: 'center',
+    marginTop: 8,
+  },
+  endText: {
+    color: '#ef4444',
+    fontSize: 12,
+    fontWeight: '500',
   },
   explanation: {
     fontSize: 13,
