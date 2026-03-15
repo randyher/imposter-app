@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 import {
   View,
   Text,
@@ -8,7 +8,6 @@ import {
   LayoutAnimation,
   Platform,
   UIManager,
-  Animated,
 } from 'react-native';
 
 // Required for LayoutAnimation on Android
@@ -64,30 +63,19 @@ function CategoryCard({ cat, onSelect }) {
 
 function CollapsibleSection({ section, onSelect }) {
   const [isOpen, setIsOpen] = useState(true);
-  const rotateAnim = useRef(new Animated.Value(1)).current;
 
   function toggle() {
     LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut);
-    Animated.timing(rotateAnim, {
-      toValue: isOpen ? 0 : 1,
-      duration: 200,
-      useNativeDriver: false,
-    }).start();
     setIsOpen((prev) => !prev);
   }
-
-  const rotation = rotateAnim.interpolate({
-    inputRange: [0, 1],
-    outputRange: ['0deg', '90deg'],
-  });
 
   return (
     <View style={styles.section}>
       <TouchableOpacity style={styles.sectionHeader} onPress={toggle} activeOpacity={0.7}>
         <Text style={styles.sectionTitle}>{section.title}</Text>
-        <Animated.Text style={[styles.chevron, { transform: [{ rotate: rotation }] }]}>
+        <Text style={[styles.chevron, { transform: [{ rotate: isOpen ? '90deg' : '0deg' }] }]}>
           ›
-        </Animated.Text>
+        </Text>
       </TouchableOpacity>
       {isOpen &&
         section.categories.map((cat) => (
