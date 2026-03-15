@@ -4,7 +4,7 @@ function fmt(v) {
   return v % 1 === 0 ? String(v) : v.toFixed(1);
 }
 
-const GAMING_CATEGORIES = ['pokemon'];
+const GAMING_CATEGORIES = ['pokemon', 'smash'];
 
 function getVerdict(score, category) {
   const isGaming = GAMING_CATEGORIES.includes(category);

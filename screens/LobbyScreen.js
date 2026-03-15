@@ -6,6 +6,7 @@ const BADGE_COLORS = {
   mlb:     { bg: '#dbeafe', text: '#1e40af' },
   nfl:     { bg: '#fee2e2', text: '#991b1b' },
   pokemon: { bg: '#ecfccb', text: '#3f6212' },
+  smash:   { bg: '#fff7ed', text: '#c2410c' },
   mcu:     { bg: '#ede9fe', text: '#5b21b6' },
   hp:      { bg: '#fce7f3', text: '#9d174d' },
 };
@@ -15,6 +16,7 @@ const CATEGORY_LABELS = {
   mlb:     'MLB',
   nfl:     'NFL',
   pokemon: 'Pokémon',
+  smash:   'Smash',
   mcu:     'MCU',
   hp:      'Harry Potter',
 };
