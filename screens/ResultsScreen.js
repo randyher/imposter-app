@@ -4,21 +4,24 @@ function fmt(v) {
   return v % 1 === 0 ? String(v) : v.toFixed(1);
 }
 
-function getVerdict(score) {
-  if (score >= 12) return 'BASKETBALL IQ: ELITE';
+const GAMING_CATEGORIES = ['pokemon'];
+
+function getVerdict(score, category) {
+  const isGaming = GAMING_CATEGORIES.includes(category);
+  const lowVerdict = isGaming ? 'KEEP PLAYING' : 'KEEP WATCHING';
+  if (score >= 12) return 'ELITE';
   if (score >= 8) return 'SOLID GAME';
   if (score >= 4) return 'DECENT EFFORT';
-  if (score >= 0) return 'KEEP WATCHING';
-  return 'WATCH MORE NBA';
+  return lowVerdict;
 }
 
-export default function ResultsScreen({ score, hist, onPlayAgain, onCategories }) {
+export default function ResultsScreen({ score, hist, category, onPlayAgain, onCategories }) {
   const correct = hist.filter((h) => h.ok).length;
   const skipped = hist.filter((h) => h.skip).length;
   const wrong = hist.filter((h) => !h.ok && !h.skip).length;
   const tried = hist.length - skipped;
   const acc = tried > 0 ? Math.round((correct / tried) * 100) : 0;
-  const verdict = getVerdict(score);
+  const verdict = getVerdict(score, category);
 
   const stats = [
     ['Questions answered', hist.length],

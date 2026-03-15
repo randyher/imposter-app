@@ -59,6 +59,7 @@ export default function App() {
         <ResultsScreen
           score={result.score}
           hist={result.hist}
+          category={selectedCategory}
           onPlayAgain={handleStartGame}
           onCategories={() => setScreen('cats')}
         />
