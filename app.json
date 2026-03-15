@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Imposter",
+    "slug": "imposter-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.imposter.app"
+    },
+    "android": {
+      "package": "com.imposter.app"
+    },
+    "plugins": [
+      "expo-asset"
+    ]
+  }
+}

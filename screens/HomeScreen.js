@@ -1,0 +1,64 @@
+import { View, Text, TouchableOpacity, StyleSheet, ScrollView } from 'react-native';
+import Logo from '../components/Logo';
+
+export default function HomeScreen({ onPlay }) {
+  return (
+    <ScrollView contentContainerStyle={styles.container}>
+      <Logo size={80} />
+      <Text style={styles.tagline}>
+        3 belong. 1 doesn't.{'\n'}No hints. Figure it out.
+      </Text>
+      <View style={styles.rulesRow}>
+        <Text style={styles.rule}><Text style={styles.bold}>+1</Text> correct</Text>
+        <Text style={styles.rule}><Text style={styles.bold}>−1</Text> wrong</Text>
+        <Text style={styles.rule}><Text style={styles.bold}>−0.5</Text> skip</Text>
+      </View>
+      <TouchableOpacity style={styles.btnMain} onPress={onPlay} activeOpacity={0.85}>
+        <Text style={styles.btnMainText}>PLAY</Text>
+      </TouchableOpacity>
+    </ScrollView>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flexGrow: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: 24,
+    paddingVertical: 40,
+  },
+  tagline: {
+    fontSize: 15,
+    color: '#666',
+    marginTop: 16,
+    marginBottom: 12,
+    lineHeight: 22,
+    textAlign: 'center',
+  },
+  rulesRow: {
+    flexDirection: 'row',
+    gap: 20,
+    marginBottom: 36,
+  },
+  rule: {
+    fontSize: 13,
+    color: '#666',
+  },
+  bold: {
+    fontWeight: '700',
+    color: '#111',
+  },
+  btnMain: {
+    backgroundColor: '#111',
+    paddingVertical: 14,
+    paddingHorizontal: 52,
+    borderRadius: 8,
+  },
+  btnMainText: {
+    color: '#fff',
+    fontSize: 22,
+    fontWeight: '700',
+    letterSpacing: 1.5,
+  },
+});

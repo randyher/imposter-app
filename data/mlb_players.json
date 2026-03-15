@@ -1,0 +1,2933 @@
+[
+  {
+    "name": "Derek Jeter",
+    "teams": [
+      "New York Yankees"
+    ],
+    "primary_league": "American",
+    "league": "American",
+    "champion": true,
+    "championships": 5,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 6,
+    "position": [
+      "SS"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 5,
+    "cy_young": false,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 14
+  },
+  {
+    "name": "Alex Rodriguez",
+    "teams": [
+      "Seattle Mariners",
+      "Texas Rangers",
+      "New York Yankees"
+    ],
+    "primary_league": "American",
+    "league": "American",
+    "champion": true,
+    "championships": 1,
+    "mvp": true,
+    "mvp_count": 3,
+    "rookie_of_year": false,
+    "draft_pick": 1,
+    "position": [
+      "SS",
+      "3B"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 2,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 14
+  },
+  {
+    "name": "Ken Griffey Jr.",
+    "teams": [
+      "Seattle Mariners",
+      "Cincinnati Reds",
+      "Chicago White Sox"
+    ],
+    "primary_league": "American",
+    "league": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": true,
+    "mvp_count": 1,
+    "rookie_of_year": false,
+    "draft_pick": 1,
+    "position": [
+      "CF"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 10,
+    "cy_young": false,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 13
+  },
+  {
+    "name": "Barry Bonds",
+    "teams": [
+      "Pittsburgh Pirates",
+      "San Francisco Giants"
+    ],
+    "primary_league": "National",
+    "league": "National",
+    "champion": false,
+    "championships": 0,
+    "mvp": true,
+    "mvp_count": 7,
+    "rookie_of_year": false,
+    "draft_pick": 6,
+    "position": [
+      "LF"
+    ],
+    "college": "Arizona State",
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 8,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 14
+  },
+  {
+    "name": "Randy Johnson",
+    "teams": [
+      "Montreal Expos",
+      "Seattle Mariners",
+      "Houston Astros",
+      "Arizona Diamondbacks",
+      "New York Yankees",
+      "San Francisco Giants"
+    ],
+    "primary_league": "American",
+    "league": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 36,
+    "position": [
+      "P"
+    ],
+    "college": "USC",
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": true,
+    "cy_young_count": 5,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 10
+  },
+  {
+    "name": "Pedro Martinez",
+    "teams": [
+      "Los Angeles Dodgers",
+      "Montreal Expos",
+      "Boston Red Sox",
+      "New York Mets",
+      "Philadelphia Phillies"
+    ],
+    "primary_league": "American",
+    "league": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 68,
+    "position": [
+      "P"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": true,
+    "cy_young_count": 3,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 8
+  },
+  {
+    "name": "Roger Clemens",
+    "teams": [
+      "Boston Red Sox",
+      "Toronto Blue Jays",
+      "Houston Astros",
+      "New York Yankees"
+    ],
+    "primary_league": "American",
+    "league": "Both",
+    "champion": true,
+    "championships": 2,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 19,
+    "position": [
+      "P"
+    ],
+    "college": "Texas",
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": true,
+    "cy_young_count": 7,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 11
+  },
+  {
+    "name": "Greg Maddux",
+    "teams": [
+      "Chicago Cubs",
+      "Atlanta Braves",
+      "Los Angeles Dodgers",
+      "San Diego Padres"
+    ],
+    "primary_league": "National",
+    "league": "National",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 31,
+    "position": [
+      "P"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 18,
+    "cy_young": true,
+    "cy_young_count": 4,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 8
+  },
+  {
+    "name": "Tom Glavine",
+    "teams": [
+      "Atlanta Braves",
+      "New York Mets"
+    ],
+    "primary_league": "National",
+    "league": "National",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 66,
+    "position": [
+      "P"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": true,
+    "cy_young_count": 2,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 10
+  },
+  {
+    "name": "Chipper Jones",
+    "teams": [
+      "Atlanta Braves"
+    ],
+    "primary_league": "National",
+    "league": "National",
+    "champion": true,
+    "championships": 1,
+    "mvp": true,
+    "mvp_count": 1,
+    "rookie_of_year": false,
+    "draft_pick": 1,
+    "position": [
+      "3B"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 8
+  },
+  {
+    "name": "Mike Piazza",
+    "teams": [
+      "Los Angeles Dodgers",
+      "Florida Marlins",
+      "New York Mets",
+      "San Diego Padres",
+      "Oakland Athletics"
+    ],
+    "primary_league": "National",
+    "league": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 1390,
+    "position": [
+      "C"
+    ],
+    "college": "Miami-Dade",
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 12
+  },
+  {
+    "name": "Mariano Rivera",
+    "teams": [
+      "New York Yankees"
+    ],
+    "primary_league": "American",
+    "league": "American",
+    "champion": true,
+    "championships": 5,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "P"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 13
+  },
+  {
+    "name": "Sammy Sosa",
+    "teams": [
+      "Texas Rangers",
+      "Chicago White Sox",
+      "Chicago Cubs",
+      "Baltimore Orioles"
+    ],
+    "primary_league": "National",
+    "league": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": true,
+    "mvp_count": 1,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "RF"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 7
+  },
+  {
+    "name": "Ivan Rodriguez",
+    "teams": [
+      "Texas Rangers",
+      "Florida Marlins",
+      "Detroit Tigers",
+      "New York Yankees",
+      "Houston Astros",
+      "Milwaukee Brewers",
+      "Washington Nationals"
+    ],
+    "primary_league": "American",
+    "league": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": true,
+    "mvp_count": 1,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "C"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 13,
+    "cy_young": false,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 14
+  },
+  {
+    "name": "Manny Ramirez",
+    "teams": [
+      "Cleveland Indians",
+      "Boston Red Sox",
+      "Los Angeles Dodgers",
+      "Chicago White Sox",
+      "Tampa Bay Rays"
+    ],
+    "primary_league": "American",
+    "league": "Both",
+    "champion": true,
+    "championships": 2,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 13,
+    "position": [
+      "LF",
+      "DH"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 12
+  },
+  {
+    "name": "Jim Thome",
+    "teams": [
+      "Cleveland Indians",
+      "Philadelphia Phillies",
+      "Chicago White Sox",
+      "Minnesota Twins",
+      "Los Angeles Dodgers",
+      "Pittsburgh Pirates"
+    ],
+    "primary_league": "American",
+    "league": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 333,
+    "position": [
+      "1B",
+      "3B"
+    ],
+    "college": "Illinois Central",
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 5
+  },
+  {
+    "name": "Albert Pujols",
+    "teams": [
+      "St. Louis Cardinals",
+      "Los Angeles Angels",
+      "Los Angeles Dodgers"
+    ],
+    "primary_league": "National",
+    "league": "Both",
+    "champion": true,
+    "championships": 2,
+    "mvp": true,
+    "mvp_count": 3,
+    "rookie_of_year": false,
+    "draft_pick": 402,
+    "position": [
+      "1B",
+      "DH"
+    ],
+    "college": "Maple Woods",
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 2,
+    "cy_young": false,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 11
+  },
+  {
+    "name": "David Ortiz",
+    "teams": [
+      "Minnesota Twins",
+      "Boston Red Sox"
+    ],
+    "primary_league": "American",
+    "league": "American",
+    "champion": true,
+    "championships": 3,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "DH",
+      "1B"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 10
+  },
+  {
+    "name": "Ichiro Suzuki",
+    "teams": [
+      "Seattle Mariners",
+      "New York Yankees",
+      "Miami Marlins"
+    ],
+    "primary_league": "American",
+    "league": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": true,
+    "mvp_count": 1,
+    "rookie_of_year": true,
+    "draft_pick": null,
+    "position": [
+      "RF"
+    ],
+    "college": null,
+    "batting_title": true,
+    "gold_glove": true,
+    "gold_glove_count": 10,
+    "cy_young": false,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 10
+  },
+  {
+    "name": "Miguel Cabrera",
+    "teams": [
+      "Florida Marlins",
+      "Detroit Tigers"
+    ],
+    "primary_league": "American",
+    "league": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": true,
+    "mvp_count": 2,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "1B",
+      "3B"
+    ],
+    "college": null,
+    "batting_title": true,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": true,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 12
+  },
+  {
+    "name": "Mike Trout",
+    "teams": [
+      "Los Angeles Angels"
+    ],
+    "primary_league": "American",
+    "league": "American",
+    "champion": false,
+    "championships": 0,
+    "mvp": true,
+    "mvp_count": 3,
+    "rookie_of_year": true,
+    "draft_pick": 25,
+    "position": [
+      "CF"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 2,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 11
+  },
+  {
+    "name": "Clayton Kershaw",
+    "teams": [
+      "Los Angeles Dodgers"
+    ],
+    "primary_league": "National",
+    "league": "National",
+    "champion": true,
+    "championships": 1,
+    "mvp": true,
+    "mvp_count": 1,
+    "rookie_of_year": false,
+    "draft_pick": 7,
+    "position": [
+      "P"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 3,
+    "cy_young": true,
+    "cy_young_count": 3,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 9
+  },
+  {
+    "name": "Justin Verlander",
+    "teams": [
+      "Detroit Tigers",
+      "Houston Astros",
+      "New York Mets"
+    ],
+    "primary_league": "American",
+    "league": "American",
+    "champion": true,
+    "championships": 1,
+    "mvp": true,
+    "mvp_count": 1,
+    "rookie_of_year": true,
+    "draft_pick": 2,
+    "position": [
+      "P"
+    ],
+    "college": "Old Dominion",
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": true,
+    "cy_young_count": 3,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 9
+  },
+  {
+    "name": "Bryce Harper",
+    "teams": [
+      "Washington Nationals",
+      "Philadelphia Phillies"
+    ],
+    "primary_league": "National",
+    "league": "National",
+    "champion": true,
+    "championships": 1,
+    "mvp": true,
+    "mvp_count": 2,
+    "rookie_of_year": true,
+    "draft_pick": 1,
+    "position": [
+      "RF"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 7
+  },
+  {
+    "name": "Mookie Betts",
+    "teams": [
+      "Boston Red Sox",
+      "Los Angeles Dodgers"
+    ],
+    "primary_league": "American",
+    "league": "Both",
+    "champion": true,
+    "championships": 2,
+    "mvp": true,
+    "mvp_count": 1,
+    "rookie_of_year": false,
+    "draft_pick": 172,
+    "position": [
+      "RF"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 6,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 6
+  },
+  {
+    "name": "Francisco Lindor",
+    "teams": [
+      "Cleveland Indians",
+      "New York Mets"
+    ],
+    "primary_league": "American",
+    "league": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 8,
+    "position": [
+      "SS"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 4,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 4
+  },
+  {
+    "name": "Nolan Arenado",
+    "teams": [
+      "Colorado Rockies",
+      "St. Louis Cardinals"
+    ],
+    "primary_league": "National",
+    "league": "National",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 59,
+    "position": [
+      "3B"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 10,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 8
+  },
+  {
+    "name": "Freddie Freeman",
+    "teams": [
+      "Atlanta Braves",
+      "Los Angeles Dodgers"
+    ],
+    "primary_league": "National",
+    "league": "National",
+    "champion": true,
+    "championships": 2,
+    "mvp": true,
+    "mvp_count": 1,
+    "rookie_of_year": false,
+    "draft_pick": 78,
+    "position": [
+      "1B"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 1,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 6
+  },
+  {
+    "name": "Jose Altuve",
+    "teams": [
+      "Houston Astros"
+    ],
+    "primary_league": "American",
+    "league": "American",
+    "champion": true,
+    "championships": 2,
+    "mvp": true,
+    "mvp_count": 1,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "2B"
+    ],
+    "college": null,
+    "batting_title": true,
+    "gold_glove": true,
+    "gold_glove_count": 3,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 7
+  },
+  {
+    "name": "Max Scherzer",
+    "teams": [
+      "Arizona Diamondbacks",
+      "Detroit Tigers",
+      "Washington Nationals",
+      "Los Angeles Dodgers",
+      "New York Mets",
+      "Texas Rangers"
+    ],
+    "primary_league": "National",
+    "league": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 11,
+    "position": [
+      "P"
+    ],
+    "college": "Missouri",
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": true,
+    "cy_young_count": 3,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 9
+  },
+  {
+    "name": "Shohei Ohtani",
+    "teams": [
+      "Los Angeles Angels",
+      "Los Angeles Dodgers"
+    ],
+    "primary_league": "American",
+    "league": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": true,
+    "mvp_count": 3,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "P",
+      "DH"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 4
+  },
+  {
+    "name": "Juan Soto",
+    "teams": [
+      "Washington Nationals",
+      "San Diego Padres",
+      "New York Yankees",
+      "New York Mets"
+    ],
+    "primary_league": "National",
+    "league": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "LF",
+      "RF"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 4
+  },
+  {
+    "name": "Vladimir Guerrero Jr.",
+    "teams": [
+      "Toronto Blue Jays"
+    ],
+    "primary_league": "American",
+    "league": "American",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "1B"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 3
+  },
+  {
+    "name": "Fernando Tatis Jr.",
+    "teams": [
+      "San Diego Padres"
+    ],
+    "primary_league": "National",
+    "league": "National",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "SS",
+      "RF"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 1,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 2
+  },
+  {
+    "name": "Ronald Acuna Jr.",
+    "teams": [
+      "Atlanta Braves"
+    ],
+    "primary_league": "National",
+    "league": "National",
+    "champion": true,
+    "championships": 1,
+    "mvp": true,
+    "mvp_count": 1,
+    "rookie_of_year": true,
+    "draft_pick": null,
+    "position": [
+      "CF",
+      "RF"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 4
+  },
+  {
+    "name": "Yordan Alvarez",
+    "teams": [
+      "Houston Astros"
+    ],
+    "primary_league": "American",
+    "league": "American",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": true,
+    "draft_pick": null,
+    "position": [
+      "LF",
+      "DH"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 3
+  },
+  {
+    "name": "Paul Goldschmidt",
+    "teams": [
+      "Arizona Diamondbacks",
+      "St. Louis Cardinals"
+    ],
+    "primary_league": "National",
+    "league": "National",
+    "champion": true,
+    "championships": 1,
+    "mvp": true,
+    "mvp_count": 1,
+    "rookie_of_year": false,
+    "draft_pick": 246,
+    "position": [
+      "1B"
+    ],
+    "college": "Texas State",
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 4,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 7
+  },
+  {
+    "name": "Gerrit Cole",
+    "teams": [
+      "Pittsburgh Pirates",
+      "Houston Astros",
+      "New York Yankees"
+    ],
+    "primary_league": "American",
+    "league": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 1,
+    "position": [
+      "P"
+    ],
+    "college": "UCLA",
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": true,
+    "cy_young_count": 1,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 6
+  },
+  {
+    "name": "Jose Ramirez",
+    "teams": [
+      "Cleveland Indians",
+      "Cleveland Guardians"
+    ],
+    "primary_league": "American",
+    "league": "American",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "3B"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 2,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 6
+  },
+  {
+    "name": "Cody Bellinger",
+    "teams": [
+      "Los Angeles Dodgers",
+      "Chicago Cubs",
+      "New York Yankees"
+    ],
+    "primary_league": "National",
+    "league": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": true,
+    "mvp_count": 1,
+    "rookie_of_year": true,
+    "draft_pick": 39,
+    "position": [
+      "CF",
+      "1B"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 3,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 2
+  },
+  {
+    "name": "Jacob deGrom",
+    "teams": [
+      "New York Mets",
+      "Texas Rangers"
+    ],
+    "primary_league": "National",
+    "league": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": true,
+    "draft_pick": 272,
+    "position": [
+      "P"
+    ],
+    "college": "Stetson",
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": true,
+    "cy_young_count": 2,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 5
+  },
+  {
+    "name": "Carlos Correa",
+    "teams": [
+      "Houston Astros",
+      "Minnesota Twins",
+      "San Francisco Giants"
+    ],
+    "primary_league": "American",
+    "league": "American",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": true,
+    "draft_pick": 1,
+    "position": [
+      "SS"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 2,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 2
+  },
+  {
+    "name": "Corey Seager",
+    "teams": [
+      "Los Angeles Dodgers",
+      "Texas Rangers"
+    ],
+    "primary_league": "National",
+    "league": "Both",
+    "champion": true,
+    "championships": 2,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 18,
+    "position": [
+      "SS"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 3
+  },
+  {
+    "name": "Zack Wheeler",
+    "teams": [
+      "New York Mets",
+      "Philadelphia Phillies"
+    ],
+    "primary_league": "National",
+    "league": "National",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 6,
+    "position": [
+      "P"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 3
+  },
+  {
+    "name": "Cal Ripken Jr.",
+    "teams": [
+      "Baltimore Orioles"
+    ],
+    "primary_league": "American",
+    "league": "American",
+    "champion": true,
+    "championships": 1,
+    "mvp": true,
+    "mvp_count": 2,
+    "rookie_of_year": true,
+    "draft_pick": 48,
+    "position": [
+      "SS",
+      "3B"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 2,
+    "cy_young": false,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 19
+  },
+  {
+    "name": "Wade Boggs",
+    "teams": [
+      "Boston Red Sox",
+      "New York Yankees",
+      "Tampa Bay Devil Rays"
+    ],
+    "primary_league": "American",
+    "league": "American",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 166,
+    "position": [
+      "3B"
+    ],
+    "college": "Florida",
+    "batting_title": true,
+    "gold_glove": true,
+    "gold_glove_count": 2,
+    "cy_young": false,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 12
+  },
+  {
+    "name": "Tony Gwynn",
+    "teams": [
+      "San Diego Padres"
+    ],
+    "primary_league": "National",
+    "league": "National",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 58,
+    "position": [
+      "RF"
+    ],
+    "college": "San Diego State",
+    "batting_title": true,
+    "gold_glove": true,
+    "gold_glove_count": 5,
+    "cy_young": false,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 15
+  },
+  {
+    "name": "Frank Thomas",
+    "teams": [
+      "Chicago White Sox",
+      "Oakland Athletics",
+      "Toronto Blue Jays"
+    ],
+    "primary_league": "American",
+    "league": "American",
+    "champion": false,
+    "championships": 0,
+    "mvp": true,
+    "mvp_count": 2,
+    "rookie_of_year": false,
+    "draft_pick": 7,
+    "position": [
+      "1B",
+      "DH"
+    ],
+    "college": "Auburn",
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 5
+  },
+  {
+    "name": "Roberto Alomar",
+    "teams": [
+      "San Diego Padres",
+      "Toronto Blue Jays",
+      "Baltimore Orioles",
+      "Cleveland Indians",
+      "New York Mets",
+      "Chicago White Sox",
+      "Arizona Diamondbacks",
+      "Colorado Rockies"
+    ],
+    "primary_league": "American",
+    "league": "Both",
+    "champion": true,
+    "championships": 2,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "2B"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 10,
+    "cy_young": false,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 12
+  },
+  {
+    "name": "Curt Schilling",
+    "teams": [
+      "Baltimore Orioles",
+      "Houston Astros",
+      "Philadelphia Phillies",
+      "Arizona Diamondbacks",
+      "Boston Red Sox"
+    ],
+    "primary_league": "National",
+    "league": "Both",
+    "champion": true,
+    "championships": 2,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "P"
+    ],
+    "college": "Yavapai",
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 6
+  },
+  {
+    "name": "John Smoltz",
+    "teams": [
+      "Atlanta Braves",
+      "Boston Red Sox",
+      "St. Louis Cardinals",
+      "Detroit Tigers"
+    ],
+    "primary_league": "National",
+    "league": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 22,
+    "position": [
+      "P"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": true,
+    "cy_young_count": 1,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 8
+  },
+  {
+    "name": "Jeff Bagwell",
+    "teams": [
+      "Houston Astros"
+    ],
+    "primary_league": "National",
+    "league": "National",
+    "champion": false,
+    "championships": 0,
+    "mvp": true,
+    "mvp_count": 1,
+    "rookie_of_year": true,
+    "draft_pick": 220,
+    "position": [
+      "1B"
+    ],
+    "college": "Hartford",
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 1,
+    "cy_young": false,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 4
+  },
+  {
+    "name": "Craig Biggio",
+    "teams": [
+      "Houston Astros"
+    ],
+    "primary_league": "National",
+    "league": "National",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 49,
+    "position": [
+      "C",
+      "2B",
+      "CF"
+    ],
+    "college": "Seton Hall",
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 4,
+    "cy_young": false,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 7
+  },
+  {
+    "name": "Larry Walker",
+    "teams": [
+      "Montreal Expos",
+      "Colorado Rockies",
+      "St. Louis Cardinals"
+    ],
+    "primary_league": "National",
+    "league": "National",
+    "champion": false,
+    "championships": 0,
+    "mvp": true,
+    "mvp_count": 1,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "RF"
+    ],
+    "college": null,
+    "batting_title": true,
+    "gold_glove": true,
+    "gold_glove_count": 7,
+    "cy_young": false,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 5
+  },
+  {
+    "name": "Gary Sheffield",
+    "teams": [
+      "Milwaukee Brewers",
+      "San Diego Padres",
+      "Florida Marlins",
+      "Los Angeles Dodgers",
+      "Atlanta Braves",
+      "New York Yankees",
+      "Detroit Tigers",
+      "New York Mets"
+    ],
+    "primary_league": "National",
+    "league": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 6,
+    "position": [
+      "RF",
+      "3B"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 9
+  },
+  {
+    "name": "Vladimir Guerrero Sr.",
+    "teams": [
+      "Montreal Expos",
+      "Los Angeles Angels",
+      "Texas Rangers",
+      "Baltimore Orioles"
+    ],
+    "primary_league": "American",
+    "league": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": true,
+    "mvp_count": 1,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "RF"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 8,
+    "cy_young": false,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 9
+  },
+  {
+    "name": "Torii Hunter",
+    "teams": [
+      "Minnesota Twins",
+      "Los Angeles Angels",
+      "Detroit Tigers"
+    ],
+    "primary_league": "American",
+    "league": "American",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 20,
+    "position": [
+      "CF"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 9,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 5
+  },
+  {
+    "name": "Scott Rolen",
+    "teams": [
+      "Philadelphia Phillies",
+      "St. Louis Cardinals",
+      "Toronto Blue Jays",
+      "Cincinnati Reds"
+    ],
+    "primary_league": "National",
+    "league": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": true,
+    "draft_pick": 46,
+    "position": [
+      "3B"
+    ],
+    "college": "Evansville",
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 8,
+    "cy_young": false,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 7
+  },
+  {
+    "name": "Johan Santana",
+    "teams": [
+      "Minnesota Twins",
+      "New York Mets"
+    ],
+    "primary_league": "American",
+    "league": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "P"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": true,
+    "cy_young_count": 2,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 4
+  },
+  {
+    "name": "David Wright",
+    "teams": [
+      "New York Mets"
+    ],
+    "primary_league": "National",
+    "league": "National",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 38,
+    "position": [
+      "3B"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 2,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 7
+  },
+  {
+    "name": "Chase Utley",
+    "teams": [
+      "Philadelphia Phillies",
+      "Los Angeles Dodgers"
+    ],
+    "primary_league": "National",
+    "league": "National",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 15,
+    "position": [
+      "2B"
+    ],
+    "college": "UCLA",
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 6
+  },
+  {
+    "name": "Ryan Howard",
+    "teams": [
+      "Philadelphia Phillies"
+    ],
+    "primary_league": "National",
+    "league": "National",
+    "champion": true,
+    "championships": 1,
+    "mvp": true,
+    "mvp_count": 1,
+    "rookie_of_year": true,
+    "draft_pick": 140,
+    "position": [
+      "1B"
+    ],
+    "college": "Southwest Missouri State",
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 3
+  },
+  {
+    "name": "Jimmy Rollins",
+    "teams": [
+      "Philadelphia Phillies",
+      "Los Angeles Dodgers",
+      "Chicago White Sox"
+    ],
+    "primary_league": "National",
+    "league": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": true,
+    "mvp_count": 1,
+    "rookie_of_year": false,
+    "draft_pick": 46,
+    "position": [
+      "SS"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 4,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 3
+  },
+  {
+    "name": "Roy Halladay",
+    "teams": [
+      "Toronto Blue Jays",
+      "Philadelphia Phillies"
+    ],
+    "primary_league": "American",
+    "league": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 17,
+    "position": [
+      "P"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": true,
+    "cy_young_count": 2,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 8
+  },
+  {
+    "name": "CC Sabathia",
+    "teams": [
+      "Cleveland Indians",
+      "Milwaukee Brewers",
+      "New York Yankees"
+    ],
+    "primary_league": "American",
+    "league": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 20,
+    "position": [
+      "P"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": true,
+    "cy_young_count": 1,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 6
+  },
+  {
+    "name": "Robinson Cano",
+    "teams": [
+      "New York Yankees",
+      "Seattle Mariners",
+      "New York Mets"
+    ],
+    "primary_league": "American",
+    "league": "American",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "2B"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 5,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 8
+  },
+  {
+    "name": "Adrian Beltre",
+    "teams": [
+      "Los Angeles Dodgers",
+      "Seattle Mariners",
+      "Boston Red Sox",
+      "Texas Rangers"
+    ],
+    "primary_league": "American",
+    "league": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "3B"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 5,
+    "cy_young": false,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 4
+  },
+  {
+    "name": "Andrew McCutchen",
+    "teams": [
+      "Pittsburgh Pirates",
+      "San Francisco Giants",
+      "New York Yankees",
+      "Philadelphia Phillies",
+      "Milwaukee Brewers"
+    ],
+    "primary_league": "National",
+    "league": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": true,
+    "mvp_count": 1,
+    "rookie_of_year": false,
+    "draft_pick": 11,
+    "position": [
+      "CF"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 1,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 6
+  },
+  {
+    "name": "Buster Posey",
+    "teams": [
+      "San Francisco Giants"
+    ],
+    "primary_league": "National",
+    "league": "National",
+    "champion": true,
+    "championships": 3,
+    "mvp": true,
+    "mvp_count": 1,
+    "rookie_of_year": true,
+    "draft_pick": 5,
+    "position": [
+      "C",
+      "1B"
+    ],
+    "college": "Florida State",
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 1,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 6
+  },
+  {
+    "name": "Madison Bumgarner",
+    "teams": [
+      "San Francisco Giants",
+      "Arizona Diamondbacks"
+    ],
+    "primary_league": "National",
+    "league": "National",
+    "champion": true,
+    "championships": 3,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 10,
+    "position": [
+      "P"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 3
+  },
+  {
+    "name": "Troy Tulowitzki",
+    "teams": [
+      "Colorado Rockies",
+      "Toronto Blue Jays",
+      "New York Yankees"
+    ],
+    "primary_league": "National",
+    "league": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 7,
+    "position": [
+      "SS"
+    ],
+    "college": "Long Beach State",
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 2,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 5
+  },
+  {
+    "name": "Felix Hernandez",
+    "teams": [
+      "Seattle Mariners"
+    ],
+    "primary_league": "American",
+    "league": "American",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "P"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": true,
+    "cy_young_count": 1,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 6
+  },
+  {
+    "name": "Joey Votto",
+    "teams": [
+      "Cincinnati Reds"
+    ],
+    "primary_league": "National",
+    "league": "National",
+    "champion": false,
+    "championships": 0,
+    "mvp": true,
+    "mvp_count": 1,
+    "rookie_of_year": false,
+    "draft_pick": 44,
+    "position": [
+      "1B"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 1,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 6
+  },
+  {
+    "name": "Dustin Pedroia",
+    "teams": [
+      "Boston Red Sox"
+    ],
+    "primary_league": "American",
+    "league": "American",
+    "champion": true,
+    "championships": 2,
+    "mvp": true,
+    "mvp_count": 1,
+    "rookie_of_year": true,
+    "draft_pick": 65,
+    "position": [
+      "2B"
+    ],
+    "college": "Arizona State",
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 4,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 4
+  },
+  {
+    "name": "Elvis Andrus",
+    "teams": [
+      "Texas Rangers",
+      "Oakland Athletics",
+      "Chicago White Sox"
+    ],
+    "primary_league": "American",
+    "league": "American",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "SS"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 2,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 2
+  },
+  {
+    "name": "Clayton Richard",
+    "teams": [
+      "Chicago White Sox",
+      "San Diego Padres",
+      "Chicago Cubs",
+      "Toronto Blue Jays"
+    ],
+    "primary_league": "National",
+    "league": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 40,
+    "position": [
+      "P"
+    ],
+    "college": "Michigan",
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 0
+  },
+  {
+    "name": "Josh Donaldson",
+    "teams": [
+      "Oakland Athletics",
+      "Toronto Blue Jays",
+      "Cleveland Indians",
+      "Atlanta Braves",
+      "Minnesota Twins",
+      "New York Yankees"
+    ],
+    "primary_league": "American",
+    "league": "American",
+    "champion": false,
+    "championships": 0,
+    "mvp": true,
+    "mvp_count": 1,
+    "rookie_of_year": false,
+    "draft_pick": 48,
+    "position": [
+      "3B"
+    ],
+    "college": "Auburn",
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 1,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 4
+  },
+  {
+    "name": "Chris Sale",
+    "teams": [
+      "Chicago White Sox",
+      "Boston Red Sox",
+      "Atlanta Braves"
+    ],
+    "primary_league": "American",
+    "league": "American",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 13,
+    "position": [
+      "P"
+    ],
+    "college": "Florida Gulf Coast",
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 8
+  },
+  {
+    "name": "Kris Bryant",
+    "teams": [
+      "Chicago Cubs",
+      "San Francisco Giants",
+      "Colorado Rockies",
+      "Los Angeles Dodgers"
+    ],
+    "primary_league": "National",
+    "league": "National",
+    "champion": true,
+    "championships": 1,
+    "mvp": true,
+    "mvp_count": 1,
+    "rookie_of_year": true,
+    "draft_pick": 2,
+    "position": [
+      "3B",
+      "LF"
+    ],
+    "college": "San Diego",
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 3
+  },
+  {
+    "name": "Anthony Rizzo",
+    "teams": [
+      "Boston Red Sox",
+      "San Diego Padres",
+      "Chicago Cubs",
+      "New York Yankees"
+    ],
+    "primary_league": "National",
+    "league": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 204,
+    "position": [
+      "1B"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 4,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 3
+  },
+  {
+    "name": "Jake Arrieta",
+    "teams": [
+      "Baltimore Orioles",
+      "Chicago Cubs",
+      "Philadelphia Phillies"
+    ],
+    "primary_league": "National",
+    "league": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 159,
+    "position": [
+      "P"
+    ],
+    "college": "TCU",
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": true,
+    "cy_young_count": 1,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 2
+  },
+  {
+    "name": "Starlin Castro",
+    "teams": [
+      "Chicago Cubs",
+      "New York Yankees",
+      "Miami Marlins",
+      "Washington Nationals"
+    ],
+    "primary_league": "National",
+    "league": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "SS",
+      "2B"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 3
+  },
+  {
+    "name": "Yadier Molina",
+    "teams": [
+      "St. Louis Cardinals"
+    ],
+    "primary_league": "National",
+    "league": "National",
+    "champion": true,
+    "championships": 2,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 113,
+    "position": [
+      "C"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 9,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 9
+  },
+  {
+    "name": "Adam Wainwright",
+    "teams": [
+      "St. Louis Cardinals"
+    ],
+    "primary_league": "National",
+    "league": "National",
+    "champion": true,
+    "championships": 2,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 29,
+    "position": [
+      "P"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 3,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 3
+  },
+  {
+    "name": "Matt Holliday",
+    "teams": [
+      "Colorado Rockies",
+      "Oakland Athletics",
+      "St. Louis Cardinals",
+      "New York Yankees"
+    ],
+    "primary_league": "National",
+    "league": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 7,
+    "position": [
+      "LF"
+    ],
+    "college": "Oklahoma State",
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 7
+  },
+  {
+    "name": "Carlos Beltran",
+    "teams": [
+      "Kansas City Royals",
+      "Houston Astros",
+      "New York Mets",
+      "San Francisco Giants",
+      "St. Louis Cardinals",
+      "New York Yankees",
+      "Texas Rangers"
+    ],
+    "primary_league": "American",
+    "league": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": true,
+    "draft_pick": null,
+    "position": [
+      "CF"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 3,
+    "cy_young": false,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 9
+  },
+  {
+    "name": "Todd Helton",
+    "teams": [
+      "Colorado Rockies"
+    ],
+    "primary_league": "National",
+    "league": "National",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 8,
+    "position": [
+      "1B"
+    ],
+    "college": "Tennessee",
+    "batting_title": true,
+    "gold_glove": true,
+    "gold_glove_count": 3,
+    "cy_young": false,
+    "hall_of_fame": true,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 5
+  },
+  {
+    "name": "Andy Pettitte",
+    "teams": [
+      "New York Yankees",
+      "Houston Astros"
+    ],
+    "primary_league": "American",
+    "league": "Both",
+    "champion": true,
+    "championships": 5,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "P"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 3
+  },
+  {
+    "name": "Bernie Williams",
+    "teams": [
+      "New York Yankees"
+    ],
+    "primary_league": "American",
+    "league": "American",
+    "champion": true,
+    "championships": 4,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "CF"
+    ],
+    "college": null,
+    "batting_title": true,
+    "gold_glove": true,
+    "gold_glove_count": 4,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 5
+  },
+  {
+    "name": "Jorge Posada",
+    "teams": [
+      "New York Yankees"
+    ],
+    "primary_league": "American",
+    "league": "American",
+    "champion": true,
+    "championships": 4,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "C"
+    ],
+    "college": "Calhoun",
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 5
+  },
+  {
+    "name": "Paul Konerko",
+    "teams": [
+      "Cincinnati Reds",
+      "Los Angeles Dodgers",
+      "Chicago White Sox"
+    ],
+    "primary_league": "American",
+    "league": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 13,
+    "position": [
+      "1B"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 6
+  },
+  {
+    "name": "Tim Hudson",
+    "teams": [
+      "Oakland Athletics",
+      "Atlanta Braves",
+      "San Francisco Giants"
+    ],
+    "primary_league": "American",
+    "league": "Both",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "P"
+    ],
+    "college": "Auburn",
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 4
+  },
+  {
+    "name": "Zack Greinke",
+    "teams": [
+      "Kansas City Royals",
+      "Milwaukee Brewers",
+      "Los Angeles Angels",
+      "Los Angeles Dodgers",
+      "Arizona Diamondbacks",
+      "Houston Astros",
+      "Kansas City Royals"
+    ],
+    "primary_league": "American",
+    "league": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 6,
+    "position": [
+      "P"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 6,
+    "cy_young": true,
+    "cy_young_count": 1,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 6
+  },
+  {
+    "name": "Prince Fielder",
+    "teams": [
+      "Milwaukee Brewers",
+      "Detroit Tigers",
+      "Texas Rangers"
+    ],
+    "primary_league": "National",
+    "league": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 7,
+    "position": [
+      "1B"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 6
+  },
+  {
+    "name": "Matt Cain",
+    "teams": [
+      "San Francisco Giants"
+    ],
+    "primary_league": "National",
+    "league": "National",
+    "champion": true,
+    "championships": 3,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 25,
+    "position": [
+      "P"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 1
+  },
+  {
+    "name": "Evan Longoria",
+    "teams": [
+      "Tampa Bay Rays",
+      "San Francisco Giants",
+      "Arizona Diamondbacks"
+    ],
+    "primary_league": "American",
+    "league": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": true,
+    "draft_pick": 3,
+    "position": [
+      "3B"
+    ],
+    "college": "Long Beach State",
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 3,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 3
+  },
+  {
+    "name": "Jose Bautista",
+    "teams": [
+      "Pittsburgh Pirates",
+      "Baltimore Orioles",
+      "Tampa Bay Rays",
+      "Kansas City Royals",
+      "Toronto Blue Jays",
+      "New York Mets",
+      "Philadelphia Phillies",
+      "Atlanta Braves"
+    ],
+    "primary_league": "American",
+    "league": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "RF",
+      "3B"
+    ],
+    "college": "Chipola",
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 2,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": true,
+    "pitcher": false,
+    "all_star_appearances": 6
+  },
+  {
+    "name": "David Price",
+    "teams": [
+      "Tampa Bay Rays",
+      "Detroit Tigers",
+      "Toronto Blue Jays",
+      "Boston Red Sox",
+      "Los Angeles Dodgers"
+    ],
+    "primary_league": "American",
+    "league": "American",
+    "champion": true,
+    "championships": 1,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": 1,
+    "position": [
+      "P"
+    ],
+    "college": "Vanderbilt",
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": true,
+    "cy_young_count": 1,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": true,
+    "all_star_appearances": 5
+  },
+  {
+    "name": "Starling Marte",
+    "teams": [
+      "Pittsburgh Pirates",
+      "Arizona Diamondbacks",
+      "Miami Marlins",
+      "Oakland Athletics",
+      "New York Mets"
+    ],
+    "primary_league": "National",
+    "league": "Both",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "CF"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": true,
+    "gold_glove_count": 2,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 2
+  },
+  {
+    "name": "Wander Franco",
+    "teams": [
+      "Tampa Bay Rays"
+    ],
+    "primary_league": "American",
+    "league": "American",
+    "champion": false,
+    "championships": 0,
+    "mvp": false,
+    "mvp_count": 0,
+    "rookie_of_year": false,
+    "draft_pick": null,
+    "position": [
+      "SS"
+    ],
+    "college": null,
+    "batting_title": false,
+    "gold_glove": false,
+    "gold_glove_count": 0,
+    "cy_young": false,
+    "hall_of_fame": false,
+    "triple_crown": false,
+    "career_hr_300plus": false,
+    "pitcher": false,
+    "all_star_appearances": 1
+  }
+]
