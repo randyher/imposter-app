@@ -6,7 +6,7 @@ export default function Logo({ size = 80 }) {
   const svgW = size * 0.46;
   const svgH = svgW * (46 / 72); // maintain viewBox aspect ratio
   const containerW = size * 0.52;
-  const svgLeft = -(svgW - containerW) / 2 + size * 0.015; // center SVG over T with slight right nudge
+  const svgLeft = -(svgW - containerW) / 2 + size * 0.008; // center SVG over T with slight right nudge
 
   return (
     <View style={styles.row}>
