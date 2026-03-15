@@ -29,7 +29,7 @@ const SECTIONS = [
     id: 'gaming',
     title: '🎮  GAMING',
     categories: [
-      { id: 'pokemon', name: 'Pokémon', genre: 'Gaming', locked: false, tag: 'Free' },
+      { id: 'pokemon', name: 'Pokémon', genre: 'Monster Collector', locked: false, tag: 'Free' },
     ],
   },
   {
