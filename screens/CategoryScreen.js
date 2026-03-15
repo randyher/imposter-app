@@ -37,6 +37,7 @@ const SECTIONS = [
     title: '🎬  ENTERTAINMENT',
     categories: [
       { id: 'mcu', name: 'MCU', genre: 'Marvel Cinematic Universe', locked: false, tag: 'Free' },
+      { id: 'hp', name: 'Harry Potter', genre: 'Wizarding World', locked: false, tag: 'Free' },
     ],
   },
 ];

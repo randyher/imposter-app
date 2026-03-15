@@ -8,11 +8,14 @@ import { generateMLBGame } from './mlbQuestionEngine';
 import { generateNFLGame } from './nflQuestionEngine';
 import { generatePokemonGame } from './pokemonQuestionEngine';
 import { generateMCUGame } from './mcuQuestionEngine';
+import HP_CHARACTERS from '../data/harry_potter.json';
+import { generateHarryPotterGame } from './harryPotterQuestionEngine';
 
 export function generateGame(category) {
   if (category === 'mlb')     return generateMLBGame(MLB_PLAYERS);
   if (category === 'nfl')     return generateNFLGame(NFL_PLAYERS);
   if (category === 'pokemon') return generatePokemonGame(POKEMON);
   if (category === 'mcu')     return generateMCUGame(MCU_CHARACTERS);
+  if (category === 'hp')      return generateHarryPotterGame(HP_CHARACTERS);
   return generateNBAGame(NBA_PLAYERS);
 }
