@@ -2,19 +2,19 @@ import { View, Text, StyleSheet, Platform } from 'react-native';
 import Svg, { Rect, Path } from 'react-native-svg';
 
 export default function Logo({ size = 80 }) {
-  const svgW = size * 0.9;
-  const svgH = size * 0.58;
-  // Container for "T" is narrower than SVG; extend to the left to center it
+  // Glasses just slightly wider than the T crossbar so they sit snugly on it
+  const svgW = size * 0.64;
+  const svgH = svgW * (46 / 72); // maintain viewBox aspect ratio
   const containerW = size * 0.52;
-  const svgLeft = -(svgW - containerW) / 2;
+  const svgLeft = -(svgW - containerW) / 2; // center SVG over T
 
   return (
     <View style={styles.row}>
       <Text style={[styles.logoText, { fontSize: size }]}>IMPOS</Text>
       {/* Container holds the glasses SVG (absolute) + the "T" glyph */}
-      <View style={{ width: containerW, height: size + size * 0.3 }}>
+      <View style={{ width: containerW, height: size * 1.12 }}>
         <Svg
-          style={{ position: 'absolute', top: 0, left: svgLeft }}
+          style={{ position: 'absolute', top: size * 0.06, left: svgLeft }}
           width={svgW}
           height={svgH}
           viewBox="0 0 72 46"
