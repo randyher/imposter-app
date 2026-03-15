@@ -15,13 +15,10 @@ export const POKEMON_TEMPLATES = [
   // 1. Generation 1 (imposter is not)
   (pokemon) => {
     const three = pokemon.filter((p) => p.generation === 1);
-    const one = pick(
-      pokemon.filter((p) => p.generation !== 1),
-      1
-    )[0];
+    const one = pick(pokemon.filter((p) => p.generation !== 1), 1)[0];
     return {
-      three,
-      one,
+      three, one,
+      prompt: "Three are Generation 1 Pokémon. Who isn't?",
       explanation: (i) =>
         `${i.name} is from Generation ${i.generation} (${i.region}). The other three are original Gen 1 Kanto Pokemon.`,
     };
@@ -30,13 +27,10 @@ export const POKEMON_TEMPLATES = [
   // 2. Not Generation 1 (imposter is Gen 1)
   (pokemon) => {
     const three = pokemon.filter((p) => p.generation !== 1);
-    const one = pick(
-      pokemon.filter((p) => p.generation === 1),
-      1
-    )[0];
+    const one = pick(pokemon.filter((p) => p.generation === 1), 1)[0];
     return {
-      three,
-      one,
+      three, one,
+      prompt: "Three are from later generations. Who's the Gen 1 Pokémon?",
       explanation: (i) =>
         `${i.name} is a Generation 1 Pokemon from Kanto. The other three are from later generations.`,
     };
@@ -45,13 +39,10 @@ export const POKEMON_TEMPLATES = [
   // 3. Legendary Pokemon (imposter is not)
   (pokemon) => {
     const three = pokemon.filter((p) => p.legendary);
-    const one = pick(
-      pokemon.filter((p) => !p.legendary),
-      1
-    )[0];
+    const one = pick(pokemon.filter((p) => !p.legendary), 1)[0];
     return {
-      three,
-      one,
+      three, one,
+      prompt: "Three are Legendary Pokémon. Who isn't?",
       explanation: (i) =>
         `${i.name} is not a Legendary Pokemon. The other three are legendaries.`,
     };
@@ -60,13 +51,10 @@ export const POKEMON_TEMPLATES = [
   // 4. Non-legendary (imposter is legendary)
   (pokemon) => {
     const three = pokemon.filter((p) => !p.legendary && !p.mythical);
-    const one = pick(
-      pokemon.filter((p) => p.legendary),
-      1
-    )[0];
+    const one = pick(pokemon.filter((p) => p.legendary), 1)[0];
     return {
-      three,
-      one,
+      three, one,
+      prompt: "Three are not Legendary. Who is?",
       explanation: (i) =>
         `${i.name} is a Legendary Pokemon. The other three are not legendaries.`,
     };
@@ -75,13 +63,10 @@ export const POKEMON_TEMPLATES = [
   // 5. Starter Pokemon (imposter is not)
   (pokemon) => {
     const three = pokemon.filter((p) => p.starter && p.evolution_stage === 1);
-    const one = pick(
-      pokemon.filter((p) => !p.starter),
-      1
-    )[0];
+    const one = pick(pokemon.filter((p) => !p.starter), 1)[0];
     return {
-      three,
-      one,
+      three, one,
+      prompt: "Three are starter Pokémon. Who isn't?",
       explanation: (i) =>
         `${i.name} is not a starter Pokemon. The other three are first-stage starters.`,
     };
@@ -90,13 +75,10 @@ export const POKEMON_TEMPLATES = [
   // 6. Fully evolved starters (imposter is not a starter)
   (pokemon) => {
     const three = pokemon.filter((p) => p.starter && p.fully_evolved);
-    const one = pick(
-      pokemon.filter((p) => !p.starter),
-      1
-    )[0];
+    const one = pick(pokemon.filter((p) => !p.starter), 1)[0];
     return {
-      three,
-      one,
+      three, one,
+      prompt: "Three are fully evolved starters. Who isn't a starter?",
       explanation: (i) =>
         `${i.name} is not a starter Pokemon. The other three are fully evolved starters.`,
     };
@@ -105,83 +87,58 @@ export const POKEMON_TEMPLATES = [
   // 7. Fire type (imposter is not)
   (pokemon) => {
     const three = pokemon.filter((p) => p.type.includes("Fire"));
-    const one = pick(
-      pokemon.filter((p) => !p.type.includes("Fire")),
-      1
-    )[0];
+    const one = pick(pokemon.filter((p) => !p.type.includes("Fire")), 1)[0];
     return {
-      three,
-      one,
+      three, one,
+      prompt: "Three are Fire types. Who isn't?",
       explanation: (i) =>
-        `${i.name} is not a Fire type (${i.type.join(
-          "/"
-        )}). The other three are Fire types.`,
+        `${i.name} is not a Fire type (${i.type.join("/")}). The other three are Fire types.`,
     };
   },
 
   // 8. Water type (imposter is not)
   (pokemon) => {
     const three = pokemon.filter((p) => p.type.includes("Water"));
-    const one = pick(
-      pokemon.filter((p) => !p.type.includes("Water")),
-      1
-    )[0];
+    const one = pick(pokemon.filter((p) => !p.type.includes("Water")), 1)[0];
     return {
-      three,
-      one,
+      three, one,
+      prompt: "Three are Water types. Who isn't?",
       explanation: (i) =>
-        `${i.name} is not a Water type (${i.type.join(
-          "/"
-        )}). The other three are Water types.`,
+        `${i.name} is not a Water type (${i.type.join("/")}). The other three are Water types.`,
     };
   },
 
   // 9. Dragon type (imposter is not)
   (pokemon) => {
     const three = pokemon.filter((p) => p.type.includes("Dragon"));
-    const one = pick(
-      pokemon.filter((p) => !p.type.includes("Dragon")),
-      1
-    )[0];
+    const one = pick(pokemon.filter((p) => !p.type.includes("Dragon")), 1)[0];
     return {
-      three,
-      one,
+      three, one,
+      prompt: "Three are Dragon types. Who isn't?",
       explanation: (i) =>
-        `${i.name} is not a Dragon type (${i.type.join(
-          "/"
-        )}). The other three are Dragon types.`,
+        `${i.name} is not a Dragon type (${i.type.join("/")}). The other three are Dragon types.`,
     };
   },
 
   // 10. Psychic type (imposter is not)
   (pokemon) => {
     const three = pokemon.filter((p) => p.type.includes("Psychic"));
-    const one = pick(
-      pokemon.filter((p) => !p.type.includes("Psychic")),
-      1
-    )[0];
+    const one = pick(pokemon.filter((p) => !p.type.includes("Psychic")), 1)[0];
     return {
-      three,
-      one,
+      three, one,
+      prompt: "Three are Psychic types. Who isn't?",
       explanation: (i) =>
-        `${i.name} is not a Psychic type (${i.type.join(
-          "/"
-        )}). The other three are Psychic types.`,
+        `${i.name} is not a Psychic type (${i.type.join("/")}). The other three are Psychic types.`,
     };
   },
 
   // 11. Fully evolved (imposter is not)
   (pokemon) => {
-    const three = pokemon.filter(
-      (p) => p.fully_evolved && !p.legendary && !p.mythical
-    );
-    const one = pick(
-      pokemon.filter((p) => !p.fully_evolved),
-      1
-    )[0];
+    const three = pokemon.filter((p) => p.fully_evolved && !p.legendary && !p.mythical);
+    const one = pick(pokemon.filter((p) => !p.fully_evolved), 1)[0];
     return {
-      three,
-      one,
+      three, one,
+      prompt: "Three are fully evolved. Who isn't?",
       explanation: (i) =>
         `${i.name} is not fully evolved (it's stage ${i.evolution_stage}). The other three are fully evolved.`,
     };
@@ -189,18 +146,11 @@ export const POKEMON_TEMPLATES = [
 
   // 12. First evolution stage (imposter is not)
   (pokemon) => {
-    const three = pokemon.filter(
-      (p) => p.evolution_stage === 1 && !p.legendary && !p.mythical
-    );
-    const one = pick(
-      pokemon.filter(
-        (p) => p.evolution_stage > 1 && !p.legendary && !p.mythical
-      ),
-      1
-    )[0];
+    const three = pokemon.filter((p) => p.evolution_stage === 1 && !p.legendary && !p.mythical);
+    const one = pick(pokemon.filter((p) => p.evolution_stage > 1 && !p.legendary && !p.mythical), 1)[0];
     return {
-      three,
-      one,
+      three, one,
+      prompt: "Three are base form Pokémon. Who isn't?",
       explanation: (i) =>
         `${i.name} is evolution stage ${i.evolution_stage}, not a base form. The other three are first-stage Pokemon.`,
     };
@@ -209,13 +159,10 @@ export const POKEMON_TEMPLATES = [
   // 13. Dual type (imposter is single type)
   (pokemon) => {
     const three = pokemon.filter((p) => !p.single_type);
-    const one = pick(
-      pokemon.filter((p) => p.single_type),
-      1
-    )[0];
+    const one = pick(pokemon.filter((p) => p.single_type), 1)[0];
     return {
-      three,
-      one,
+      three, one,
+      prompt: "Three are dual-type Pokémon. Who's single type?",
       explanation: (i) =>
         `${i.name} is a single-type Pokemon (${i.type[0]} only). The other three are dual types.`,
     };
@@ -224,30 +171,22 @@ export const POKEMON_TEMPLATES = [
   // 14. Single type (imposter is dual type)
   (pokemon) => {
     const three = pokemon.filter((p) => p.single_type);
-    const one = pick(
-      pokemon.filter((p) => !p.single_type),
-      1
-    )[0];
+    const one = pick(pokemon.filter((p) => !p.single_type), 1)[0];
     return {
-      three,
-      one,
+      three, one,
+      prompt: "Three are single-type Pokémon. Who's dual type?",
       explanation: (i) =>
-        `${i.name} is a dual-type Pokemon (${i.type.join(
-          "/"
-        )}). The other three are single types.`,
+        `${i.name} is a dual-type Pokemon (${i.type.join("/")}). The other three are single types.`,
     };
   },
 
   // 15. Pseudo-legendary (imposter is not)
   (pokemon) => {
     const three = pokemon.filter((p) => p.pseudo_legendary);
-    const one = pick(
-      pokemon.filter((p) => !p.pseudo_legendary && !p.legendary && !p.mythical),
-      1
-    )[0];
+    const one = pick(pokemon.filter((p) => !p.pseudo_legendary && !p.legendary && !p.mythical), 1)[0];
     return {
-      three,
-      one,
+      three, one,
+      prompt: "Three are pseudo-legendaries. Who isn't?",
       explanation: (i) =>
         `${i.name} is not a pseudo-legendary. The other three are pseudo-legendaries — the most powerful non-legendary Pokemon in their generation.`,
     };
@@ -256,13 +195,10 @@ export const POKEMON_TEMPLATES = [
   // 16. Mythical Pokemon (imposter is not)
   (pokemon) => {
     const three = pokemon.filter((p) => p.mythical);
-    const one = pick(
-      pokemon.filter((p) => !p.mythical && !p.legendary),
-      1
-    )[0];
+    const one = pick(pokemon.filter((p) => !p.mythical && !p.legendary), 1)[0];
     return {
-      three,
-      one,
+      three, one,
+      prompt: "Three are Mythical Pokémon. Who isn't?",
       explanation: (i) =>
         `${i.name} is not a Mythical Pokemon. The other three are mythicals — event-exclusive Pokemon like Mew and Celebi.`,
     };
@@ -271,13 +207,10 @@ export const POKEMON_TEMPLATES = [
   // 17. Kanto region (imposter is not)
   (pokemon) => {
     const three = pokemon.filter((p) => p.region === "Kanto");
-    const one = pick(
-      pokemon.filter((p) => p.region !== "Kanto"),
-      1
-    )[0];
+    const one = pick(pokemon.filter((p) => p.region !== "Kanto"), 1)[0];
     return {
-      three,
-      one,
+      three, one,
+      prompt: "Three are from Kanto. Who isn't?",
       explanation: (i) =>
         `${i.name} is from ${i.region}, not Kanto. The other three are Kanto Pokemon.`,
     };
@@ -286,13 +219,10 @@ export const POKEMON_TEMPLATES = [
   // 18. Johto region (imposter is not)
   (pokemon) => {
     const three = pokemon.filter((p) => p.region === "Johto");
-    const one = pick(
-      pokemon.filter((p) => p.region !== "Johto"),
-      1
-    )[0];
+    const one = pick(pokemon.filter((p) => p.region !== "Johto"), 1)[0];
     return {
-      three,
-      one,
+      three, one,
+      prompt: "Three are from Johto. Who isn't?",
       explanation: (i) =>
         `${i.name} is from ${i.region}, not Johto. The other three are Johto Pokemon.`,
     };
@@ -301,13 +231,10 @@ export const POKEMON_TEMPLATES = [
   // 19. Original 151 (imposter is not)
   (pokemon) => {
     const three = pokemon.filter((p) => p.original_151);
-    const one = pick(
-      pokemon.filter((p) => !p.original_151),
-      1
-    )[0];
+    const one = pick(pokemon.filter((p) => !p.original_151), 1)[0];
     return {
-      three,
-      one,
+      three, one,
+      prompt: "Three are in the original 151. Who isn't?",
       explanation: (i) =>
         `${i.name} (Gen ${i.generation}) is not one of the original 151. The other three are from the first Pokedex.`,
     };
@@ -316,13 +243,10 @@ export const POKEMON_TEMPLATES = [
   // 20. Fossil Pokemon (imposter is not)
   (pokemon) => {
     const three = pokemon.filter((p) => p.fossil);
-    const one = pick(
-      pokemon.filter((p) => !p.fossil),
-      1
-    )[0];
+    const one = pick(pokemon.filter((p) => !p.fossil), 1)[0];
     return {
-      three,
-      one,
+      three, one,
+      prompt: "Three are fossil Pokémon. Who isn't?",
       explanation: (i) =>
         `${i.name} is not a fossil Pokemon. The other three are revived from fossils.`,
     };
@@ -343,6 +267,7 @@ export function generatePokemonGame(pokemon, count = 15) {
       questions.push({
         opts: opts.map((p) => p.name),
         ans: opts.findIndex((p) => p.name === result.one.name),
+        prompt: result.prompt,
         explanation: result.explanation(result.one),
       });
     } catch (e) {
