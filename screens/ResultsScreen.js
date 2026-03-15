@@ -1,5 +1,4 @@
 import { View, Text, TouchableOpacity, StyleSheet, ScrollView, Share } from 'react-native';
-import { buildCategoryURL } from '../utils/deepLink';
 
 function fmt(v) {
   return v % 1 === 0 ? String(v) : v.toFixed(1);
@@ -32,7 +31,6 @@ function buildShareText(score, hist, category, showPrompt) {
     .map((h) => (h.skip ? '⬜' : h.ok ? '🟩' : '🟥'))
     .join('');
   const hintsLine = showPrompt ? '' : '\n🔥 No Hints Mode';
-  const link = buildCategoryURL(category);
 
   return [
     `🕵️ IMPOSTER`,
@@ -40,8 +38,6 @@ function buildShareText(score, hist, category, showPrompt) {
     `Score: ${fmt(score)}${hintsLine}`,
     ``,
     emojiRow,
-    ``,
-    `Play at ${link}`,
   ].join('\n');
 }
 
