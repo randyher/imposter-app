@@ -32,7 +32,7 @@ export default function Logo({ size = 80 }) {
           style={{ position: 'absolute', top: size * 0.12, left: svgLeft }}
           width={svgW}
           height={svgH}
-          viewBox="0 0 72 46"
+          viewBox="0 0 74 46"
         >
           {/* Left lens */}
           <Rect x="2" y="0" width="29" height="21" rx="10" fill="#fff" />
