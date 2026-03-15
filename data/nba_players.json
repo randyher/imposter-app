@@ -1,10 +1,7 @@
 [
   {
     "name": "Michael Jordan",
-    "teams": [
-      "Chicago Bulls",
-      "Washington Wizards"
-    ],
+    "teams": ["Chicago Bulls", "Washington Wizards"],
     "conference": "Eastern",
     "champion": true,
     "championships": 6,
@@ -14,9 +11,7 @@
     "dpoy_count": 1,
     "draft_class": 1984,
     "draft_pick": 3,
-    "position": [
-      "SG"
-    ],
+    "position": ["SG"],
     "college": "North Carolina",
     "all_star_appearances": 14,
     "scoring_title": true,
@@ -39,9 +34,7 @@
     "dpoy_count": 0,
     "draft_class": 1987,
     "draft_pick": 5,
-    "position": [
-      "SF"
-    ],
+    "position": ["SF"],
     "college": "Central Arkansas",
     "all_star_appearances": 7,
     "scoring_title": false,
@@ -65,9 +58,7 @@
     "dpoy_count": 2,
     "draft_class": 1986,
     "draft_pick": 27,
-    "position": [
-      "PF"
-    ],
+    "position": ["PF"],
     "college": "SE Oklahoma State",
     "all_star_appearances": 2,
     "scoring_title": false,
@@ -75,11 +66,7 @@
   },
   {
     "name": "Charles Barkley",
-    "teams": [
-      "Philadelphia 76ers",
-      "Phoenix Suns",
-      "Houston Rockets"
-    ],
+    "teams": ["Philadelphia 76ers", "Phoenix Suns", "Houston Rockets"],
     "conference": "Both",
     "champion": false,
     "championships": 0,
@@ -89,9 +76,7 @@
     "dpoy_count": 0,
     "draft_class": 1984,
     "draft_pick": 5,
-    "position": [
-      "PF"
-    ],
+    "position": ["PF"],
     "college": "Auburn",
     "all_star_appearances": 11,
     "scoring_title": false,
@@ -114,9 +99,7 @@
     "dpoy_count": 0,
     "draft_class": 1985,
     "draft_pick": 1,
-    "position": [
-      "C"
-    ],
+    "position": ["C"],
     "college": "Georgetown",
     "all_star_appearances": 11,
     "scoring_title": false,
@@ -124,10 +107,7 @@
   },
   {
     "name": "Hakeem Olajuwon",
-    "teams": [
-      "Houston Rockets",
-      "Toronto Raptors"
-    ],
+    "teams": ["Houston Rockets", "Toronto Raptors"],
     "conference": "Both",
     "champion": true,
     "championships": 2,
@@ -137,9 +117,7 @@
     "dpoy_count": 2,
     "draft_class": 1984,
     "draft_pick": 1,
-    "position": [
-      "C"
-    ],
+    "position": ["C"],
     "college": "Houston",
     "all_star_appearances": 12,
     "scoring_title": false,
@@ -147,9 +125,7 @@
   },
   {
     "name": "David Robinson",
-    "teams": [
-      "San Antonio Spurs"
-    ],
+    "teams": ["San Antonio Spurs"],
     "conference": "Western",
     "champion": true,
     "championships": 2,
@@ -159,9 +135,7 @@
     "dpoy_count": 1,
     "draft_class": 1987,
     "draft_pick": 1,
-    "position": [
-      "C"
-    ],
+    "position": ["C"],
     "college": "Navy",
     "all_star_appearances": 10,
     "scoring_title": true,
@@ -169,9 +143,7 @@
   },
   {
     "name": "John Stockton",
-    "teams": [
-      "Utah Jazz"
-    ],
+    "teams": ["Utah Jazz"],
     "conference": "Western",
     "champion": false,
     "championships": 0,
@@ -181,9 +153,7 @@
     "dpoy_count": 0,
     "draft_class": 1984,
     "draft_pick": 16,
-    "position": [
-      "PG"
-    ],
+    "position": ["PG"],
     "college": "Gonzaga",
     "all_star_appearances": 10,
     "scoring_title": false,
@@ -191,10 +161,7 @@
   },
   {
     "name": "Karl Malone",
-    "teams": [
-      "Utah Jazz",
-      "Los Angeles Lakers"
-    ],
+    "teams": ["Utah Jazz", "Los Angeles Lakers"],
     "conference": "Western",
     "champion": false,
     "championships": 0,
@@ -204,9 +171,7 @@
     "dpoy_count": 0,
     "draft_class": 1985,
     "draft_pick": 13,
-    "position": [
-      "PF"
-    ],
+    "position": ["PF"],
     "college": "Louisiana Tech",
     "all_star_appearances": 14,
     "scoring_title": false,
@@ -231,9 +196,7 @@
     "dpoy_count": 1,
     "draft_class": 1990,
     "draft_pick": 2,
-    "position": [
-      "PG"
-    ],
+    "position": ["PG"],
     "college": "Oregon State",
     "all_star_appearances": 9,
     "scoring_title": false,
@@ -245,8 +208,7 @@
       "Seattle SuperSonics",
       "Cleveland Cavaliers",
       "Portland Trail Blazers",
-      "Orlando Magic",
-      "San Antonio Spurs"
+      "Orlando Magic"
     ],
     "conference": "Both",
     "champion": false,
@@ -257,9 +219,7 @@
     "dpoy_count": 0,
     "draft_class": 1989,
     "draft_pick": 17,
-    "position": [
-      "PF"
-    ],
+    "position": ["PF"],
     "college": null,
     "all_star_appearances": 6,
     "scoring_title": false,
@@ -267,9 +227,7 @@
   },
   {
     "name": "Reggie Miller",
-    "teams": [
-      "Indiana Pacers"
-    ],
+    "teams": ["Indiana Pacers"],
     "conference": "Eastern",
     "champion": false,
     "championships": 0,
@@ -279,9 +237,7 @@
     "dpoy_count": 0,
     "draft_class": 1987,
     "draft_pick": 11,
-    "position": [
-      "SG"
-    ],
+    "position": ["SG"],
     "college": "UCLA",
     "all_star_appearances": 5,
     "scoring_title": false,
@@ -289,10 +245,7 @@
   },
   {
     "name": "Clyde Drexler",
-    "teams": [
-      "Portland Trail Blazers",
-      "Houston Rockets"
-    ],
+    "teams": ["Portland Trail Blazers", "Houston Rockets"],
     "conference": "Western",
     "champion": true,
     "championships": 1,
@@ -302,9 +255,7 @@
     "dpoy_count": 0,
     "draft_class": 1983,
     "draft_pick": 14,
-    "position": [
-      "SG"
-    ],
+    "position": ["SG"],
     "college": "Houston",
     "all_star_appearances": 10,
     "scoring_title": false,
@@ -327,9 +278,7 @@
     "dpoy_count": 0,
     "draft_class": 1994,
     "draft_pick": 3,
-    "position": [
-      "SF"
-    ],
+    "position": ["SF"],
     "college": "Duke",
     "all_star_appearances": 7,
     "scoring_title": false,
@@ -337,12 +286,7 @@
   },
   {
     "name": "Penny Hardaway",
-    "teams": [
-      "Orlando Magic",
-      "Phoenix Suns",
-      "New York Knicks",
-      "Miami Heat"
-    ],
+    "teams": ["Orlando Magic", "Phoenix Suns", "New York Knicks", "Miami Heat"],
     "conference": "Both",
     "champion": false,
     "championships": 0,
@@ -352,10 +296,7 @@
     "dpoy_count": 0,
     "draft_class": 1993,
     "draft_pick": 3,
-    "position": [
-      "PG",
-      "SG"
-    ],
+    "position": ["PG", "SG"],
     "college": "Memphis State",
     "all_star_appearances": 4,
     "scoring_title": false,
@@ -378,9 +319,7 @@
     "dpoy_count": 2,
     "draft_class": 1992,
     "draft_pick": 2,
-    "position": [
-      "C"
-    ],
+    "position": ["C"],
     "college": "Georgetown",
     "all_star_appearances": 7,
     "scoring_title": false,
@@ -406,9 +345,7 @@
     "dpoy_count": 4,
     "draft_class": 1991,
     "draft_pick": 4,
-    "position": [
-      "C"
-    ],
+    "position": ["C"],
     "college": "Georgetown",
     "all_star_appearances": 8,
     "scoring_title": false,
@@ -431,9 +368,7 @@
     "dpoy_count": 0,
     "draft_class": 1994,
     "draft_pick": 2,
-    "position": [
-      "PG"
-    ],
+    "position": ["PG"],
     "college": "California",
     "all_star_appearances": 10,
     "scoring_title": false,
@@ -461,10 +396,7 @@
     "dpoy_count": 0,
     "draft_class": 1998,
     "draft_pick": 5,
-    "position": [
-      "SG",
-      "SF"
-    ],
+    "position": ["SG", "SF"],
     "college": "North Carolina",
     "all_star_appearances": 8,
     "scoring_title": false,
@@ -487,10 +419,7 @@
     "dpoy_count": 0,
     "draft_class": 1996,
     "draft_pick": 1,
-    "position": [
-      "PG",
-      "SG"
-    ],
+    "position": ["PG", "SG"],
     "college": "Georgetown",
     "all_star_appearances": 11,
     "scoring_title": true,
@@ -498,9 +427,7 @@
   },
   {
     "name": "Kobe Bryant",
-    "teams": [
-      "Los Angeles Lakers"
-    ],
+    "teams": ["Los Angeles Lakers"],
     "conference": "Western",
     "champion": true,
     "championships": 5,
@@ -510,9 +437,7 @@
     "dpoy_count": 0,
     "draft_class": 1996,
     "draft_pick": 13,
-    "position": [
-      "SG"
-    ],
+    "position": ["SG"],
     "college": null,
     "all_star_appearances": 18,
     "scoring_title": true,
@@ -537,9 +462,7 @@
     "dpoy_count": 0,
     "draft_class": 1992,
     "draft_pick": 1,
-    "position": [
-      "C"
-    ],
+    "position": ["C"],
     "college": "LSU",
     "all_star_appearances": 15,
     "scoring_title": true,
@@ -547,9 +470,7 @@
   },
   {
     "name": "Tim Duncan",
-    "teams": [
-      "San Antonio Spurs"
-    ],
+    "teams": ["San Antonio Spurs"],
     "conference": "Western",
     "champion": true,
     "championships": 5,
@@ -559,10 +480,7 @@
     "dpoy_count": 0,
     "draft_class": 1997,
     "draft_pick": 1,
-    "position": [
-      "PF",
-      "C"
-    ],
+    "position": ["PF", "C"],
     "college": "Wake Forest",
     "all_star_appearances": 15,
     "scoring_title": false,
@@ -570,12 +488,7 @@
   },
   {
     "name": "Kevin Garnett",
-    "teams": [
-      "Minnesota Timberwolves",
-      "Boston Celtics",
-      "Brooklyn Nets",
-      "Los Angeles Clippers"
-    ],
+    "teams": ["Minnesota Timberwolves", "Boston Celtics", "Brooklyn Nets"],
     "conference": "Both",
     "champion": true,
     "championships": 1,
@@ -585,9 +498,7 @@
     "dpoy_count": 1,
     "draft_class": 1995,
     "draft_pick": 5,
-    "position": [
-      "PF"
-    ],
+    "position": ["PF"],
     "college": null,
     "all_star_appearances": 15,
     "scoring_title": false,
@@ -602,7 +513,7 @@
       "Los Angeles Clippers",
       "Charlotte Hornets"
     ],
-    "conference": "Eastern",
+    "conference": "Both",
     "champion": true,
     "championships": 1,
     "mvp": false,
@@ -611,9 +522,7 @@
     "dpoy_count": 0,
     "draft_class": 1998,
     "draft_pick": 10,
-    "position": [
-      "SF"
-    ],
+    "position": ["SF"],
     "college": "Kansas",
     "all_star_appearances": 10,
     "scoring_title": false,
@@ -636,9 +545,7 @@
     "dpoy_count": 0,
     "draft_class": 1996,
     "draft_pick": 5,
-    "position": [
-      "SG"
-    ],
+    "position": ["SG"],
     "college": "Connecticut",
     "all_star_appearances": 10,
     "scoring_title": false,
@@ -646,11 +553,7 @@
   },
   {
     "name": "Steve Nash",
-    "teams": [
-      "Phoenix Suns",
-      "Dallas Mavericks",
-      "Los Angeles Lakers"
-    ],
+    "teams": ["Phoenix Suns", "Dallas Mavericks", "Los Angeles Lakers"],
     "conference": "Western",
     "champion": false,
     "championships": 0,
@@ -660,9 +563,7 @@
     "dpoy_count": 0,
     "draft_class": 1996,
     "draft_pick": 15,
-    "position": [
-      "PG"
-    ],
+    "position": ["PG"],
     "college": "Santa Clara",
     "all_star_appearances": 8,
     "scoring_title": false,
@@ -670,9 +571,7 @@
   },
   {
     "name": "Dirk Nowitzki",
-    "teams": [
-      "Dallas Mavericks"
-    ],
+    "teams": ["Dallas Mavericks"],
     "conference": "Western",
     "champion": true,
     "championships": 1,
@@ -682,9 +581,7 @@
     "dpoy_count": 0,
     "draft_class": 1998,
     "draft_pick": 9,
-    "position": [
-      "PF"
-    ],
+    "position": ["PF"],
     "college": null,
     "all_star_appearances": 14,
     "scoring_title": false,
@@ -707,9 +604,7 @@
     "dpoy_count": 0,
     "draft_class": 2003,
     "draft_pick": 5,
-    "position": [
-      "SG"
-    ],
+    "position": ["SG"],
     "college": "Marquette",
     "all_star_appearances": 13,
     "scoring_title": true,
@@ -717,11 +612,7 @@
   },
   {
     "name": "LeBron James",
-    "teams": [
-      "Cleveland Cavaliers",
-      "Miami Heat",
-      "Los Angeles Lakers"
-    ],
+    "teams": ["Cleveland Cavaliers", "Miami Heat", "Los Angeles Lakers"],
     "conference": "Both",
     "champion": true,
     "championships": 4,
@@ -731,10 +622,7 @@
     "dpoy_count": 0,
     "draft_class": 2003,
     "draft_pick": 1,
-    "position": [
-      "SF",
-      "PF"
-    ],
+    "position": ["SF", "PF"],
     "college": null,
     "all_star_appearances": 20,
     "scoring_title": false,
@@ -759,9 +647,7 @@
     "dpoy_count": 0,
     "draft_class": 2003,
     "draft_pick": 3,
-    "position": [
-      "SF"
-    ],
+    "position": ["SF"],
     "college": "Syracuse",
     "all_star_appearances": 10,
     "scoring_title": true,
@@ -775,7 +661,8 @@
       "Houston Rockets",
       "Oklahoma City Thunder",
       "Phoenix Suns",
-      "Golden State Warriors"
+      "Golden State Warriors",
+      "San Antonio Spurs"
     ],
     "conference": "Western",
     "champion": false,
@@ -786,9 +673,7 @@
     "dpoy_count": 0,
     "draft_class": 2005,
     "draft_pick": 4,
-    "position": [
-      "PG"
-    ],
+    "position": ["PG"],
     "college": "Wake Forest",
     "all_star_appearances": 12,
     "scoring_title": false,
@@ -804,8 +689,7 @@
       "Charlotte Hornets",
       "Washington Wizards",
       "Philadelphia 76ers",
-      "Memphis Grizzlies",
-      "Milwaukee Bucks"
+      "Memphis Grizzlies"
     ],
     "conference": "Both",
     "champion": false,
@@ -816,9 +700,7 @@
     "dpoy_count": 3,
     "draft_class": 2004,
     "draft_pick": 1,
-    "position": [
-      "C"
-    ],
+    "position": ["C"],
     "college": null,
     "all_star_appearances": 8,
     "scoring_title": false,
@@ -844,10 +726,7 @@
     "dpoy_count": 0,
     "draft_class": 1997,
     "draft_pick": 9,
-    "position": [
-      "SG",
-      "SF"
-    ],
+    "position": ["SG", "SF"],
     "college": null,
     "all_star_appearances": 7,
     "scoring_title": true,
@@ -855,9 +734,7 @@
   },
   {
     "name": "Tony Parker",
-    "teams": [
-      "San Antonio Spurs"
-    ],
+    "teams": ["San Antonio Spurs"],
     "conference": "Western",
     "champion": true,
     "championships": 4,
@@ -867,9 +744,7 @@
     "dpoy_count": 0,
     "draft_class": 2001,
     "draft_pick": 28,
-    "position": [
-      "PG"
-    ],
+    "position": ["PG"],
     "college": null,
     "all_star_appearances": 6,
     "scoring_title": false,
@@ -877,9 +752,7 @@
   },
   {
     "name": "Manu Ginobili",
-    "teams": [
-      "San Antonio Spurs"
-    ],
+    "teams": ["San Antonio Spurs"],
     "conference": "Western",
     "champion": true,
     "championships": 4,
@@ -889,9 +762,7 @@
     "dpoy_count": 0,
     "draft_class": 1999,
     "draft_pick": 57,
-    "position": [
-      "SG"
-    ],
+    "position": ["SG"],
     "college": null,
     "all_star_appearances": 2,
     "scoring_title": false,
@@ -899,10 +770,7 @@
   },
   {
     "name": "Chris Bosh",
-    "teams": [
-      "Toronto Raptors",
-      "Miami Heat"
-    ],
+    "teams": ["Toronto Raptors", "Miami Heat"],
     "conference": "Both",
     "champion": true,
     "championships": 2,
@@ -912,10 +780,7 @@
     "dpoy_count": 0,
     "draft_class": 2003,
     "draft_pick": 4,
-    "position": [
-      "PF",
-      "C"
-    ],
+    "position": ["PF", "C"],
     "college": "Georgia Tech",
     "all_star_appearances": 11,
     "scoring_title": false,
@@ -938,10 +803,7 @@
     "dpoy_count": 0,
     "draft_class": 2002,
     "draft_pick": 9,
-    "position": [
-      "PF",
-      "C"
-    ],
+    "position": ["PF", "C"],
     "college": null,
     "all_star_appearances": 6,
     "scoring_title": false,
@@ -949,9 +811,7 @@
   },
   {
     "name": "Stephen Curry",
-    "teams": [
-      "Golden State Warriors"
-    ],
+    "teams": ["Golden State Warriors"],
     "conference": "Western",
     "champion": true,
     "championships": 4,
@@ -961,11 +821,9 @@
     "dpoy_count": 0,
     "draft_class": 2009,
     "draft_pick": 7,
-    "position": [
-      "PG"
-    ],
+    "position": ["PG"],
     "college": "Davidson",
-    "all_star_appearances": 8,
+    "all_star_appearances": 12,
     "scoring_title": true,
     "rookie_of_year": false
   },
@@ -976,7 +834,7 @@
       "Golden State Warriors",
       "Brooklyn Nets",
       "Phoenix Suns",
-      "Dallas Mavericks"
+      "Houston Rockets"
     ],
     "conference": "Both",
     "champion": true,
@@ -987,10 +845,7 @@
     "dpoy_count": 0,
     "draft_class": 2007,
     "draft_pick": 2,
-    "position": [
-      "SF",
-      "PF"
-    ],
+    "position": ["SF", "PF"],
     "college": "Texas",
     "all_star_appearances": 13,
     "scoring_title": true,
@@ -1001,7 +856,6 @@
     "teams": [
       "Oklahoma City Thunder",
       "Houston Rockets",
-      "Oklahoma City Thunder",
       "Washington Wizards",
       "Los Angeles Lakers",
       "Los Angeles Clippers"
@@ -1015,9 +869,7 @@
     "dpoy_count": 0,
     "draft_class": 2008,
     "draft_pick": 4,
-    "position": [
-      "PG"
-    ],
+    "position": ["PG"],
     "college": "UCLA",
     "all_star_appearances": 9,
     "scoring_title": false,
@@ -1041,9 +893,7 @@
     "dpoy_count": 0,
     "draft_class": 2009,
     "draft_pick": 3,
-    "position": [
-      "SG"
-    ],
+    "position": ["SG"],
     "college": "Arizona State",
     "all_star_appearances": 10,
     "scoring_title": true,
@@ -1051,11 +901,7 @@
   },
   {
     "name": "Kawhi Leonard",
-    "teams": [
-      "San Antonio Spurs",
-      "Toronto Raptors",
-      "Los Angeles Clippers"
-    ],
+    "teams": ["San Antonio Spurs", "Toronto Raptors", "Los Angeles Clippers"],
     "conference": "Both",
     "champion": true,
     "championships": 2,
@@ -1065,19 +911,15 @@
     "dpoy_count": 2,
     "draft_class": 2011,
     "draft_pick": 15,
-    "position": [
-      "SF"
-    ],
+    "position": ["SF"],
     "college": "San Diego State",
-    "all_star_appearances": 5,
+    "all_star_appearances": 7,
     "scoring_title": false,
     "rookie_of_year": false
   },
   {
     "name": "Draymond Green",
-    "teams": [
-      "Golden State Warriors"
-    ],
+    "teams": ["Golden State Warriors"],
     "conference": "Western",
     "champion": true,
     "championships": 4,
@@ -1087,9 +929,7 @@
     "dpoy_count": 1,
     "draft_class": 2012,
     "draft_pick": 35,
-    "position": [
-      "PF"
-    ],
+    "position": ["PF"],
     "college": "Michigan State",
     "all_star_appearances": 4,
     "scoring_title": false,
@@ -1097,9 +937,7 @@
   },
   {
     "name": "Klay Thompson",
-    "teams": [
-      "Golden State Warriors"
-    ],
+    "teams": ["Golden State Warriors"],
     "conference": "Western",
     "champion": true,
     "championships": 4,
@@ -1109,9 +947,7 @@
     "dpoy_count": 0,
     "draft_class": 2011,
     "draft_pick": 11,
-    "position": [
-      "SG"
-    ],
+    "position": ["SG"],
     "college": "Washington State",
     "all_star_appearances": 5,
     "scoring_title": false,
@@ -1119,10 +955,7 @@
   },
   {
     "name": "Anthony Davis",
-    "teams": [
-      "New Orleans Pelicans",
-      "Los Angeles Lakers"
-    ],
+    "teams": ["New Orleans Pelicans", "Los Angeles Lakers"],
     "conference": "Both",
     "champion": true,
     "championships": 1,
@@ -1132,10 +965,7 @@
     "dpoy_count": 0,
     "draft_class": 2012,
     "draft_pick": 1,
-    "position": [
-      "PF",
-      "C"
-    ],
+    "position": ["PF", "C"],
     "college": "Kentucky",
     "all_star_appearances": 8,
     "scoring_title": false,
@@ -1158,9 +988,7 @@
     "dpoy_count": 0,
     "draft_class": 2011,
     "draft_pick": 1,
-    "position": [
-      "PG"
-    ],
+    "position": ["PG"],
     "college": "Duke",
     "all_star_appearances": 7,
     "scoring_title": false,
@@ -1183,9 +1011,7 @@
     "dpoy_count": 0,
     "draft_class": 2009,
     "draft_pick": 1,
-    "position": [
-      "PF"
-    ],
+    "position": ["PF"],
     "college": "Oklahoma",
     "all_star_appearances": 6,
     "scoring_title": false,
@@ -1207,10 +1033,7 @@
     "dpoy_count": 0,
     "draft_class": 2010,
     "draft_pick": 10,
-    "position": [
-      "SF",
-      "SG"
-    ],
+    "position": ["SF", "SG"],
     "college": "Fresno State",
     "all_star_appearances": 9,
     "scoring_title": false,
@@ -1218,11 +1041,7 @@
   },
   {
     "name": "Damian Lillard",
-    "teams": [
-      "Portland Trail Blazers",
-      "Milwaukee Bucks",
-      "Golden State Warriors"
-    ],
+    "teams": ["Portland Trail Blazers", "Milwaukee Bucks"],
     "conference": "Both",
     "champion": false,
     "championships": 0,
@@ -1232,9 +1051,7 @@
     "dpoy_count": 0,
     "draft_class": 2012,
     "draft_pick": 6,
-    "position": [
-      "PG"
-    ],
+    "position": ["PG"],
     "college": "Weber State",
     "all_star_appearances": 7,
     "scoring_title": false,
@@ -1258,10 +1075,7 @@
     "dpoy_count": 0,
     "draft_class": 2011,
     "draft_pick": 30,
-    "position": [
-      "SF",
-      "SG"
-    ],
+    "position": ["SF", "SG"],
     "college": "Marquette",
     "all_star_appearances": 6,
     "scoring_title": false,
@@ -1269,9 +1083,7 @@
   },
   {
     "name": "Joel Embiid",
-    "teams": [
-      "Philadelphia 76ers"
-    ],
+    "teams": ["Philadelphia 76ers"],
     "conference": "Eastern",
     "champion": false,
     "championships": 0,
@@ -1281,9 +1093,7 @@
     "dpoy_count": 0,
     "draft_class": 2014,
     "draft_pick": 3,
-    "position": [
-      "C"
-    ],
+    "position": ["C"],
     "college": "Kansas",
     "all_star_appearances": 6,
     "scoring_title": true,
@@ -1291,9 +1101,7 @@
   },
   {
     "name": "Nikola Jokic",
-    "teams": [
-      "Denver Nuggets"
-    ],
+    "teams": ["Denver Nuggets"],
     "conference": "Western",
     "champion": true,
     "championships": 1,
@@ -1303,19 +1111,15 @@
     "dpoy_count": 0,
     "draft_class": 2014,
     "draft_pick": 41,
-    "position": [
-      "C"
-    ],
+    "position": ["C"],
     "college": null,
-    "all_star_appearances": 7,
+    "all_star_appearances": 8,
     "scoring_title": false,
     "rookie_of_year": false
   },
   {
     "name": "Giannis Antetokounmpo",
-    "teams": [
-      "Milwaukee Bucks"
-    ],
+    "teams": ["Milwaukee Bucks"],
     "conference": "Eastern",
     "champion": true,
     "championships": 1,
@@ -1325,10 +1129,7 @@
     "dpoy_count": 2,
     "draft_class": 2013,
     "draft_pick": 15,
-    "position": [
-      "PF",
-      "SF"
-    ],
+    "position": ["PF", "SF"],
     "college": null,
     "all_star_appearances": 9,
     "scoring_title": false,
@@ -1336,9 +1137,7 @@
   },
   {
     "name": "Jayson Tatum",
-    "teams": [
-      "Boston Celtics"
-    ],
+    "teams": ["Boston Celtics"],
     "conference": "Eastern",
     "champion": true,
     "championships": 1,
@@ -1348,20 +1147,15 @@
     "dpoy_count": 0,
     "draft_class": 2017,
     "draft_pick": 3,
-    "position": [
-      "SF",
-      "PF"
-    ],
+    "position": ["SF", "PF"],
     "college": "Duke",
-    "all_star_appearances": 5,
+    "all_star_appearances": 6,
     "scoring_title": false,
     "rookie_of_year": false
   },
   {
     "name": "Luka Doncic",
-    "teams": [
-      "Dallas Mavericks"
-    ],
+    "teams": ["Dallas Mavericks"],
     "conference": "Western",
     "champion": false,
     "championships": 0,
@@ -1371,20 +1165,15 @@
     "dpoy_count": 0,
     "draft_class": 2018,
     "draft_pick": 3,
-    "position": [
-      "PG",
-      "SF"
-    ],
+    "position": ["PG", "SF"],
     "college": null,
     "all_star_appearances": 5,
-    "scoring_title": true,
+    "scoring_title": false,
     "rookie_of_year": true
   },
   {
     "name": "Zion Williamson",
-    "teams": [
-      "New Orleans Pelicans"
-    ],
+    "teams": ["New Orleans Pelicans"],
     "conference": "Western",
     "champion": false,
     "championships": 0,
@@ -1394,9 +1183,7 @@
     "dpoy_count": 0,
     "draft_class": 2019,
     "draft_pick": 1,
-    "position": [
-      "PF"
-    ],
+    "position": ["PF"],
     "college": "Duke",
     "all_star_appearances": 1,
     "scoring_title": false,
@@ -1404,9 +1191,7 @@
   },
   {
     "name": "De'Aaron Fox",
-    "teams": [
-      "Sacramento Kings"
-    ],
+    "teams": ["Sacramento Kings"],
     "conference": "Western",
     "champion": false,
     "championships": 0,
@@ -1416,9 +1201,7 @@
     "dpoy_count": 0,
     "draft_class": 2017,
     "draft_pick": 5,
-    "position": [
-      "PG"
-    ],
+    "position": ["PG"],
     "college": "Kentucky",
     "all_star_appearances": 1,
     "scoring_title": false,
@@ -1426,10 +1209,7 @@
   },
   {
     "name": "Karl-Anthony Towns",
-    "teams": [
-      "Minnesota Timberwolves",
-      "New York Knicks"
-    ],
+    "teams": ["Minnesota Timberwolves", "New York Knicks"],
     "conference": "Both",
     "champion": false,
     "championships": 0,
@@ -1439,9 +1219,7 @@
     "dpoy_count": 0,
     "draft_class": 2015,
     "draft_pick": 1,
-    "position": [
-      "C"
-    ],
+    "position": ["C"],
     "college": "Kentucky",
     "all_star_appearances": 3,
     "scoring_title": false,
@@ -1449,10 +1227,7 @@
   },
   {
     "name": "Donovan Mitchell",
-    "teams": [
-      "Utah Jazz",
-      "Cleveland Cavaliers"
-    ],
+    "teams": ["Utah Jazz", "Cleveland Cavaliers"],
     "conference": "Both",
     "champion": false,
     "championships": 0,
@@ -1462,9 +1237,7 @@
     "dpoy_count": 0,
     "draft_class": 2017,
     "draft_pick": 13,
-    "position": [
-      "SG"
-    ],
+    "position": ["SG"],
     "college": "Louisville",
     "all_star_appearances": 4,
     "scoring_title": false,
@@ -1472,9 +1245,7 @@
   },
   {
     "name": "Devin Booker",
-    "teams": [
-      "Phoenix Suns"
-    ],
+    "teams": ["Phoenix Suns"],
     "conference": "Western",
     "champion": false,
     "championships": 0,
@@ -1484,9 +1255,7 @@
     "dpoy_count": 0,
     "draft_class": 2015,
     "draft_pick": 13,
-    "position": [
-      "SG"
-    ],
+    "position": ["SG"],
     "college": "Kentucky",
     "all_star_appearances": 3,
     "scoring_title": false,
@@ -1494,9 +1263,7 @@
   },
   {
     "name": "Trae Young",
-    "teams": [
-      "Atlanta Hawks"
-    ],
+    "teams": ["Atlanta Hawks"],
     "conference": "Eastern",
     "champion": false,
     "championships": 0,
@@ -1506,9 +1273,7 @@
     "dpoy_count": 0,
     "draft_class": 2018,
     "draft_pick": 5,
-    "position": [
-      "PG"
-    ],
+    "position": ["PG"],
     "college": "Oklahoma",
     "all_star_appearances": 3,
     "scoring_title": false,
@@ -1516,9 +1281,7 @@
   },
   {
     "name": "Ja Morant",
-    "teams": [
-      "Memphis Grizzlies"
-    ],
+    "teams": ["Memphis Grizzlies"],
     "conference": "Western",
     "champion": false,
     "championships": 0,
@@ -1528,9 +1291,7 @@
     "dpoy_count": 0,
     "draft_class": 2019,
     "draft_pick": 2,
-    "position": [
-      "PG"
-    ],
+    "position": ["PG"],
     "college": "Murray State",
     "all_star_appearances": 2,
     "scoring_title": false,
@@ -1538,9 +1299,7 @@
   },
   {
     "name": "Bam Adebayo",
-    "teams": [
-      "Miami Heat"
-    ],
+    "teams": ["Miami Heat"],
     "conference": "Eastern",
     "champion": false,
     "championships": 0,
@@ -1550,10 +1309,7 @@
     "dpoy_count": 0,
     "draft_class": 2017,
     "draft_pick": 14,
-    "position": [
-      "C",
-      "PF"
-    ],
+    "position": ["C", "PF"],
     "college": "Kentucky",
     "all_star_appearances": 3,
     "scoring_title": false,
@@ -1561,9 +1317,7 @@
   },
   {
     "name": "Jaylen Brown",
-    "teams": [
-      "Boston Celtics"
-    ],
+    "teams": ["Boston Celtics"],
     "conference": "Eastern",
     "champion": true,
     "championships": 1,
@@ -1573,21 +1327,15 @@
     "dpoy_count": 0,
     "draft_class": 2016,
     "draft_pick": 3,
-    "position": [
-      "SG",
-      "SF"
-    ],
+    "position": ["SG", "SF"],
     "college": "California",
-    "all_star_appearances": 2,
+    "all_star_appearances": 3,
     "scoring_title": false,
     "rookie_of_year": false
   },
   {
     "name": "Shai Gilgeous-Alexander",
-    "teams": [
-      "Los Angeles Clippers",
-      "Oklahoma City Thunder"
-    ],
+    "teams": ["Los Angeles Clippers", "Oklahoma City Thunder"],
     "conference": "Both",
     "champion": false,
     "championships": 0,
@@ -1597,10 +1345,7 @@
     "dpoy_count": 0,
     "draft_class": 2018,
     "draft_pick": 11,
-    "position": [
-      "PG",
-      "SG"
-    ],
+    "position": ["PG", "SG"],
     "college": "Kentucky",
     "all_star_appearances": 3,
     "scoring_title": true,
@@ -1608,10 +1353,7 @@
   },
   {
     "name": "Pascal Siakam",
-    "teams": [
-      "Toronto Raptors",
-      "Indiana Pacers"
-    ],
+    "teams": ["Toronto Raptors", "Indiana Pacers"],
     "conference": "Eastern",
     "champion": true,
     "championships": 1,
@@ -1621,9 +1363,7 @@
     "dpoy_count": 0,
     "draft_class": 2016,
     "draft_pick": 27,
-    "position": [
-      "PF"
-    ],
+    "position": ["PF"],
     "college": "New Mexico State",
     "all_star_appearances": 3,
     "scoring_title": false,
@@ -1631,10 +1371,7 @@
   },
   {
     "name": "Rudy Gobert",
-    "teams": [
-      "Utah Jazz",
-      "Minnesota Timberwolves"
-    ],
+    "teams": ["Utah Jazz", "Minnesota Timberwolves"],
     "conference": "Western",
     "champion": false,
     "championships": 0,
@@ -1644,9 +1381,7 @@
     "dpoy_count": 4,
     "draft_class": 2013,
     "draft_pick": 27,
-    "position": [
-      "C"
-    ],
+    "position": ["C"],
     "college": null,
     "all_star_appearances": 4,
     "scoring_title": false,
@@ -1654,10 +1389,7 @@
   },
   {
     "name": "Andrew Wiggins",
-    "teams": [
-      "Minnesota Timberwolves",
-      "Golden State Warriors"
-    ],
+    "teams": ["Minnesota Timberwolves", "Golden State Warriors"],
     "conference": "Both",
     "champion": true,
     "championships": 1,
@@ -1667,10 +1399,7 @@
     "dpoy_count": 0,
     "draft_class": 2014,
     "draft_pick": 1,
-    "position": [
-      "SG",
-      "SF"
-    ],
+    "position": ["SG", "SF"],
     "college": "Kansas",
     "all_star_appearances": 1,
     "scoring_title": false,
@@ -1695,9 +1424,7 @@
     "dpoy_count": 0,
     "draft_class": 2008,
     "draft_pick": 1,
-    "position": [
-      "PG"
-    ],
+    "position": ["PG"],
     "college": "Memphis",
     "all_star_appearances": 3,
     "scoring_title": false,
@@ -1721,9 +1448,7 @@
     "dpoy_count": 0,
     "draft_class": 1993,
     "draft_pick": 1,
-    "position": [
-      "PF"
-    ],
+    "position": ["PF"],
     "college": "Michigan",
     "all_star_appearances": 5,
     "scoring_title": false,
@@ -1748,10 +1473,7 @@
     "dpoy_count": 0,
     "draft_class": 2001,
     "draft_pick": 3,
-    "position": [
-      "PF",
-      "C"
-    ],
+    "position": ["PF", "C"],
     "college": null,
     "all_star_appearances": 6,
     "scoring_title": false,
@@ -1759,11 +1481,7 @@
   },
   {
     "name": "Kevin Love",
-    "teams": [
-      "Minnesota Timberwolves",
-      "Cleveland Cavaliers",
-      "Miami Heat"
-    ],
+    "teams": ["Minnesota Timberwolves", "Cleveland Cavaliers", "Miami Heat"],
     "conference": "Both",
     "champion": true,
     "championships": 1,
@@ -1773,10 +1491,7 @@
     "dpoy_count": 0,
     "draft_class": 2008,
     "draft_pick": 5,
-    "position": [
-      "PF",
-      "C"
-    ],
+    "position": ["PF", "C"],
     "college": "UCLA",
     "all_star_appearances": 5,
     "scoring_title": false,
@@ -1803,9 +1518,7 @@
     "dpoy_count": 0,
     "draft_class": 2006,
     "draft_pick": 21,
-    "position": [
-      "PG"
-    ],
+    "position": ["PG"],
     "college": "Kentucky",
     "all_star_appearances": 4,
     "scoring_title": false,
@@ -1828,10 +1541,7 @@
     "dpoy_count": 0,
     "draft_class": 2006,
     "draft_pick": 2,
-    "position": [
-      "PF",
-      "C"
-    ],
+    "position": ["PF", "C"],
     "college": "Texas",
     "all_star_appearances": 7,
     "scoring_title": false,
@@ -1839,12 +1549,7 @@
   },
   {
     "name": "Marc Gasol",
-    "teams": [
-      "Memphis Grizzlies",
-      "Toronto Raptors",
-      "Los Angeles Lakers",
-      "Boston Celtics"
-    ],
+    "teams": ["Memphis Grizzlies", "Toronto Raptors", "Los Angeles Lakers"],
     "conference": "Both",
     "champion": true,
     "championships": 1,
@@ -1854,9 +1559,7 @@
     "dpoy_count": 1,
     "draft_class": 2007,
     "draft_pick": 48,
-    "position": [
-      "C"
-    ],
+    "position": ["C"],
     "college": null,
     "all_star_appearances": 3,
     "scoring_title": false,
@@ -1864,10 +1567,7 @@
   },
   {
     "name": "Bradley Beal",
-    "teams": [
-      "Washington Wizards",
-      "Phoenix Suns"
-    ],
+    "teams": ["Washington Wizards", "Phoenix Suns"],
     "conference": "Both",
     "champion": false,
     "championships": 0,
@@ -1877,9 +1577,7 @@
     "dpoy_count": 0,
     "draft_class": 2012,
     "draft_pick": 3,
-    "position": [
-      "SG"
-    ],
+    "position": ["SG"],
     "college": "Florida",
     "all_star_appearances": 3,
     "scoring_title": false,
@@ -1887,11 +1585,7 @@
   },
   {
     "name": "John Wall",
-    "teams": [
-      "Washington Wizards",
-      "Houston Rockets",
-      "Los Angeles Clippers"
-    ],
+    "teams": ["Washington Wizards", "Houston Rockets", "Los Angeles Clippers"],
     "conference": "Both",
     "champion": false,
     "championships": 0,
@@ -1901,9 +1595,7 @@
     "dpoy_count": 0,
     "draft_class": 2010,
     "draft_pick": 1,
-    "position": [
-      "PG"
-    ],
+    "position": ["PG"],
     "college": "Kentucky",
     "all_star_appearances": 5,
     "scoring_title": false,
@@ -1927,9 +1619,7 @@
     "dpoy_count": 0,
     "draft_class": 2011,
     "draft_pick": 9,
-    "position": [
-      "PG"
-    ],
+    "position": ["PG"],
     "college": "Connecticut",
     "all_star_appearances": 4,
     "scoring_title": false,
@@ -1952,9 +1642,7 @@
     "dpoy_count": 0,
     "draft_class": 2005,
     "draft_pick": 3,
-    "position": [
-      "PG"
-    ],
+    "position": ["PG"],
     "college": "Illinois",
     "all_star_appearances": 3,
     "scoring_title": false,
@@ -1962,10 +1650,7 @@
   },
   {
     "name": "Zach LaVine",
-    "teams": [
-      "Minnesota Timberwolves",
-      "Chicago Bulls"
-    ],
+    "teams": ["Minnesota Timberwolves", "Chicago Bulls"],
     "conference": "Both",
     "champion": false,
     "championships": 0,
@@ -1975,10 +1660,7 @@
     "dpoy_count": 0,
     "draft_class": 2014,
     "draft_pick": 13,
-    "position": [
-      "SG",
-      "PG"
-    ],
+    "position": ["SG", "PG"],
     "college": "UCLA",
     "all_star_appearances": 2,
     "scoring_title": false,
@@ -1986,9 +1668,7 @@
   },
   {
     "name": "Anthony Edwards",
-    "teams": [
-      "Minnesota Timberwolves"
-    ],
+    "teams": ["Minnesota Timberwolves"],
     "conference": "Western",
     "champion": false,
     "championships": 0,
@@ -1998,9 +1678,7 @@
     "dpoy_count": 0,
     "draft_class": 2020,
     "draft_pick": 1,
-    "position": [
-      "SG"
-    ],
+    "position": ["SG"],
     "college": "Georgia",
     "all_star_appearances": 2,
     "scoring_title": false,
@@ -2008,10 +1686,7 @@
   },
   {
     "name": "LaMelo Ball",
-    "teams": [
-      "Charlotte Hornets",
-      "Washington Wizards"
-    ],
+    "teams": ["Charlotte Hornets"],
     "conference": "Eastern",
     "champion": false,
     "championships": 0,
@@ -2021,9 +1696,7 @@
     "dpoy_count": 0,
     "draft_class": 2020,
     "draft_pick": 3,
-    "position": [
-      "PG"
-    ],
+    "position": ["PG"],
     "college": null,
     "all_star_appearances": 2,
     "scoring_title": false,
@@ -2031,10 +1704,7 @@
   },
   {
     "name": "Tyrese Haliburton",
-    "teams": [
-      "Sacramento Kings",
-      "Indiana Pacers"
-    ],
+    "teams": ["Sacramento Kings", "Indiana Pacers"],
     "conference": "Both",
     "champion": false,
     "championships": 0,
@@ -2044,9 +1714,7 @@
     "dpoy_count": 0,
     "draft_class": 2020,
     "draft_pick": 12,
-    "position": [
-      "PG"
-    ],
+    "position": ["PG"],
     "college": "Iowa State",
     "all_star_appearances": 2,
     "scoring_title": false,
@@ -2054,10 +1722,7 @@
   },
   {
     "name": "Jalen Brunson",
-    "teams": [
-      "Dallas Mavericks",
-      "New York Knicks"
-    ],
+    "teams": ["Dallas Mavericks", "New York Knicks"],
     "conference": "Both",
     "champion": false,
     "championships": 0,
@@ -2067,9 +1732,7 @@
     "dpoy_count": 0,
     "draft_class": 2018,
     "draft_pick": 33,
-    "position": [
-      "PG"
-    ],
+    "position": ["PG"],
     "college": "Villanova",
     "all_star_appearances": 2,
     "scoring_title": false,
@@ -2077,9 +1740,7 @@
   },
   {
     "name": "Jaren Jackson Jr.",
-    "teams": [
-      "Memphis Grizzlies"
-    ],
+    "teams": ["Memphis Grizzlies"],
     "conference": "Western",
     "champion": false,
     "championships": 0,
@@ -2089,10 +1750,7 @@
     "dpoy_count": 1,
     "draft_class": 2018,
     "draft_pick": 4,
-    "position": [
-      "PF",
-      "C"
-    ],
+    "position": ["PF", "C"],
     "college": "Michigan State",
     "all_star_appearances": 1,
     "scoring_title": false,
@@ -2100,10 +1758,7 @@
   },
   {
     "name": "Khris Middleton",
-    "teams": [
-      "Detroit Pistons",
-      "Milwaukee Bucks"
-    ],
+    "teams": ["Detroit Pistons", "Milwaukee Bucks"],
     "conference": "Both",
     "champion": true,
     "championships": 1,
@@ -2113,9 +1768,7 @@
     "dpoy_count": 0,
     "draft_class": 2012,
     "draft_pick": 39,
-    "position": [
-      "SF"
-    ],
+    "position": ["SF"],
     "college": "Texas A&M",
     "all_star_appearances": 3,
     "scoring_title": false,
@@ -2123,9 +1776,7 @@
   },
   {
     "name": "Jamal Murray",
-    "teams": [
-      "Denver Nuggets"
-    ],
+    "teams": ["Denver Nuggets"],
     "conference": "Western",
     "champion": true,
     "championships": 1,
@@ -2135,9 +1786,7 @@
     "dpoy_count": 0,
     "draft_class": 2016,
     "draft_pick": 7,
-    "position": [
-      "PG"
-    ],
+    "position": ["PG"],
     "college": "Kentucky",
     "all_star_appearances": 0,
     "scoring_title": false,
@@ -2145,9 +1794,7 @@
   },
   {
     "name": "Tyrese Maxey",
-    "teams": [
-      "Philadelphia 76ers"
-    ],
+    "teams": ["Philadelphia 76ers"],
     "conference": "Eastern",
     "champion": false,
     "championships": 0,
@@ -2157,10 +1804,7 @@
     "dpoy_count": 0,
     "draft_class": 2020,
     "draft_pick": 21,
-    "position": [
-      "PG",
-      "SG"
-    ],
+    "position": ["PG", "SG"],
     "college": "Kentucky",
     "all_star_appearances": 1,
     "scoring_title": false,
@@ -2168,9 +1812,7 @@
   },
   {
     "name": "Victor Wembanyama",
-    "teams": [
-      "San Antonio Spurs"
-    ],
+    "teams": ["San Antonio Spurs"],
     "conference": "Western",
     "champion": false,
     "championships": 0,
@@ -2180,10 +1822,7 @@
     "dpoy_count": 0,
     "draft_class": 2023,
     "draft_pick": 1,
-    "position": [
-      "C",
-      "PF"
-    ],
+    "position": ["C", "PF"],
     "college": null,
     "all_star_appearances": 1,
     "scoring_title": false,
@@ -2191,9 +1830,7 @@
   },
   {
     "name": "Paolo Banchero",
-    "teams": [
-      "Orlando Magic"
-    ],
+    "teams": ["Orlando Magic"],
     "conference": "Eastern",
     "champion": false,
     "championships": 0,
@@ -2203,9 +1840,7 @@
     "dpoy_count": 0,
     "draft_class": 2022,
     "draft_pick": 1,
-    "position": [
-      "PF"
-    ],
+    "position": ["PF"],
     "college": "Duke",
     "all_star_appearances": 1,
     "scoring_title": false,
@@ -2213,9 +1848,7 @@
   },
   {
     "name": "Magic Johnson",
-    "teams": [
-      "Los Angeles Lakers"
-    ],
+    "teams": ["Los Angeles Lakers"],
     "conference": "Western",
     "champion": true,
     "championships": 5,
@@ -2225,9 +1858,7 @@
     "dpoy_count": 0,
     "draft_class": 1979,
     "draft_pick": 1,
-    "position": [
-      "PG"
-    ],
+    "position": ["PG"],
     "college": "Michigan State",
     "all_star_appearances": 12,
     "scoring_title": false,
@@ -2235,9 +1866,7 @@
   },
   {
     "name": "Larry Bird",
-    "teams": [
-      "Boston Celtics"
-    ],
+    "teams": ["Boston Celtics"],
     "conference": "Eastern",
     "champion": true,
     "championships": 3,
@@ -2247,9 +1876,7 @@
     "dpoy_count": 0,
     "draft_class": 1978,
     "draft_pick": 6,
-    "position": [
-      "SF"
-    ],
+    "position": ["SF"],
     "college": "Indiana State",
     "all_star_appearances": 12,
     "scoring_title": false,
@@ -2257,10 +1884,7 @@
   },
   {
     "name": "Kareem Abdul-Jabbar",
-    "teams": [
-      "Milwaukee Bucks",
-      "Los Angeles Lakers"
-    ],
+    "teams": ["Milwaukee Bucks", "Los Angeles Lakers"],
     "conference": "Both",
     "champion": true,
     "championships": 6,
@@ -2270,9 +1894,7 @@
     "dpoy_count": 0,
     "draft_class": 1969,
     "draft_pick": 1,
-    "position": [
-      "C"
-    ],
+    "position": ["C"],
     "college": "UCLA",
     "all_star_appearances": 19,
     "scoring_title": true,
@@ -2280,9 +1902,7 @@
   },
   {
     "name": "Isiah Thomas",
-    "teams": [
-      "Detroit Pistons"
-    ],
+    "teams": ["Detroit Pistons"],
     "conference": "Eastern",
     "champion": true,
     "championships": 2,
@@ -2292,9 +1912,7 @@
     "dpoy_count": 0,
     "draft_class": 1981,
     "draft_pick": 2,
-    "position": [
-      "PG"
-    ],
+    "position": ["PG"],
     "college": "Indiana",
     "all_star_appearances": 12,
     "scoring_title": false,
@@ -2302,11 +1920,7 @@
   },
   {
     "name": "Domantas Sabonis",
-    "teams": [
-      "Oklahoma City Thunder",
-      "Indiana Pacers",
-      "Sacramento Kings"
-    ],
+    "teams": ["Oklahoma City Thunder", "Indiana Pacers", "Sacramento Kings"],
     "conference": "Both",
     "champion": false,
     "championships": 0,
@@ -2316,10 +1930,7 @@
     "dpoy_count": 0,
     "draft_class": 2016,
     "draft_pick": 11,
-    "position": [
-      "PF",
-      "C"
-    ],
+    "position": ["PF", "C"],
     "college": "Gonzaga",
     "all_star_appearances": 3,
     "scoring_title": false,
@@ -2342,10 +1953,7 @@
     "dpoy_count": 0,
     "draft_class": 2015,
     "draft_pick": 4,
-    "position": [
-      "C",
-      "PF"
-    ],
+    "position": ["C", "PF"],
     "college": null,
     "all_star_appearances": 1,
     "scoring_title": false,
@@ -2368,9 +1976,7 @@
     "dpoy_count": 0,
     "draft_class": 1988,
     "draft_pick": 5,
-    "position": [
-      "SG"
-    ],
+    "position": ["SG"],
     "college": "Kansas State",
     "all_star_appearances": 6,
     "scoring_title": false,
@@ -2378,9 +1984,7 @@
   },
   {
     "name": "Chet Holmgren",
-    "teams": [
-      "Oklahoma City Thunder"
-    ],
+    "teams": ["Oklahoma City Thunder"],
     "conference": "Western",
     "champion": false,
     "championships": 0,
@@ -2390,10 +1994,7 @@
     "dpoy_count": 0,
     "draft_class": 2022,
     "draft_pick": 2,
-    "position": [
-      "C",
-      "PF"
-    ],
+    "position": ["C", "PF"],
     "college": "Gonzaga",
     "all_star_appearances": 0,
     "scoring_title": false,
@@ -2401,10 +2002,7 @@
   },
   {
     "name": "Kevin Johnson",
-    "teams": [
-      "Cleveland Cavaliers",
-      "Phoenix Suns"
-    ],
+    "teams": ["Cleveland Cavaliers", "Phoenix Suns"],
     "conference": "Both",
     "champion": false,
     "championships": 0,
@@ -2414,9 +2012,7 @@
     "dpoy_count": 0,
     "draft_class": 1987,
     "draft_pick": 7,
-    "position": [
-      "PG"
-    ],
+    "position": ["PG"],
     "college": "California",
     "all_star_appearances": 3,
     "scoring_title": false,
