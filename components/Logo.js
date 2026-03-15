@@ -46,6 +46,8 @@ export default function Logo({ size = 80 }) {
           <Path
             d="M12 37 C12 29 23 26 31 32 C33 34 35 34 37 32 C45 26 60 29 62 37 C58 45 46 42 38 37 C36 35 34 35 32 37 C24 42 16 45 12 37 Z"
             fill="#111"
+            stroke="#fff"
+            strokeWidth="2"
           />
         </Svg>
       </View>
