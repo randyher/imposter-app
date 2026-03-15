@@ -38,7 +38,7 @@ export default function LobbyScreen({ category, onStart, onBack, showPrompt, onT
       <Logo size={64} />
 
       <Text style={styles.tagline}>
-        3 belong. 1 doesn't.{'\n'}No hints. Figure it out.
+        3 belong. 1 doesn't.{'\n'}Figure it out.
       </Text>
 
       <View style={styles.rulesRow}>
