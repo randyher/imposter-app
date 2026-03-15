@@ -44,7 +44,7 @@ export default function Logo({ size = 80 }) {
           <Rect x="31" y="8" width="14" height="6" rx="3" fill="#fff" />
           {/* Mustache */}
           <Path
-            d="M12 38 C12 28 20 22 30 26 C34 28 36 28 38 26 C46 22 58 28 60 38 C56 44 44 44 36 40 C32 36 30 36 26 40 C18 44 12 44 12 38 Z"
+            d="M15 38 C15 28 23 22 33 26 C37 28 39 28 41 26 C49 22 61 28 63 38 C59 44 47 44 39 40 C35 36 33 36 29 40 C21 44 15 44 15 38 Z"
             fill="#111"
             stroke="#fff"
             strokeWidth="2"
