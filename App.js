@@ -16,7 +16,7 @@ export default function App() {
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [questions, setQuestions] = useState([]);
   const [result, setResult] = useState(null);
-  const [showPrompt, setShowPrompt] = useState(false);
+  const [showPrompt, setShowPrompt] = useState(true);
 
   // Handle deep link → jump straight to lobby
   function handleDeepLink(url) {
