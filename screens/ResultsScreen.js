@@ -92,22 +92,9 @@ export default function ResultsScreen({ score, hist, category, showPrompt, onPla
         <Text style={styles.shareBtnText}>Share Result</Text>
       </TouchableOpacity>
 
-      <View style={styles.btnRow}>
-        <TouchableOpacity
-          style={[styles.btnMain, { flex: 1 }]}
-          onPress={onPlayAgain}
-          activeOpacity={0.85}
-        >
-          <Text style={styles.btnMainText}>PLAY AGAIN</Text>
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={styles.btnGhost}
-          onPress={onCategories}
-          activeOpacity={0.7}
-        >
-          <Text style={styles.btnGhostText}>Categories</Text>
-        </TouchableOpacity>
-      </View>
+      <TouchableOpacity style={styles.btnMain} onPress={onCategories} activeOpacity={0.85}>
+        <Text style={styles.btnMainText}>CATEGORIES</Text>
+      </TouchableOpacity>
     </ScrollView>
   );
 }
