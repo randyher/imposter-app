@@ -3,7 +3,7 @@ import { SafeAreaView, StyleSheet, View, ActivityIndicator } from 'react-native'
 import { StatusBar } from 'expo-status-bar';
 import * as Linking from 'expo-linking';
 
-import { DAILY_QUESTION_COUNT } from './config/features';
+import { DAILY_QUESTION_COUNT, DEV_MODE } from './config/features';
 import { fetchDailyChallenge } from './lib/fetchDailyChallenge';
 import { getDailyResult, saveDailyResult, updateStreak } from './lib/dailyStorage';
 import { parseCategoryFromURL } from './utils/deepLink';
@@ -41,12 +41,14 @@ export default function App() {
   async function handleStartGame() {
     setScreen('loading');
 
-    // Check if already played today
-    const existing = await getDailyResult(selectedCategory);
-    if (existing) {
-      setDailyResult(existing);
-      setScreen('alreadyplayed');
-      return;
+    // Check if already played today (skipped in DEV_MODE)
+    if (!DEV_MODE) {
+      const existing = await getDailyResult(selectedCategory);
+      if (existing) {
+        setDailyResult(existing);
+        setScreen('alreadyplayed');
+        return;
+      }
     }
 
     // Fetch daily questions from Supabase
