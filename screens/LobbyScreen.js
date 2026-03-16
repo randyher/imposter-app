@@ -1,5 +1,6 @@
 import { View, Text, TouchableOpacity, StyleSheet, ScrollView, Switch, Platform } from 'react-native';
 import Logo from '../components/Logo';
+import { SHOW_PROMPT_TOGGLE } from '../config/features';
 
 const BADGE_COLORS = {
   nba:     { bg: '#fef3c7', text: '#92400e' },
@@ -50,15 +51,17 @@ export default function LobbyScreen({ category, onStart, onBack, showPrompt, onT
         <Text style={styles.rule}><Text style={styles.bold}>−0.5</Text> skip</Text>
       </View>
 
-      <View style={styles.toggleRow}>
-        <Text style={styles.toggleLabel}>Show Prompt?</Text>
-        <Switch
-          value={showPrompt}
-          onValueChange={onTogglePrompt}
-          trackColor={{ false: '#e5e5e5', true: '#111' }}
-          thumbColor="#fff"
-        />
-      </View>
+      {SHOW_PROMPT_TOGGLE && (
+        <View style={styles.toggleRow}>
+          <Text style={styles.toggleLabel}>Show Prompt?</Text>
+          <Switch
+            value={showPrompt}
+            onValueChange={onTogglePrompt}
+            trackColor={{ false: '#e5e5e5', true: '#111' }}
+            thumbColor="#fff"
+          />
+        </View>
+      )}
 
       <TouchableOpacity style={styles.btnMain} onPress={onStart} activeOpacity={0.85}>
         <Text style={styles.btnMainText}>START GAME</Text>
