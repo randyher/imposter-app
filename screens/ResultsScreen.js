@@ -95,6 +95,7 @@ export default function ResultsScreen({ score, hist, category, showPrompt, onPla
       <TouchableOpacity style={styles.btnMain} onPress={onCategories} activeOpacity={0.85}>
         <Text style={styles.btnMainText}>CATEGORIES</Text>
       </TouchableOpacity>
+
     </ScrollView>
   );
 }
