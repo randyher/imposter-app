@@ -3,7 +3,6 @@ import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 export default function NoQuestionsScreen({ onBack }) {
   return (
     <View style={styles.container}>
-      <Text style={styles.icon}>🕵️</Text>
       <Text style={styles.title}>Today's challenge{'\n'}is on its way.</Text>
       <Text style={styles.sub}>Check back soon!</Text>
       <TouchableOpacity style={styles.btn} onPress={onBack} activeOpacity={0.8}>
