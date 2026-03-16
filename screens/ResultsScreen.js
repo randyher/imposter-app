@@ -1,10 +1,9 @@
 import { View, Text, TouchableOpacity, StyleSheet, ScrollView, Share } from 'react-native';
+import { DAILY_QUESTION_COUNT } from '../config/features';
 
 function fmt(v) {
   return v % 1 === 0 ? String(v) : v.toFixed(1);
 }
-
-const GAMING_CATEGORIES = ['pokemon', 'smash'];
 
 const CATEGORY_LABELS = {
   nba:     'NBA',
@@ -16,28 +15,33 @@ const CATEGORY_LABELS = {
   hp:      'Harry Potter',
 };
 
-function getVerdict(score, category) {
-  const isGaming = GAMING_CATEGORIES.includes(category);
-  const lowVerdict = isGaming ? 'KEEP PLAYING' : 'KEEP WATCHING';
-  if (score >= 12) return 'ELITE';
-  if (score >= 8) return 'SOLID GAME';
-  if (score >= 4) return 'DECENT EFFORT';
-  return lowVerdict;
+function getBadge(score) {
+  if (score >= 15) return { emoji: '💎', label: 'Perfect' };
+  if (score >= 14) return { emoji: '🥇', label: 'Gold' };
+  if (score >= 11) return { emoji: '🥈', label: 'Silver' };
+  if (score >= 9)  return { emoji: '🥉', label: 'Bronze' };
+  return null;
+}
+
+function getHumanDate() {
+  return new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric' });
 }
 
 function buildShareText(score, hist, category, showPrompt) {
   const label = CATEGORY_LABELS[category] ?? category.toUpperCase();
-  const emojiRow = hist
-    .map((h) => (h.skip ? '⬜' : h.ok ? '🟩' : '🟥'))
-    .join('');
-  const hintsLine = showPrompt ? '' : '\n🔥 No Hints Mode';
+  const badge = getBadge(score);
+  const emojiRow = hist.map((h) => (h.skip ? '⬜' : h.ok ? '🟩' : '🟥')).join('');
+  const badgePart = badge ? `${badge.emoji} ${fmt(score)}/${DAILY_QUESTION_COUNT}` : `Score: ${fmt(score)}`;
+  const hintsPart = showPrompt ? '' : '  |  🔥 No Hints';
 
   return [
-    `🕵️ IMPOSTER`,
-    `${label} Edition`,
-    `Score: ${fmt(score)}${hintsLine}`,
+    `🕵️ Daily Imposter`,
+    `${label} Edition — ${getHumanDate()}`,
+    `${badgePart}${hintsPart}`,
     ``,
     emojiRow,
+    ``,
+    `oddoneout.app`,
   ].join('\n');
 }
 
@@ -47,7 +51,7 @@ export default function ResultsScreen({ score, hist, category, showPrompt, onPla
   const wrong = hist.filter((h) => !h.ok && !h.skip).length;
   const tried = hist.length - skipped;
   const acc = tried > 0 ? Math.round((correct / tried) * 100) : 0;
-  const verdict = getVerdict(score, category);
+  const badge = getBadge(score);
 
   const stats = [
     ['Questions answered', hist.length],
@@ -64,7 +68,9 @@ export default function ResultsScreen({ score, hist, category, showPrompt, onPla
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <View style={styles.scoreBlock}>
-        <Text style={styles.verdict}>{verdict}</Text>
+        {badge ? (
+          <Text style={styles.badgeEmoji}>{badge.emoji}</Text>
+        ) : null}
         <Text style={styles.bigScore}>{fmt(score)}</Text>
         <Text style={styles.endLbl}>POINTS</Text>
       </View>
@@ -113,13 +119,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     paddingVertical: 20,
   },
-  verdict: {
-    fontSize: 20,
-    fontWeight: '800',
-    letterSpacing: 1,
-    color: '#888',
-    marginBottom: 6,
-    textAlign: 'center',
+  badgeEmoji: {
+    fontSize: 48,
+    marginBottom: 4,
   },
   bigScore: {
     fontSize: 96,

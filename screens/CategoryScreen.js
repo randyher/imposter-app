@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import {
   View,
   Text,
@@ -9,61 +9,67 @@ import {
   Platform,
   UIManager,
 } from 'react-native';
+import { getStreak } from '../lib/dailyStorage';
 
 // Required for LayoutAnimation on Android
 if (Platform.OS === 'android' && UIManager.setLayoutAnimationEnabledExperimental) {
   UIManager.setLayoutAnimationEnabledExperimental(true);
 }
 
+const ALL_CATEGORY_IDS = ['nba', 'mlb', 'nfl', 'pokemon', 'smash', 'mcu', 'hp'];
+
 const SECTIONS = [
   {
     id: 'sports',
     title: '🏆  SPORTS',
     categories: [
-      { id: 'nba', name: 'NBA', genre: 'Basketball', locked: false, tag: 'Free' },
-      { id: 'mlb', name: 'MLB', genre: 'Baseball', locked: false, tag: 'Free' },
-      { id: 'nfl', name: 'NFL', genre: 'Football', locked: false, tag: 'Free' },
+      { id: 'nba', name: 'NBA', genre: 'Basketball' },
+      { id: 'mlb', name: 'MLB', genre: 'Baseball' },
+      { id: 'nfl', name: 'NFL', genre: 'Football' },
     ],
   },
   {
     id: 'gaming',
     title: '🎮  GAMING',
     categories: [
-      { id: 'pokemon', name: 'Pokémon', genre: 'Monster Collector', locked: false, tag: 'Free' },
-      { id: 'smash', name: 'Smash Bros', genre: 'Nintendo Platform Fighter', locked: false, tag: 'Free' },
+      { id: 'pokemon', name: 'Pokémon', genre: 'Monster Collector' },
+      { id: 'smash', name: 'Smash Bros', genre: 'Nintendo Platform Fighter' },
     ],
   },
   {
     id: 'entertainment',
     title: '🎬  ENTERTAINMENT',
     categories: [
-      { id: 'mcu', name: 'MCU', genre: 'Marvel Cinematic Universe', locked: false, tag: 'Free' },
-      { id: 'hp', name: 'Harry Potter', genre: 'Wizarding World', locked: false, tag: 'Free' },
+      { id: 'mcu', name: 'MCU', genre: 'Marvel Cinematic Universe' },
+      { id: 'hp', name: 'Harry Potter', genre: 'Wizarding World' },
     ],
   },
 ];
 
-function CategoryCard({ cat, onSelect }) {
+function StreakIndicator({ streak }) {
+  if (streak < 3) return null;
+  if (streak === 3) return <Text style={styles.streakText}>🔥</Text>;
+  if (streak === 4) return <Text style={styles.streakText}>🔥🔥</Text>;
+  return <Text style={styles.streakText}>{streak}🔥</Text>;
+}
+
+function CategoryCard({ cat, streak, onSelect }) {
   return (
     <TouchableOpacity
-      onPress={!cat.locked ? () => onSelect(cat.id) : undefined}
-      activeOpacity={cat.locked ? 1 : 0.75}
-      style={[styles.catCard, cat.locked && styles.catCardLocked]}
+      onPress={() => onSelect(cat.id)}
+      activeOpacity={0.75}
+      style={styles.catCard}
     >
       <View>
         <Text style={styles.catName}>{cat.name}</Text>
         {cat.genre ? <Text style={styles.catGenre}>{cat.genre}</Text> : null}
       </View>
-      <View style={[styles.tag, cat.locked ? styles.tagLocked : styles.tagFree]}>
-        <Text style={[styles.tagText, cat.locked ? styles.tagTextLocked : styles.tagTextFree]}>
-          {cat.tag}
-        </Text>
-      </View>
+      <StreakIndicator streak={streak} />
     </TouchableOpacity>
   );
 }
 
-function CollapsibleSection({ section, onSelect }) {
+function CollapsibleSection({ section, streaks, onSelect }) {
   const [isOpen, setIsOpen] = useState(true);
 
   function toggle() {
@@ -81,13 +87,33 @@ function CollapsibleSection({ section, onSelect }) {
       </TouchableOpacity>
       {isOpen &&
         section.categories.map((cat) => (
-          <CategoryCard key={cat.id} cat={cat} onSelect={onSelect} />
+          <CategoryCard
+            key={cat.id}
+            cat={cat}
+            streak={streaks[cat.id] ?? 0}
+            onSelect={onSelect}
+          />
         ))}
     </View>
   );
 }
 
 export default function CategoryScreen({ onSelect, onBack }) {
+  const [streaks, setStreaks] = useState({});
+
+  useEffect(() => {
+    async function loadStreaks() {
+      const entries = await Promise.all(
+        ALL_CATEGORY_IDS.map(async (id) => {
+          const s = await getStreak(id);
+          return [id, s.current];
+        })
+      );
+      setStreaks(Object.fromEntries(entries));
+    }
+    loadStreaks();
+  }, []);
+
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <TouchableOpacity onPress={onBack} style={styles.backBtn} activeOpacity={0.7}>
@@ -97,7 +123,12 @@ export default function CategoryScreen({ onSelect, onBack }) {
       <Text style={styles.pageTitle}>Choose a category</Text>
 
       {SECTIONS.map((section) => (
-        <CollapsibleSection key={section.id} section={section} onSelect={onSelect} />
+        <CollapsibleSection
+          key={section.id}
+          section={section}
+          streaks={streaks}
+          onSelect={onSelect}
+        />
       ))}
     </ScrollView>
   );
@@ -158,9 +189,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     marginBottom: 10,
   },
-  catCardLocked: {
-    opacity: 0.4,
-  },
   catName: {
     fontWeight: '800',
     fontSize: 32,
@@ -172,25 +200,7 @@ const styles = StyleSheet.create({
     color: '#888',
     marginTop: 3,
   },
-  tag: {
-    paddingVertical: 3,
-    paddingHorizontal: 10,
-    borderRadius: 6,
-  },
-  tagFree: {
-    backgroundColor: '#d1fae5',
-  },
-  tagLocked: {
-    backgroundColor: '#f3f4f6',
-  },
-  tagText: {
-    fontSize: 11,
-    fontWeight: '600',
-  },
-  tagTextFree: {
-    color: '#065f46',
-  },
-  tagTextLocked: {
-    color: '#9ca3af',
+  streakText: {
+    fontSize: 18,
   },
 });

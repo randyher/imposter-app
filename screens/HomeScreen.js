@@ -1,10 +1,13 @@
-import { View, Text, TouchableOpacity, StyleSheet, ScrollView } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet, ScrollView, Platform } from 'react-native';
 import Logo from '../components/Logo';
 
 export default function HomeScreen({ onPlay }) {
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      <Logo size={80} />
+      <View style={styles.logoWrap}>
+        <Text style={styles.dailyLabel}>DAILY</Text>
+        <Logo size={80} />
+      </View>
       <Text style={styles.tagline}>
         3 belong. 1 doesn't.{'\n'}Figure it out.
       </Text>
@@ -21,6 +24,17 @@ export default function HomeScreen({ onPlay }) {
 }
 
 const styles = StyleSheet.create({
+  logoWrap: {
+    alignItems: 'center',
+  },
+  dailyLabel: {
+    fontFamily: Platform.select({ ios: 'Impact', android: 'sans-serif-condensed', default: 'Impact' }),
+    fontSize: 32,
+    fontWeight: '900',
+    letterSpacing: 6,
+    color: '#111',
+    marginBottom: -4,
+  },
   container: {
     flexGrow: 1,
     alignItems: 'center',

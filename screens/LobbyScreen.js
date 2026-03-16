@@ -1,4 +1,4 @@
-import { View, Text, TouchableOpacity, StyleSheet, ScrollView, Switch } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet, ScrollView, Switch, Platform } from 'react-native';
 import Logo from '../components/Logo';
 
 const BADGE_COLORS = {
@@ -35,7 +35,10 @@ export default function LobbyScreen({ category, onStart, onBack, showPrompt, onT
         <Text style={[styles.badgeText, { color: badge.text }]}>{label} Edition</Text>
       </View>
 
-      <Logo size={64} />
+      <View style={styles.logoWrap}>
+        <Text style={styles.dailyLabel}>DAILY</Text>
+        <Logo size={64} />
+      </View>
 
       <Text style={styles.tagline}>
         3 belong. 1 doesn't.{'\n'}Figure it out.
@@ -134,5 +137,16 @@ const styles = StyleSheet.create({
     fontSize: 22,
     fontWeight: '700',
     letterSpacing: 1.5,
+  },
+  logoWrap: {
+    alignItems: 'center',
+  },
+  dailyLabel: {
+    fontFamily: Platform.select({ ios: 'Impact', android: 'sans-serif-condensed', default: 'Impact' }),
+    fontSize: 26,
+    fontWeight: '900',
+    letterSpacing: 6,
+    color: '#111',
+    marginBottom: -4,
   },
 });

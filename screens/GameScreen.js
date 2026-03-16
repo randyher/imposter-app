@@ -7,8 +7,9 @@ import {
   ScrollView,
   Dimensions,
 } from 'react-native';
+import { DAILY_DURATION_SECONDS } from '../config/features';
 
-const TOTAL_TIME = 180;
+const TOTAL_TIME = DAILY_DURATION_SECONDS;
 const { width: SCREEN_W } = Dimensions.get('window');
 // Card width: (screen - horizontal padding*2 - gap) / 2
 const CARD_W = (SCREEN_W - 32 - 10) / 2;
