@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet, Share } from 'react-native';
+import { DAILY_QUESTION_COUNT } from '../config/features';
 
 function fmt(v) {
   return v % 1 === 0 ? String(v) : v.toFixed(1);
@@ -16,7 +17,45 @@ function getTimeToMidnight() {
   return `${h}h ${String(m).padStart(2, '0')}m ${String(s).padStart(2, '0')}s`;
 }
 
-export default function AlreadyPlayedScreen({ dailyResult, onBack }) {
+const CATEGORY_LABELS = {
+  nba: 'NBA', mlb: 'MLB', nfl: 'NFL',
+  pokemon: 'Pokémon', smash: 'Smash Bros', mcu: 'MCU', hp: 'Harry Potter',
+};
+
+function getBadge(score) {
+  if (score >= 15) return { emoji: '💎', label: 'Perfect' };
+  if (score >= 14) return { emoji: '🥇', label: 'Gold' };
+  if (score >= 11) return { emoji: '🥈', label: 'Silver' };
+  if (score >= 9)  return { emoji: '🥉', label: 'Bronze' };
+  return null;
+}
+
+function getHumanDate() {
+  return new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric' });
+}
+
+function buildShareText(score, hist, category, showPrompt) {
+  const label = CATEGORY_LABELS[category] ?? category.toUpperCase();
+  const badge = getBadge(score);
+  const emojis = hist.map((h) => (h.skip ? '⬜' : h.ok ? '🟩' : '🟥'));
+  const emojiRows = [];
+  for (let i = 0; i < emojis.length; i += 5) {
+    emojiRows.push(emojis.slice(i, i + 5).join(''));
+  }
+  const badgePart = badge ? `${badge.emoji} ${fmt(score)}/${DAILY_QUESTION_COUNT}` : `Score: ${fmt(score)}`;
+  const hintsPart = showPrompt ? '' : '  |  🔥 No Hints';
+  return [
+    `Daily Imposter`,
+    `${label} Edition — ${getHumanDate()}`,
+    `${badgePart}${hintsPart}`,
+    ``,
+    ...emojiRows,
+    ``,
+    `oddoneout.app`,
+  ].join('\n');
+}
+
+export default function AlreadyPlayedScreen({ dailyResult, category, showPrompt, onBack }) {
   const [countdown, setCountdown] = useState(getTimeToMidnight());
 
   useEffect(() => {
@@ -27,6 +66,10 @@ export default function AlreadyPlayedScreen({ dailyResult, onBack }) {
   const { score, hist = [] } = dailyResult ?? {};
   const correct = hist.filter((h) => h.ok).length;
   const total = hist.length;
+
+  function handleShare() {
+    Share.share({ message: buildShareText(score, hist, category, showPrompt) });
+  }
 
   return (
     <View style={styles.container}>
@@ -39,6 +82,10 @@ export default function AlreadyPlayedScreen({ dailyResult, onBack }) {
         <Text style={styles.countdownLbl}>Next challenge in</Text>
         <Text style={styles.countdown}>{countdown}</Text>
       </View>
+
+      <TouchableOpacity style={styles.shareBtn} onPress={handleShare} activeOpacity={0.75}>
+        <Text style={styles.shareBtnText}>Share Result</Text>
+      </TouchableOpacity>
 
       <TouchableOpacity style={styles.btn} onPress={onBack} activeOpacity={0.8}>
         <Text style={styles.btnText}>← Categories</Text>
@@ -97,12 +144,28 @@ const styles = StyleSheet.create({
     color: '#111',
     letterSpacing: 1,
   },
-  btn: {
+  shareBtn: {
+    width: '100%',
     borderWidth: 1,
     borderColor: '#e5e5e5',
     paddingVertical: 12,
-    paddingHorizontal: 32,
     borderRadius: 8,
+    alignItems: 'center',
+    marginBottom: 10,
+  },
+  shareBtnText: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: '#444',
+    letterSpacing: 0.3,
+  },
+  btn: {
+    width: '100%',
+    borderWidth: 1,
+    borderColor: '#e5e5e5',
+    paddingVertical: 12,
+    borderRadius: 8,
+    alignItems: 'center',
   },
   btnText: {
     fontSize: 14,

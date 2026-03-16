@@ -123,6 +123,8 @@ export default function App() {
       {screen === 'alreadyplayed' && (
         <AlreadyPlayedScreen
           dailyResult={dailyResult}
+          category={selectedCategory}
+          showPrompt={showPrompt}
           onBack={() => setScreen('cats')}
         />
       )}
