@@ -11,11 +11,6 @@ export default function HomeScreen({ onPlay }) {
       <Text style={styles.tagline}>
         3 belong. 1 doesn't.{'\n'}Figure it out.
       </Text>
-      <View style={styles.rulesRow}>
-        <Text style={styles.rule}><Text style={styles.bold}>+1</Text> correct</Text>
-        <Text style={styles.rule}><Text style={styles.bold}>−1</Text> wrong</Text>
-        <Text style={styles.rule}><Text style={styles.bold}>−0.5</Text> skip</Text>
-      </View>
       <TouchableOpacity style={styles.btnMain} onPress={onPlay} activeOpacity={0.85}>
         <Text style={styles.btnMainText}>PLAY</Text>
       </TouchableOpacity>
