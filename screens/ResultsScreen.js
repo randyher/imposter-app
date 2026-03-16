@@ -30,16 +30,20 @@ function getHumanDate() {
 function buildShareText(score, hist, category, showPrompt) {
   const label = CATEGORY_LABELS[category] ?? category.toUpperCase();
   const badge = getBadge(score);
-  const emojiRow = hist.map((h) => (h.skip ? '⬜' : h.ok ? '🟩' : '🟥')).join('');
+  const emojis = hist.map((h) => (h.skip ? '⬜' : h.ok ? '🟩' : '🟥'));
+  const emojiRows = [];
+  for (let i = 0; i < emojis.length; i += 5) {
+    emojiRows.push(emojis.slice(i, i + 5).join(''));
+  }
   const badgePart = badge ? `${badge.emoji} ${fmt(score)}/${DAILY_QUESTION_COUNT}` : `Score: ${fmt(score)}`;
   const hintsPart = showPrompt ? '' : '  |  🔥 No Hints';
 
   return [
-    `🕵️ Daily Imposter`,
+    `Daily Imposter`,
     `${label} Edition — ${getHumanDate()}`,
     `${badgePart}${hintsPart}`,
     ``,
-    emojiRow,
+    ...emojiRows,
     ``,
     `oddoneout.app`,
   ].join('\n');
