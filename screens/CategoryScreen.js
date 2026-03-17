@@ -9,7 +9,15 @@ import {
   Platform,
   UIManager,
 } from 'react-native';
-import { getStreak } from '../lib/dailyStorage';
+import { getStreak, getDailyResult } from '../lib/dailyStorage';
+
+function getBadge(score) {
+  if (score >= 15) return '💎';
+  if (score >= 14) return '🥇';
+  if (score >= 11) return '🥈';
+  if (score >= 9)  return '🥉';
+  return null;
+}
 
 // Required for LayoutAnimation on Android
 if (Platform.OS === 'android' && UIManager.setLayoutAnimationEnabledExperimental) {
@@ -53,14 +61,19 @@ function StreakIndicator({ streak }) {
   return <Text style={styles.streakText}>{streak}🔥</Text>;
 }
 
-function CategoryCard({ cat, streak, onSelect }) {
+function CategoryCard({ cat, streak, badge, onSelect }) {
   return (
     <TouchableOpacity
       onPress={() => onSelect(cat.id)}
       activeOpacity={0.75}
       style={styles.catCard}
     >
-      <View>
+      {badge ? (
+        <Text style={styles.badgeEmoji}>{badge}</Text>
+      ) : (
+        <View style={styles.badgePlaceholder} />
+      )}
+      <View style={styles.catInfo}>
         <Text style={styles.catName}>{cat.name}</Text>
         {cat.genre ? <Text style={styles.catGenre}>{cat.genre}</Text> : null}
       </View>
@@ -69,7 +82,7 @@ function CategoryCard({ cat, streak, onSelect }) {
   );
 }
 
-function CollapsibleSection({ section, streaks, onSelect }) {
+function CollapsibleSection({ section, streaks, badges, onSelect }) {
   const [isOpen, setIsOpen] = useState(true);
 
   function toggle() {
@@ -91,6 +104,7 @@ function CollapsibleSection({ section, streaks, onSelect }) {
             key={cat.id}
             cat={cat}
             streak={streaks[cat.id] ?? 0}
+            badge={badges[cat.id] ?? null}
             onSelect={onSelect}
           />
         ))}
@@ -100,18 +114,24 @@ function CollapsibleSection({ section, streaks, onSelect }) {
 
 export default function CategoryScreen({ onSelect, onBack }) {
   const [streaks, setStreaks] = useState({});
+  const [badges, setBadges] = useState({});
 
   useEffect(() => {
-    async function loadStreaks() {
-      const entries = await Promise.all(
-        ALL_CATEGORY_IDS.map(async (id) => {
+    async function loadData() {
+      const [streakEntries, badgeEntries] = await Promise.all([
+        Promise.all(ALL_CATEGORY_IDS.map(async (id) => {
           const s = await getStreak(id);
           return [id, s.current];
-        })
-      );
-      setStreaks(Object.fromEntries(entries));
+        })),
+        Promise.all(ALL_CATEGORY_IDS.map(async (id) => {
+          const r = await getDailyResult(id);
+          return [id, r ? getBadge(r.score) : null];
+        })),
+      ]);
+      setStreaks(Object.fromEntries(streakEntries));
+      setBadges(Object.fromEntries(badgeEntries));
     }
-    loadStreaks();
+    loadData();
   }, []);
 
   return (
@@ -127,6 +147,7 @@ export default function CategoryScreen({ onSelect, onBack }) {
           key={section.id}
           section={section}
           streaks={streaks}
+          badges={badges}
           onSelect={onSelect}
         />
       ))}
@@ -188,6 +209,18 @@ const styles = StyleSheet.create({
     borderColor: '#e5e5e5',
     backgroundColor: '#fff',
     marginBottom: 10,
+  },
+  badgeEmoji: {
+    fontSize: 22,
+    width: 32,
+    textAlign: 'center',
+  },
+  badgePlaceholder: {
+    width: 32,
+  },
+  catInfo: {
+    flex: 1,
+    marginLeft: 10,
   },
   catName: {
     fontWeight: '800',
