@@ -68,16 +68,12 @@ function CategoryCard({ cat, streak, badge, onSelect }) {
       activeOpacity={0.75}
       style={styles.catCard}
     >
-      {badge ? (
-        <Text style={styles.badgeEmoji}>{badge}</Text>
-      ) : (
-        <View style={styles.badgePlaceholder} />
-      )}
       <View style={styles.catInfo}>
         <Text style={styles.catName}>{cat.name}</Text>
         {cat.genre ? <Text style={styles.catGenre}>{cat.genre}</Text> : null}
       </View>
       <StreakIndicator streak={streak} />
+      {badge ? <Text style={styles.badgeEmoji}>{badge}</Text> : null}
     </TouchableOpacity>
   );
 }
@@ -212,11 +208,7 @@ const styles = StyleSheet.create({
   },
   badgeEmoji: {
     fontSize: 22,
-    width: 32,
-    textAlign: 'center',
-  },
-  badgePlaceholder: {
-    width: 32,
+    marginLeft: 8,
   },
   catInfo: {
     flex: 1,
