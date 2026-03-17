@@ -73,7 +73,6 @@ export default function AlreadyPlayedScreen({ dailyResult, category, showPrompt,
 
   return (
     <View style={styles.container}>
-      <Text style={styles.checkmark}>✓</Text>
       <Text style={styles.title}>Already played today</Text>
       <Text style={styles.score}>{fmt(score ?? 0)}</Text>
       <Text style={styles.scoreLbl}>POINTS  ·  {correct}/{total} correct</Text>
