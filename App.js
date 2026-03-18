@@ -80,8 +80,10 @@ export default function App() {
         </View>
       )}
 
-      {screen === 'home' && (
-        <HomeScreen onPlay={() => setScreen('cats')} />
+      {(screen === 'home' || screen === 'cats') && (
+        <View style={StyleSheet.absoluteFill} pointerEvents={screen === 'home' ? 'auto' : 'none'}>
+          <HomeScreen onPlay={() => setScreen('cats')} />
+        </View>
       )}
 
       {screen === 'cats' && (

@@ -164,7 +164,7 @@ export default function CategoryScreen({ onSelect, onBack }) {
   }, []);
 
   return (
-    <Animated.View style={{ flex: 1, transform: [{ translateX }] }} {...panResponder.panHandlers}>
+    <Animated.View style={{ flex: 1, backgroundColor: '#fff', transform: [{ translateX }] }} {...panResponder.panHandlers}>
     <ScrollView contentContainerStyle={styles.container}>
       <TouchableOpacity onPress={onBack} style={styles.backBtn} activeOpacity={0.7}>
         <Text style={styles.backText}>← Back</Text>
