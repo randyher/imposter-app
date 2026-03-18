@@ -9,7 +9,11 @@ import {
   Platform,
   UIManager,
   PanResponder,
+  Animated,
+  Dimensions,
 } from 'react-native';
+
+const SCREEN_W = Dimensions.get('window').width;
 import { getStreak, getDailyResult } from '../lib/dailyStorage';
 
 function getBadge(score) {
@@ -113,10 +117,31 @@ export default function CategoryScreen({ onSelect, onBack }) {
   const [streaks, setStreaks] = useState({});
   const [badges, setBadges] = useState({});
 
+  const translateX = useRef(new Animated.Value(0)).current;
+
   const panResponder = useRef(
     PanResponder.create({
-      onMoveShouldSetPanResponder: (_, g) => g.dx > 15 && Math.abs(g.dx) > Math.abs(g.dy),
-      onPanResponderRelease: (_, g) => { if (g.dx > 60) onBack(); },
+      onMoveShouldSetPanResponder: (_, g) => g.dx > 10 && Math.abs(g.dx) > Math.abs(g.dy),
+      onPanResponderMove: (_, g) => {
+        if (g.dx > 0) translateX.setValue(g.dx);
+      },
+      onPanResponderRelease: (_, g) => {
+        if (g.dx > SCREEN_W / 3 || g.vx > 0.5) {
+          Animated.timing(translateX, {
+            toValue: SCREEN_W,
+            duration: 180,
+            useNativeDriver: true,
+          }).start(() => onBack());
+        } else {
+          Animated.spring(translateX, {
+            toValue: 0,
+            useNativeDriver: true,
+          }).start();
+        }
+      },
+      onPanResponderTerminate: () => {
+        Animated.spring(translateX, { toValue: 0, useNativeDriver: true }).start();
+      },
     })
   ).current;
 
@@ -139,7 +164,7 @@ export default function CategoryScreen({ onSelect, onBack }) {
   }, []);
 
   return (
-    <View style={{ flex: 1 }} {...panResponder.panHandlers}>
+    <Animated.View style={{ flex: 1, transform: [{ translateX }] }} {...panResponder.panHandlers}>
     <ScrollView contentContainerStyle={styles.container}>
       <TouchableOpacity onPress={onBack} style={styles.backBtn} activeOpacity={0.7}>
         <Text style={styles.backText}>← Back</Text>
@@ -157,7 +182,7 @@ export default function CategoryScreen({ onSelect, onBack }) {
         />
       ))}
     </ScrollView>
-    </View>
+    </Animated.View>
   );
 }
 
