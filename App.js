@@ -86,11 +86,18 @@ export default function App() {
         </View>
       )}
 
-      {(screen === 'cats' || screen === 'lobby') && (
-        <View style={StyleSheet.absoluteFill} pointerEvents={screen === 'cats' ? 'auto' : 'none'}>
+      {screen === 'cats' && (
+        <CategoryScreen
+          onSelect={(id) => { setSelectedCategory(id); setScreen('lobby'); }}
+          onBack={() => setScreen('home')}
+        />
+      )}
+
+      {screen === 'lobby' && (
+        <View style={StyleSheet.absoluteFill} pointerEvents="none">
           <CategoryScreen
             onSelect={(id) => { setSelectedCategory(id); setScreen('lobby'); }}
-            onBack={() => setScreen('home')}
+            onBack={() => setScreen('cats')}
           />
         </View>
       )}
