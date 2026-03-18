@@ -1,6 +1,9 @@
-import { View, Text, TouchableOpacity, StyleSheet, ScrollView, Switch, Platform } from 'react-native';
+import { useRef } from 'react';
+import { View, Text, TouchableOpacity, StyleSheet, ScrollView, Switch, Platform, PanResponder, Animated, Dimensions } from 'react-native';
 import Logo from '../components/Logo';
 import { SHOW_PROMPT_TOGGLE } from '../config/features';
+
+const SCREEN_W = Dimensions.get('window').width;
 
 const BADGE_COLORS = {
   nba:     { bg: '#fef3c7', text: '#92400e' },
@@ -26,7 +29,33 @@ export default function LobbyScreen({ category, onStart, onBack, showPrompt, onT
   const badge = BADGE_COLORS[category] ?? BADGE_COLORS.nba;
   const label = CATEGORY_LABELS[category] ?? category.toUpperCase();
 
+  const translateX = useRef(new Animated.Value(0)).current;
+
+  const panResponder = useRef(
+    PanResponder.create({
+      onMoveShouldSetPanResponder: (_, g) => g.dx > 10 && Math.abs(g.dx) > Math.abs(g.dy),
+      onPanResponderMove: (_, g) => {
+        if (g.dx > 0) translateX.setValue(g.dx);
+      },
+      onPanResponderRelease: (_, g) => {
+        if (g.dx > SCREEN_W / 3 || g.vx > 0.5) {
+          Animated.timing(translateX, {
+            toValue: SCREEN_W,
+            duration: 180,
+            useNativeDriver: true,
+          }).start(() => onBack());
+        } else {
+          Animated.spring(translateX, { toValue: 0, useNativeDriver: true }).start();
+        }
+      },
+      onPanResponderTerminate: () => {
+        Animated.spring(translateX, { toValue: 0, useNativeDriver: true }).start();
+      },
+    })
+  ).current;
+
   return (
+    <Animated.View style={{ flex: 1, backgroundColor: '#fff', transform: [{ translateX }] }} {...panResponder.panHandlers}>
     <ScrollView contentContainerStyle={styles.container}>
       <TouchableOpacity onPress={onBack} style={styles.backBtn} activeOpacity={0.7}>
         <Text style={styles.backText}>← Categories</Text>
@@ -67,6 +96,7 @@ export default function LobbyScreen({ category, onStart, onBack, showPrompt, onT
         <Text style={styles.btnMainText}>START GAME</Text>
       </TouchableOpacity>
     </ScrollView>
+    </Animated.View>
   );
 }
 
