@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import {
   View,
   Text,
@@ -8,6 +8,7 @@ import {
   LayoutAnimation,
   Platform,
   UIManager,
+  PanResponder,
 } from 'react-native';
 import { getStreak, getDailyResult } from '../lib/dailyStorage';
 
@@ -112,6 +113,13 @@ export default function CategoryScreen({ onSelect, onBack }) {
   const [streaks, setStreaks] = useState({});
   const [badges, setBadges] = useState({});
 
+  const panResponder = useRef(
+    PanResponder.create({
+      onMoveShouldSetPanResponder: (_, g) => g.dx > 15 && Math.abs(g.dx) > Math.abs(g.dy),
+      onPanResponderRelease: (_, g) => { if (g.dx > 60) onBack(); },
+    })
+  ).current;
+
   useEffect(() => {
     async function loadData() {
       const [streakEntries, badgeEntries] = await Promise.all([
@@ -131,6 +139,7 @@ export default function CategoryScreen({ onSelect, onBack }) {
   }, []);
 
   return (
+    <View style={{ flex: 1 }} {...panResponder.panHandlers}>
     <ScrollView contentContainerStyle={styles.container}>
       <TouchableOpacity onPress={onBack} style={styles.backBtn} activeOpacity={0.7}>
         <Text style={styles.backText}>← Back</Text>
@@ -148,6 +157,7 @@ export default function CategoryScreen({ onSelect, onBack }) {
         />
       ))}
     </ScrollView>
+    </View>
   );
 }
 
