@@ -73,6 +73,7 @@ export default function App() {
   return (
     <SafeAreaView style={styles.safe}>
       <StatusBar style="dark" />
+      <View style={styles.container}>
 
       {screen === 'loading' && (
         <View style={styles.loading}>
@@ -139,6 +140,7 @@ export default function App() {
           onBack={() => setScreen('cats')}
         />
       )}
+      </View>
     </SafeAreaView>
   );
 }
@@ -147,6 +149,9 @@ const styles = StyleSheet.create({
   safe: {
     flex: 1,
     backgroundColor: '#fff',
+  },
+  container: {
+    flex: 1,
   },
   loading: {
     flex: 1,
